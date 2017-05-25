@@ -16,7 +16,7 @@ body{
 
 
 #productdetail{}
-.work-cell .row{padding: 60px 0;border-bottom: solid 1px #e8ebed}
+.work-cell .row{padding: 60px 0;}
 .work-cell img{max-width: 100%}
 .work-cell .noborder{border:none}
 .work-cell h2{font-size: 30px;font-weight: 200;color: #0085d4;margin-bottom: 30px;}
@@ -94,14 +94,22 @@ body{
 #cooperation .cooperation8:hover{
 	background-image: url("../img/bank_pay_color.png");
 }
-#ideas{
+#ideas .idea-product{
 	background-color: #121212;
 	text-align: center;
 }
-
+#ideas .idea-more{
+	background-color: #fff;
+}
+#ideas .row{
+	margin-top: 50px;
+}
+#ideas .more-button{
+	margin: 8px 91px 47px 0;
+	text-align: center;
+}
 #ideas .idea-text{
-	margin: 12px 97px 47px 0px;
-	/* margin-right: 50px; */
+	margin: 12px 97px 47px 0;
 	padding: 30px 20px;
 	text-align: center;
 }
@@ -117,15 +125,36 @@ body{
 #ideas .paltform-sovle{
 	border-top: solid 2px #15e787;
 }
-#MT4-platform{
+#ideas .more-button{
+	background:  #a9acb0;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 50px;
+	height: 60px;
+	padding: 19px;
+	margin-left: 60px
+}
+#ideas .more-button a{
+	color: #fff;
+}
+#ideas .more-button img{
+	margin-top: -50px;
+}
+#ideas .morebutton-2{
+	margin-left: 90px;
+}
+#ideas .morebutton-3{
+	margin-left: 100px;
+}
+
+#MT4-platform,#work-CRM{
 	background-color: #8d9196;
 }
-#MT4-platform .backAgent{
+#MT4-platform .backAgent,#work-CRM .work-crm,#work-platform .platform{
 	background-color: #121212!important;
 	background:rgba(0,0,0,.6);
 	filter:alpha(opacity=30) ;
 	width: 100%;
-
 }
 #MT4-platform ul,#work-platform ul{
 	list-style: url("../img/ul-list-style.png");
@@ -133,7 +162,7 @@ body{
 	padding: 0;
     margin-top: 20px;
 }
-#MT4-platform h4{
+#MT4-platform h4,#work-CRM h4,#work-ASIC h4,#work-LPS h4,#work-ASIC h4{
     padding: 19px 0 10px;
 }
 #MT4-platform ul>li{
@@ -144,14 +173,17 @@ body{
 #MT4-platform ul>li{
 	padding: 2px;
 }
-#MT4-platform div{
+#MT4-platform div,#work-CRM div,#work-platform div，#work-LPS div{
     line-height: 28px;
 }
-#MT4-platform span{
+#MT4-platform span,#work-CRM span,#work-LPS span,#work-ASIC span{
     border-bottom: solid 1px;
     width: 300px;
     display: inline-block;
     padding-bottom: 20px;
+}
+#work-LPS span,#work-ASIC span{
+	border-color: #262e38;
 }
 .button-more{
     border-radius: 18px;
@@ -162,7 +194,7 @@ body{
     text-align: center;
     margin: 17px 101px;
 }
-#MT4-platform h2,#work-platform h2{
+#MT4-platform h2,#work-platform h2,#work-CRM h2,#ideas h2{
 	text-align: center;
 	color: #fff;
 	padding: 26px 0 24px;
@@ -178,9 +210,6 @@ body{
     background-color: #a9acb0;
     width: 100%;
 }
-#work-platform .platform{
-    background-color: #000;
-}
 #work-platform ul{
     float: left;
     margin: 99px
@@ -189,6 +218,10 @@ body{
     width: 60px;
     height: 60px;
 
+}
+#work-platform p{
+	margin-top: 50px;
+	line-height: 1.8;
 }
 #work-platform .bulid-start{
     background: url('../img/bulid_start.png') no-repeat;
@@ -208,6 +241,13 @@ body{
 	margin-right: 190px;
 	margin-bottom: 50px;
 
+}
+#work-platform span{
+	display: block;
+	border-bottom: dashed 2px #fff;
+	margin-left: 45px;
+	padding-top: 22px;
+	width: 155px;
 }
 @media (max-width: 767px) {
 	#nav .navbar-toggle .icon-bar{background:#40c4ff;}
