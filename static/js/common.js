@@ -68,18 +68,28 @@ $(function(){
 	});
 	
 	/*滚动监听*/
-	winEl.scroll(function(){
-		/*nav*/
-		var navEl = $('#nav');
-		
-		if(!navEl.data('noscroll')){
-			if(winEl.scrollTop() > 20){
-				navEl.addClass('scroll animated fadeInDown');
-			}else{
-				navEl.removeClass('scroll animated fadeInDown');
-			}
-		}
-	}).scroll();
+    winEl.scroll(function () {
+        /*nav*/
+        var navEl = $('#nav');
+        var navPl = $("#platform-header");
+
+        if (!navEl.data('noscroll')) {
+            if (winEl.scrollTop() > 20) {
+                navEl.addClass('scroll animated fadeInDown');
+            } else {
+                navEl.removeClass('scroll animated fadeInDown');
+            }
+        }
+
+        if (!navPl.data('noscroll')) {
+            if (winEl.scrollTop() > 234) {
+                navPl.addClass('scroll animated fadeInDown');
+            } else {
+                navPl.removeClass('scroll animated fadeInDown');
+            }
+        }
+
+    }).scroll();
 	
 	/*tip*/
 	$('#sidebar li').hover(function(){
