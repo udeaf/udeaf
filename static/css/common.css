@@ -20,6 +20,10 @@ a:hover {
     float: left;
 }
 
+.overflow {
+    overflow: hidden;
+}
+
 .bg-w {
     background-color: #f0f2f3;
 }
@@ -32,8 +36,8 @@ a:hover {
     background-color: #fff;
 }
 
-section.bg-b * {
-    color: #c8c8c8;
+.bg-40 {
+    background-color: #404040;
 }
 
 section.bg-b h1,
@@ -72,6 +76,21 @@ section.bg-b h6 {
     border-bottom: 4px solid #65c6ff;
     margin: 10px 0;
 }
+
+.line6 {
+    width: 1px;
+    height: 25px;
+    border-right: 2px solid #65c6ff;
+    margin: auto;
+}
+
+.line7 {
+    width: 1px;
+    height: 45px;
+    border-right: 2px solid #dedede;
+    margin: auto;
+}
+
 
 .paddingtop10 {
     padding-top: 10px;
@@ -203,6 +222,34 @@ section.bg-b h6 {
     padding-right: 100px;
 }
 
+.margin30 {
+    margin: 0 30px;
+}
+
+.margintop30 {
+    margin-top: 30px;
+}
+
+.marginbottom30 {
+    margin-bottom: 30px;
+}
+
+.margintop20 {
+    margin-top: 20px;
+}
+
+.marginbottom20 {
+    margin-bottom: 20px;
+}
+
+.margintop10 {
+    margin-top: 10px;
+}
+
+.marginbottom10 {
+    margin-bottom: 10px;
+}
+
 .text-center {
     text-align: center;
 }
@@ -219,6 +266,10 @@ section.bg-b h6 {
     color: #666;
 }
 
+.textcolor4 {
+    color: #c8c8c8;
+}
+
 .lineheight26 {
     line-height: 26px;
 }
@@ -226,6 +277,15 @@ section.bg-b h6 {
 .lineheight30 {
     line-height: 30px;
 }
+
+.lineheight44 {
+    line-height: 44px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #989898;
+}
+
 
 #header-bg {
     width: 100%;
@@ -682,10 +742,6 @@ section.bg-b h6 {
     height: 100%;
 }
 
-h3 {
-    padding: 40px 0 10px 0;
-}
-
 .mt4module3 h3 {
     color: #fff;
 }
@@ -825,5 +881,41 @@ section.bg-w > .container > div.lasttext {
 .aboutimg > img {
     width: 100%;
 }
-
 /*aboutus*/
+
+/*joinus*/
+.joinimg {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.joinimg > img {
+    width: 100%;
+}
+.moreimg {
+    float: right;
+    width: 10px;
+    height: 10px;
+    margin-right: 20px;
+}
+
+.moreimg > img {
+    width: 100%;
+}
+
+/*joinus*/
+
+/*develop*/
+.developimg {
+    width: 32px;
+    height: 32px;
+}
+
+.developimg > img {
+    width: 100%;
+}
+
+/*develop*/
