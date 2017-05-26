@@ -134,47 +134,77 @@ ul,li{
     line-height: 30px;
 }
 
-
-#contact-udea ul li{
-    list-style: none;
-    float: left;
+#contact {
+    margin-top: 100px;
 }
-#contact-udea .touch-img{
-    background: url("../img/touchsprite.png");
+
+#contact > h2 {
+    text-align: center;
+}
+
+#contact > ul {
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+#contact > ul > li {
+    float: left;
+    min-width: 80px;
+}
+
+#contact > ul > li > i {
+    display: block;
     width: 60px;
     height: 60px;
-}
-#contact-udea .boult-img{
-    background-position: 0 0;
-}
-#contact-udea .boult-img:hover{
-    background-position: 0 60px;
-}
-#contact-udea .phone-img{
-    background-position: 180px 0;
-}
-#contact-udea .phone-img:hover{
-    background-position: 180px 60px;
-}
-#contact-udea .email-img{
-    background-position: 120px 0;
-}
-#contact-udea .email-img:hover{
-    background-position: 120px 60px;
-}
-#contact-udea .qq-img{
-    background-position: 60px 0;
-}
-#contact-udea .qq-img:hover{
-    background-position: 60px 60px;
+    margin: auto;
 }
 
-.sumbitTouch input{
-
+#contact > ul > li:nth-child(1) > i {
+    background: url("../img/touchsprite.png")0 0 no-repeat;
 }
-/*#sidebar{*/
-     /*display: in;*/
- /*}*/
+#contact > ul > li:nth-child(2) > i {
+    background: url("../img/touchsprite.png")-60px 0 no-repeat;
+}
+#contact > ul > li:nth-child(3) > i {
+    background: url("../img/touchsprite.png")-120px 0 no-repeat;
+}
+#contact > ul > li:nth-child(4) > i {
+    background: url("../img/touchsprite.png")-180px 0 no-repeat;
+}
+#contact > ul > li:nth-child(1) > i:hover {
+    background: url("../img/touchsprite.png")0 -60px no-repeat;
+}
+#contact > ul > li:nth-child(2) > i:hover {
+    background: url("../img/touchsprite.png")-60px -60px no-repeat;
+}
+#contact > ul > li:nth-child(3) > i:hover {
+    background: url("../img/touchsprite.png")-120px -60px no-repeat;
+}
+#contact > ul > li:nth-child(4) > i:hover {
+    background: url("../img/touchsprite.png")-180px -60px no-repeat;
+}
+
+#contact > form {
+    margin: 50px auto 40px;
+}
+
+#contact > form > input {
+    margin-right: 2%;
+    border: 1px solid #65c6ff;
+    border-radius: 14px;
+    height: 32px;
+}
+
+#contact > form > button {
+    border: 1px solid #65c6ff;
+    border-radius: 12px;
+    background-color: #65c6ff;
+    color: #fff;
+    padding: 6px 20px;
+}
+
 #footerMenu{
     color: #fff;
     background-color: #121212;
@@ -226,6 +256,11 @@ ul,li{
 #footerMenu .contact{
     text-align: right;
 }
+@media(max-width:320px ){
+    #contact > form > input {
+        margin-left: 3%;
+    }
+}
 
 @media(max-width:767px ){
     .navbar-toggle{
@@ -271,6 +306,9 @@ ul,li{
     }
     #sidebar{
         display: none;
+    }
+    #contact > form > input {
+        margin-left: 7%;
     }
     #footerMenu{
         padding: 25px 0 20px;

@@ -4,35 +4,35 @@ $(function(){
     })
 
 	var winEl = $(window);
-	
-	/*banner*/	
+
+	/*banner*/
 	(function(){
 		var bgnavEl = $('#bgnav'),
 			headerEl = $('#header'),
 			curIndex = 0,
 			bglen = $('>span', bgnavEl).length,
 			handler;
-		
+
 		function chooseBg(index){
 			$('>span:eq('+index+')', bgnavEl).addClass('cur').siblings().removeClass('cur');
-			
+
 			var curBg = $('.bg:eq('+index+')', headerEl);
 			curBg.addClass('cur animated '+curBg.data('animate')).siblings('.bg').each(function(){
 				var self = $(this);
-				
+
 				self.removeClass('cur animated '+self.data('animate'));
-			});			
+			});
 
 			curIndex++;
-			if(curIndex >= bglen){ 
+			if(curIndex >= bglen){
 				curIndex = 0;
 			}
-			
+
 			clearTimeout(handler);
 			handler = setTimeout(function(){
 				chooseBg(curIndex);
 			}, 2000);
-		}	
+		}
 
 		$('>span', bgnavEl).click(function(){
 			chooseBg($(this).index());
@@ -40,7 +40,7 @@ $(function(){
 
 		chooseBg(curIndex);
 	})();
-	
+
 	/*滚动监听*/
 	winEl.scroll(function(){
 		/*animate*/
@@ -49,27 +49,27 @@ $(function(){
 
 			if(!self.data('initanimate') && (winEl.scrollTop()+winEl.height() >= self.offset().top)){
 				var delay = self.data('delay');
-				
+
 				if(delay){
 					$('>div',self).each(function(){
 						var cur = $(this);
-						
+
 						setTimeout(function(){
 							cur.css({opacity:1});
-							
+
 							$('img',cur).addClass('animated fadeInDown');
 							$('h3,div',cur).addClass('animated fadeInUp');
 						},delay*cur.index());
-						
+
 						self.data('initanimate',true);
-					});	
+					});
 				}else{
 					self.addClass('animated '+self.data('animate')).data('initanimate',true);
 				}
 			}
 		});
 	}).scroll();
-	
+
 	/*banner图hover效果*/
 	$('#header').mousemove(function(event){
 		var self = $(this),
@@ -83,7 +83,7 @@ $(function(){
 			$(this).css({left:rotateX, top:rotateY});
 		});
 	});
-	
+
 	//缓存sourceid
 	var sourceid = parseURL(location.href).params.sourceid;
 	if(sourceid){

@@ -87,7 +87,7 @@ a:hover {
     width: 100%;
     position: fixed;
     z-index: 99;
-    top: 100px;
+    top: 70px;
     box-shadow: 0 2px 3px #dfdfdf;
     background-color: #f9f9f9;
 }
@@ -397,92 +397,11 @@ a:hover {
     border-right: 1px dashed #bebebe;
 }
 
-#contact {
-    margin-top: 100px;
-}
 
-#contact > h2 {
-    text-align: center;
-}
-
-#contact > ul {
-    overflow: hidden;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 0;
-}
-
-#contact > ul > li {
-    float: left;
-    min-width: 80px;
-}
-
-#contact > ul > li > i {
-    display: block;
-    width: 60px;
-    height: 60px;
-    margin: auto;
-}
-
-#contact > ul > li:nth-child(1) > i {
-    background: url("../img/touchsprite.png")0 0 no-repeat;
-}
-#contact > ul > li:nth-child(2) > i {
-    background: url("../img/touchsprite.png")-60px 0 no-repeat;
-}
-#contact > ul > li:nth-child(3) > i {
-    background: url("../img/touchsprite.png")-120px 0 no-repeat;
-}
-#contact > ul > li:nth-child(4) > i {
-    background: url("../img/touchsprite.png")-180px 0 no-repeat;
-}
-#contact > ul > li:nth-child(1) > i:hover {
-    background: url("../img/touchsprite.png")0 -60px no-repeat;
-}
-#contact > ul > li:nth-child(2) > i:hover {
-    background: url("../img/touchsprite.png")-60px -60px no-repeat;
-}
-#contact > ul > li:nth-child(3) > i:hover {
-    background: url("../img/touchsprite.png")-120px -60px no-repeat;
-}
-#contact > ul > li:nth-child(4) > i:hover {
-    background: url("../img/touchsprite.png")-180px -60px no-repeat;
-}
-
-#contact > form {
-    margin: 50px auto 40px;
-}
-
-#contact > form > input {
-    margin-right: 2%;
-    border: 1px solid #65c6ff;
-    border-radius: 14px;
-    height: 32px;
-}
-
-#contact > form > button {
-    border: 1px solid #65c6ff;
-    border-radius: 12px;
-    background-color: #65c6ff;
-    color: #fff;
-    padding: 6px 20px;
-}
 
 @media (min-width: 1200px) {
     .jingli {
         padding-bottom: 20px;
-    }
-}
-
-@media(max-width:767px ){
-    #contact > form > input {
-        margin-left: 7%;
-    }
-}
-
-@media(max-width:320px ){
-    #contact > form > input {
-        margin-left: 3%;
     }
 }
 
