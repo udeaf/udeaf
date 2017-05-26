@@ -140,6 +140,7 @@ ul,li{
 
 #contact > h2 {
     text-align: center;
+    color: #666666;
 }
 
 #contact > ul {
@@ -215,13 +216,17 @@ ul,li{
 #footerMenu dt{
     font-size: 16px;
     padding-bottom: 18px;
+    color: #fff;
+}
+#footerMenu label{
+    color: #fff;
 }
 #footerMenu dd{
     font-size: 14px;
     padding: 4px 0;
 }
 #footerMenu dd a{
-    color: #fff;
+    color: #9d9d9d;
 }
 #footerMenu dd a:hover{
     color: #337ab7;

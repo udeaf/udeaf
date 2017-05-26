@@ -1,0 +1,11 @@
+.engaland{
+    height: 120px;
+    width: 120px;
+    background: url(../img/england-icon.jpg) no-repeat;
+    background-size: 255%;
+    background-position-x: -84px;
+    background-position-y: -68px;
+    border-radius: 100%;
+    border: solid 5px #65c6ff;
+
+}
