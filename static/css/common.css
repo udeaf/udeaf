@@ -64,6 +64,242 @@ a:hover {
     margin: 10px 0;
 }
 
+
+.line6 {
+    width: 1px;
+    height: 25px;
+    border-right: 2px solid #65c6ff;
+    margin: auto;
+}
+
+.line7 {
+    width: 1px;
+    height: 45px;
+    border-right: 2px solid #dedede;
+    margin: auto;
+}
+
+
+.paddingtop10 {
+    padding-top: 10px;
+}
+.paddingbottom10 {
+    padding-bottom: 10px;
+}
+.paddingleft10 {
+    padding-left: 10px;
+}
+.paddingright10 {
+    padding-right: 10px;
+}
+
+.paddingtop20 {
+    padding-top: 20px;
+}
+.paddingbottom20 {
+    padding-bottom: 20px;
+}
+.paddingleft20 {
+    padding-left: 20px;
+}
+.paddingright20 {
+    padding-right: 20px;
+}
+
+.paddingtop30 {
+    padding-top: 30px;
+}
+.paddingbottom30 {
+    padding-bottom: 30px;
+}
+.paddingleft30 {
+    padding-left: 30px;
+}
+.paddingright30 {
+    padding-right: 30px;
+}
+
+.paddingtop40 {
+    padding-top: 40px;
+}
+.paddingbottom40 {
+    padding-bottom: 40px;
+}
+.paddingleft40 {
+    padding-left: 40px;
+}
+.paddingright40 {
+    padding-right: 40px;
+}
+
+.paddingtop50 {
+    padding-top: 50px;
+}
+.paddingbottom50 {
+    padding-bottom: 50px;
+}
+.paddingleft50 {
+    padding-left: 50px;
+}
+.paddingright50 {
+    padding-right: 50px;
+}
+
+.paddingtop60 {
+    padding-top: 60px;
+}
+.paddingbottom60 {
+    padding-bottom: 60px;
+}
+.paddingleft60 {
+    padding-left: 60px;
+}
+.paddingright60 {
+    padding-right: 60px;
+}
+
+.paddingtop70 {
+    padding-top: 70px;
+}
+.paddingbottom70 {
+    padding-bottom: 70px;
+}
+.paddingleft70 {
+    padding-left: 70px;
+}
+.paddingright70 {
+    padding-right: 70px;
+}
+
+.paddingtop80 {
+    padding-top: 80px;
+}
+.paddingbottom80 {
+    padding-bottom: 80px;
+}
+.paddingleft80 {
+    padding-left: 80px;
+}
+.paddingright80 {
+    padding-right: 80px;
+}
+
+.paddingtop90 {
+    padding-top: 90px;
+}
+.paddingbottom90 {
+    padding-bottom: 90px;
+}
+.paddingleft90 {
+    padding-left: 90px;
+}
+.paddingright90 {
+    padding-right: 90px;
+}
+
+.paddingtop100 {
+    padding-top: 100px;
+}
+.paddingbottom100 {
+    padding-bottom: 100px;
+}
+.paddingleft100 {
+    padding-left: 100px;
+}
+.paddingright100 {
+    padding-right: 100px;
+}
+
+.margin30 {
+    margin: 0 30px;
+}
+
+.margintop30 {
+    margin-top: 30px;
+}
+
+.marginbottom30 {
+    margin-bottom: 30px;
+}
+
+.margintop20 {
+    margin-top: 20px;
+}
+
+.marginbottom20 {
+    margin-bottom: 20px;
+}
+
+.margintop10 {
+    margin-top: 10px;
+}
+
+.marginbottom10 {
+    margin-bottom: 10px;
+}
+
+.margintop40 {
+    margin-top: 40px;
+}
+
+.margintop50 {
+    margin-top: 50px;
+}
+
+.margintop60 {
+    margin-top: 60px;
+}
+
+.margintop70 {
+    margin-top: 70px;
+}
+
+.emptydiv {
+    height: 230px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.textcolor1 {
+    color: #65c6ff;
+}
+
+.textcolor2 {
+    color: #fff;
+}
+
+.textcolor3 {
+    color: #666;
+}
+
+.textcolor4 {
+    color: #c8c8c8;
+}
+
+.lineheight26 {
+    line-height: 26px;
+}
+
+.lineheight30 {
+    line-height: 30px;
+}
+
+.lineheight44 {
+    line-height: 44px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #989898;
+}
+
+
+
 #header-bg {
     width: 100%;
     height: 234px;
@@ -569,4 +805,97 @@ section.bg-b > .container > div:nth-child(1) p {
 section.bg-b > .container > div.bg-f,
 section.bg-w > .container > div.lasttext {
     padding-bottom: 100px;
+
 }
+/*aboutus*/
+.aboutimg {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+.aboutimg > img {
+    width: 100%;
+}
+/*aboutus*/
+
+/*joinus*/
+.joinimg {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.joinimg > img {
+    width: 100%;
+}
+.moreimg {
+    float: right;
+    width: 10px;
+    height: 10px;
+    margin-right: 20px;
+}
+
+.moreimg > img {
+    width: 100%;
+}
+
+/*joinus*/
+
+/*develop*/
+.developimg {
+    width: 32px;
+    height: 32px;
+}
+
+.developimg > img {
+    width: 100%;
+}
+
+.rightdiv,
+.leftdiv {
+    position: relative;
+}
+
+.rightdiv > div,
+.leftdiv > div {
+    position: absolute;
+}
+
+.leftdiv > div {
+    right: 18px;
+}
+
+.rightdiv > div:nth-child(1) {
+    top: 70px;
+}
+
+.rightdiv > div:nth-child(2) {
+    top: 432px;
+}
+
+.rightdiv > div:nth-child(3) {
+    top: 775px;
+}
+
+.rightdiv > div:nth-child(4) {
+    top: 1125px;
+}
+
+.leftdiv > div:nth-child(1) {
+    top: 264px;
+}
+.leftdiv > div:nth-child(2) {
+    top: 618px;
+}
+.leftdiv > div:nth-child(3) {
+    top: 960px;
+}
+.leftdiv > div:nth-child(4) {
+    top: 1294px;
+}
+
+/*develop*/
+
