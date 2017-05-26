@@ -250,8 +250,32 @@ section.bg-b h6 {
     margin-bottom: 10px;
 }
 
+.margintop40 {
+    margin-top: 40px;
+}
+
+.margintop50 {
+    margin-top: 50px;
+}
+
+.margintop60 {
+    margin-top: 60px;
+}
+
+.margintop70 {
+    margin-top: 70px;
+}
+
+.emptydiv {
+    height: 230px;
+}
+
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .textcolor1 {
@@ -916,6 +940,49 @@ section.bg-w > .container > div.lasttext {
 
 .developimg > img {
     width: 100%;
+}
+
+.rightdiv,
+.leftdiv {
+    position: relative;
+}
+
+.rightdiv > div,
+.leftdiv > div {
+    position: absolute;
+}
+
+.leftdiv > div {
+    right: 18px;
+}
+
+.rightdiv > div:nth-child(1) {
+    top: 70px;
+}
+
+.rightdiv > div:nth-child(2) {
+    top: 432px;
+}
+
+.rightdiv > div:nth-child(3) {
+    top: 775px;
+}
+
+.rightdiv > div:nth-child(4) {
+    top: 1125px;
+}
+
+.leftdiv > div:nth-child(1) {
+    top: 264px;
+}
+.leftdiv > div:nth-child(2) {
+    top: 618px;
+}
+.leftdiv > div:nth-child(3) {
+    top: 960px;
+}
+.leftdiv > div:nth-child(4) {
+    top: 1294px;
 }
 
 /*develop*/
