@@ -1,481 +1,479 @@
 <!DOCTYPE html>
--<html lang="en">
--<head>
--    <meta charset="UTF-8">
--    <title>UDEA-ȫ�����ȵĽ��ڿƼ�������|�����Ʒ�����|����Ͷ����ƽ̨</title>
--    <meta name="viewport" content="width=device-width, initial-scale=1">
--    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
--    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
--    <meta name="description" itemprop="description" content="UDEA ��һ��רעΪ��㾭���̣����������������������ߣ����еȽ��ڻ����ṩһվʽ���ڼ�������ĿƼ���˾����Ʒ�漰��������Ľ���ϵͳ�����ϵͳ��CRMϵͳ������Ӫ��ϵͳ���������ݽӿڡ������Ƽ��������"/>
--    <meta name="keywords" itemprop="keywords" content="udea,���ڿƼ��������ƣ�����Ͷ����ƽ̨����㾭���̣���㽻���̣�ȯ�̣��ױ꣬���"/>
--    <link href="./static/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" media="all">
--    <link rel="stylesheet" type="text/css" href="./static/css/bootstrap-3.3.6/css/bootstrap.min.css" media="all">
--    <link rel="stylesheet" type="text/css" href="./static/css/magnific-popup.css" media="all">
--    <link rel="stylesheet" type="text/css" href="./static/css/myStyle.css"/>
--    <link rel="stylesheet" type="text/css" href="./static/css/animate.min.css" media="all">
--    <link rel="stylesheet" type="text/css" href="./static/css/index.css">
--
--</head>
--<body class="home page-header page-template-page-index page-template-page-index-php page page-id-7">
--<!--������-->
--<nav id="nav" class="navbar navbar-fixed-top" role="navigation">
--    <div class="container">
--        <div class="navbar-header">
--            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
--                <span class="sr-only">Toggle navigation</span>
--                <span class="icon-bar"></span>
--                <span class="icon-bar"></span>
--                <span class="icon-bar"></span>
--            </button>
--            <a class="navbar-brand" href="index.html"></a>
--        </div>
--        <div id="navbar" class="collapse navbar-collapse">
--            <ul class="nav navbar-nav navbar-left">
--                <li><a href="index.html">��ҳ</a></li>
--                <li class="dropdown">
--                    <a href ="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
--                        <i class="fa fa-angle-down fa-lg"></i>&nbsp;&nbsp;ƽ̨�</a>
--                    <ul class="dropdown-menu">
--                        <li><a href="">MT4���</a></li>
--                        <li><a href="">MT5���</a></li>
--                        <li><a href="">�ױ�</a></li>
--                        <li><a href="">����</a></li>
--                    </ul>
--                </li>
--                <li class="dropdown">
--                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
--                        <i class="fa fa-angle-down fa-lg"></i>&nbsp;&nbsp;�������</a>
--                        <ul class="dropdown-menu mega-menu-2 ">
--                            <li><a href="">�밶�˻�ע��</a></li>
--                            <li><a href="">�밶��˾ע��</a></li>
--                            <li><a href="">���ڼ������</a></li>
--                            <li><a href="">����֧������</a></li>
--                            <li><a href="">CRM����ϵͳ</a></li>
--                            <li><a href="">�������ṩ��</a></li>
--                            <li><a href="">���ڹ����</a></li>
--                            <li><a href="">Logo&nbsp;&nbsp;VI���</a></li>
--                            <li><a href="">�������ϵͳ</a></li>
--                            <li><a href="">MT4�������</a></li>
--                        </ul>
--                </li>
--
--                <li class="dropdown">
--                    <a href="" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
--                        <i class="fa fa-angle-down fa-lg">
--                    </i>&nbsp;&nbsp;��������</a>
--                    <ul class="dropdown-menu">
--                        <li><a href="">��������</a></li>
--                        <li><a href="">��չ����</a></li>
--                        <li><a href="">��������</a></li>
--                    </ul>
--                </li>
--                <li class="dropdown">
--                    <a href="" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;���Ŷ�̬</a>
--                    <section class="dropdown-menu mega-menu-2 transition style-plain transition">
--                        <ul >
--                            <li class="nav-title">This Header</li>
--                            <li><a href="#">Menu Item</a></li>
--                            <li><a href="#">Menu Item</a></li>
--                            <li><a href="#">Menu Item</a></li>
--                            <li><a href="#">Menu Item</a></li>
--                            <li><a href="#">Menu Item</a></li>
--                        </ul>
--                        <ul>
--                            <li class="nav-title">Is Optional</li>
--                            <li><a href="#">Menu Item</a></li>
--                            <li><a href="#">Menu Item</a></li>
--                            <li><a href="#">Menu Item</a></li>
--                            <li><a href="#">Menu Item</a></li>
--                            <li><a href="#">Menu Item</a></li>
--                        </ul>
--                    </section>
--                </li>
--            </ul>
--            <ul class="nav navbar-nav navbar-left">
--                <li class=""><a class="dropdown-toggle language"></a></li>
--            </ul>
--        </div>
--    </div>
--</nav>
--<header>
--    <div id="myCarousel" class="carousel slide">
--        <!--�ֲ�Carousel-->
--        <ol class="carousel-indicators">
--            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
--            <li data-target="#myCarousel" data-slide-to="1"></li>
--            <li data-target="#myCarousel" data-slide-to="2"></li>
--        </ol>
--        <!--�ֲ�Carousel��Ŀ-->
--        <div class="carousel-inner">
--            <div class="item active">
--                <img src="./static/img/nav-twice.jpg">
--                <div class="carousel-caption">
--                    <div class="container carousel-text">
--                    <h2>MT4/5ƽ̨���ά����</h2>
--                        <h4>Broker Agent �������</h4>
--                        <div class="col-sm-2 col-xs-3 car-text">
--                            <a>READ MORE</a>
--                            <img src="./static/img/more-squre.png" alt="">
--
--                        </div>
--
--                    </div>
--                </div>
--            </div>
--            <div class="item">
--                <img src="./static/img/nav-sea.jpg">
--                <div class="carousel-caption">����2</div>
--            </div>
--            <div class="item">
--                <img src="./static/img/heard-desk.jpg">
--                <div class="carousel-caption">����3</div>
--            </div>
--        </div>
--        <!--�ֲ�Carousel����-->
--        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
--            <span class="glyphicon glyphicon-chevron-left"></span>
--        </a>
--        <a class="carousel-control right" href="#myCarousel" data-slide="next">
--            <span class="glyphicon glyphicon-chevron-right"></span>
--        </a>
--        <a class="carousel-control right" href="#myCarousel" data-slide="next">
--            <span class="glyphicon glyphicon-chevron-right"></span>
--        </a>
--    </div>
--</header>
--<section id="cooperation">
--    <div class="container">
--        <div class="row hidden-xs">
--            <a class="cooperation1" href="javascript:"></a>
--            <a class="cooperation2" href="javascript:"></a>
--            <a class="cooperation3" href="javascript:"></a>
--            <a class="cooperation4" href="javascript:"></a>
--            <a class="cooperation5" href="javascript:"></a>
--            <a class="cooperation6" href="javascript:"></a>
--            <a class="cooperation7" href="javascript:"></a>
--            <a class="cooperation8" href="javascript:"></a>
--        </div>
--        <div class="row visible-xs">
--            <div class="col-xs-6 odd"><a class="cooperation1" href="javascript:"></a></div>
--            <div class="col-xs-6 even"><a class="cooperation2" href="javascript:"></a></div>
--            <div class="col-xs-6 odd"><a class="cooperation3" href="javascript:"></a></div>
--            <div class="col-xs-6 even"><a class="cooperation4" href="javascript:"></a></div>
--            <div class="col-xs-6 odd"><a class="cooperation5" href="javascript:"></a></div>
--            <div class="col-xs-6 even"><a class="cooperation6" href="javascript:"></a></div>
--            <div class="col-xs-6 odd"><a class="cooperation7" href="javascript:"></a></div>
--            <div class="col-xs-6 even"><a class="cooperation8" href="javascript:"></a></div>
--        </div>
--    </div>
--</section>
--
--<section id="ideas">
--    <div class="idea-more">
--        <div class="idea-product">
--            <div class="container">
--                <div class="platform" data-delay="300">
--                    <h2>UNLIMITED IDEAS</h2>
--                    <p class="udea">�е�Ƽ� ����ֹ�ڵ�</p>
--                    <h4 class="global-text">ȫ�����Ƚ���������ҵƽ̨</h4>
--                    <div>�е�Ƽ�һ��רע����Ƽ���˾��רҵMT4ƽ̨��������ṩ�ߣ���˾ע������ۣ�2016����������Ŷ�ӵ��5������רҵ���顣
--                        �е�Ƽ���Ҫ�����ڽ��ڻ����ͻ���������λΪ�����ͻ��ļ���������飬��������Ϊ��������ṩһϵ�е���㼰�����ƽ̨�����ϡ���������ѯ�����׷������ƶ˷�����Ƽ������������㷨��Ƽ���ѯ�ȡ�
--                    </div>
--                    <div class="row scrollanimate" data-delay="3000">
--                        <div class="col-sm-3 col-xs-3 idea-text MT4-solve">
--                            <img src='./static/img/idea_buld.png'>
--                            <h4>MT4/5��㾭�ü��������</h4>
--                            ���־��÷���ʽ��Ϊ�ṩ�ʺ������׵Ľ�������
--                        </div>
--                        <div class="col-sm-3 col-xs-3 idea-text VSFC">
--                            <img src="./static/img/idea_comp.png">
--                            <h4>���ڼ�����ս������</h4>
--                            <p style="font-size: 16px;">VSFC&nbsp;&nbsp;|&nbsp;&nbsp;FSP&nbsp;&nbsp;|&nbsp;&nbsp;ASIC&nbsp;&nbsp;|&nbsp;&nbsp;FCA</p>
--                        </div>
--                        <div class="col-sm-3 col-xs-3 idea-text paltform-sovle">
--                            <img src="./static/img/idea_share.png">
--                            <h4>ƽ̨��������</h4>
--                            �����ṩһվʽ���񣬴�Ʒ��ȷ�ϵ�MT4��ά�йܣ��÷ḻ�ľ���Ϊ������ʵ��
--                        </div>
--                    </div>
--                </div>
--            </div>
--        </div>
--        <div class="container">
--            <div class="col-sm-2 col-xs-3 more-button"><a>READ MORE</a><img src="./static/img/more-squre.png"/></div>
--            <div class="col-sm-2 col-xs-3 more-button "><a> READ MORE</a><img src="./static/img/more-squre.png"/></div>
--            <div class="col-sm-2 col-xs-3 more-button morebutton-3"><a> READ MORE</a><img src="./static/img/more-squre.png"/></div>
--
--        </div>
--    </div>
--</section>
--<section id="MT4-platform">
--    <div>
--    <h2>MT4 / 5ƽ̨���ά����</h2>
--    <div class="backAgent">
--        <div class="container">
--            <div class="row MT4-left-top">
--                <div class="col-lg-5 col-md-5 col-sm-5 scrollanimate animated fadeInUp" data-animate="fadeInUp">
--                    <div class="">
--                        <h4><span>Broker Agent�������</span></h4>
--                        �е�Ƽ������ͻ��õ�����רҵ��ȫ��λ���񣬼�����ϵͳ������ά����90%�Ĺ������Ը�רҵ�����ݣ������
--                        <ul>
--                            <li>�����ϵ��ȫ</li>
--                            <li>7��24Сʱ�ճ���ά����</li>
--                            <li>��Ʋ�����ѵ</li>
--                            <li>���簲ȫ��أ�������ά��</li>
--                            <li>רҵ����֧��</li>
--                            <li>MT4System����������֧��</li>
--                        </ul>
--                        <button type="button" class="button-more">READ MORE</button>
--                    </div>
--                </div>
--                <div class="visible-xs col-lg-5 col-md-4 col-sm-4 imgbox scrollaimate" data-animate="fadeInRight">
--                    <img src="./static/img/echart-mt4.png"/>
--                </div>
--                <div class="hidden-xs col-lg-5 col-md-4 col-sm-4 imgbox scrollanimate" data-animate="fadeInLeft">
--                    <img src="./static/img/echart-mt4.png">
--                </div>
--            </div>
--        </div>
--    </div>
--    <h2>Broker Agent�������</h2>
-- </div>
--</section>
--<section id="work-LPS">
--    <div class="work-cell lps-bank">
--        <div class="container">
--            <div class="row">
--                <div class="visible-xs col-lg-5 col-md-4 col-sm-4 imgbox scrollanimate" data-animate="fadeInDown">
--                    <img src="./static/img/echart-LPS.png">
--                </div>
--                <div class="hidden-xs col-lg-6 col-md-4 col-sm-4 imgbox scrollanimate " data-animate="fadeInLeft">
--                    <img src="./static/img/echart-LPS.png">
--                </div>
--                <div class="col-lg-5 col-md-8 col-sm-8 scrollanimate" data-animate="fadeInRight">
--                    <h4><span>���綥��Ͷ������LPS</span></h4>
--                    <div>
--                       <p> �����뼸ʮ����Ͷ�����С�ECN���ӽ�������ƽ̨�������������ṩ�̺��������綥��Ͷ������LPS���������ṩ�̣�������Դֱ������DB��CITI��BARX��MS��JPM��NOM>><br/>
--                           ������������Ʒ�֣���� �����ԭ�� ��ָ��80���Ʒ��</p>
--                    </div>
--                    <button type="button" class="button-more">READ MORE</button>
--                </div>
--            </div>
--        </div>
--    </div>
--</section>
--<section id="work-CRM">
--    <div>
--        <h2>CRM�ͻ���ϵ����ϵͳ</h2>
--        <div class="work-crm">
--            <div class="container">
--                <div class="">
--                    <div class="row">
--                        <div class="col-lg-4 col-md-8 col-sm-8 scrollanimate" data-animate="fadeInUp">
--                            <div>
--                                <h4><span>CRMϵͳ����</span></h4>
--                                <p>
--                                    ǿ��ı������㹦�ܣ����۶ิ�ӵ�Ӷ�����ģʽ����������Ӧ�ԣ�CRMϵͳ��һ��רΪ���͹�����������������Ƶĺ�̨����������֧�ֹ�˾�����ͻ�������ϵ��һվʽ���߷���ƽ̨</p>
--                            </div>
--                            <button type="button" class="button-more">READ MORE</button>
--                        </div>
--                        <div class="visible-xs col-lg-5 col-sm-4 col-lg-offset-1 imgbox scrollanimate" data-animate="fadeInDown">
--                            <img src="./static/img/echart-CRM.png">
--                        </div>
--                        <div class="hidden-xs col-lg-5 col-md-4 col-lg-offset-1 col-sm-4 imgbox scrollanimate"
--                             data-animate="fadeInDown">
--                            <img src="./static/img/echart-CRM.png">
--                        </div>
--                    </div>
--                </div>
--            </div>
--        </div>
--        <h2>���ڼ������</h2>
--    </div>
--</section>
--<section id="work-ASIC">
--<div class="work-cell workHot">
--    <div class="container">
--        <div class="row">
--            <div class="visible-xs col-lg-5 col-sm-4 imgbox scrollanimate" data-animate="fadeInleft">
--                <img src="./static/img/echart-ASIC.png">
--            </div>
--            <div class="hidden-xs col-lg-6 col-md-4 col-sm-4 imgbox scrollanimate animated fadeInLeft">
--                <img src="./static/img/echart-ASIC.png">
--            </div>
--            <div class="col-lg-5 col-md-8 col-sm-8 scrollanimate animated fadeInRight">
--                <h4><span>���Ž��ڼ������</span></h4>
--                <div>
--                    <p>�����ṩһվʽ�Ľ�������ע������ṩ��������Ľ���ע����񣬹�˾�齨����Ӫ�ƻ��ȵȣ�ֻҪ�������ȫ�����κεط��Ľ����������Ƕ�����Э����ע�������</p>
--                </div>
--                <button type="button" class="button-more">READ MORE</button>
--            </div>
--        </div>
--    </div>
--</div>
--</section>
--<section id="work-platform">
--    <div>
--        <div class="workPlatform">
--            <h2>ƽ̨������������</h2>
--            <div class="platform">
--                <div class="container">
--                    <div class="row">
--                        <div class="col-md-offset-3 col-md-6 scrollanimate" data-animate="fadeInUp">
--                            <p>����רҵ�ṩһվʽ���񣬴�Ʒ��ȷ�ϣ���Ӫ�����ȷ�ϣ������򿪷����⣬�ڵ�MT4��ά�йܷ��񣬹�˾��������
--                                �����Ŷӻ����˷ḻ�Ĵ�Ҿ������ά����Ϊ����˿͵���Ŀ����ʵ��</p>
--                        </div>
--                        <div class="col-md-offset-1 col-md-9 scrollanimate bulid-step">
--                            <dl class="col-xs-6 col-sm-3">
--                                <dt class="bulid-start">
--                                    <span></span>
--                                </dt>
--                                <dd>�ױ�</dd>
--                                <dd>��������</dd>
--                                <dd>ǩ��Э��</dd>
--                            </dl>
--                            <dl class="col-xs-6 col-sm-3">
--                                <dt class="bulid-walk"><span></span></dt>
--                                <dd>�밶��˾����</dd>
--                                <dd>MT4�ױ�</dd>
--                                <dd>������վ�</dd>
--                                <dd>��ҵ��������</dd>
--                                <dd>CRMϵͳ����</dd>
--                                <dd>����֧��</dd>
--                                <dd>�ӿڿ���</dd>
--                                <dd>Logo���</dd>
--                            </dl>
--                            <dl class="col-xs-6 col-sm-3">
--                                <dt class="bulid-run"><span></span></dt>
--                                <dd>MT4�������</dd>
--                                <dd>Manager����</dd>
--                                <dd>��ʼ�����ðױ�����</dd>
--                                <dd>�Ų���</dd>
--                                <dd>�����Ա��۽���</dd>
--                                <dd>�밶��˾������ˣ��Թ�</dd>
--                            </dl>
--                            <dl class="col-xs-6 col-sm-3">
--                                <dt class="bulid-flag"></dt>
--                                <dd>���ԡ�����</dd>
--                                <dd>���ԡ�ȷ��</dd>
--                                <dd>ƽ̨����</dd>
--                                <dd>�ۺ����</dd>
--                                <dd>24Сʱ����</dd>
--                                <dd>����֧��</dd>
--                            </dl>
--                        </div>
--                    </div>
--                </div>
--            </div>
--        </div>
--    </div>
--</section>
--<section id="contact">
--    <h2>��ϵ����</h2>
--    <ul class="col-lg-offset-3">
--        <li class="col-lg-2 col-xs-3"><i></i></li>
--        <li class="col-lg-2 col-xs-3"><i></i></li>
--        <li class="col-lg-2 col-xs-3"><i></i></li>
--        <li class="col-lg-2 col-xs-3"><i></i></li>
--    </ul>
--    <form>
--        <input class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-1 col-xs-8">
--        <button>�ύ</button>
--    </form>
--</section>
--<div id="clickTop" style="width: 50px; height: 50px; color: red">
--<a class="top-link" href="#"></a>
--</div>
--<footer id="footerMenu">
--    <div class="container">
--        <div class="row">
--            <dl class="col-xs-6 col-sm-2">
--                <dt><label>ƽ̨</label>�</dt>
--                <dd><a>MT4ƽ̨�</a></dd>
--                <dd><a>MT5ƽ̨�</a></dd>
--                <dd><a>�ױ�</a></dd>
--                <dd><a>����</a></dd>
--            </dl>
--            <dl class="col-xs-6 col-sm-2">
--                <dt><label>���</label>����</dt>
--                <dd><a>�밶��˾ע��</a></dd>
--                <dd><a>�밶�˻�����</a></dd>
--                <dd><a>���ڼ������</a></dd>
--                <dd><a>����֧������</a></dd>
--                <dd><a>CRM����ϵͳ</a></dd>
--            </dl>
--            <dl class="col-xs-6 col-sm-2">
--                <dt style="visibility: hidden">�������</dt>
--                <dd><a>�������ṩ��</a></dd>
--                <dd><a>������վ�</a></dd>
--                <dd><a>Logo VI���</a></dd>
--                <dd><a>�������ϵͳ</a></dd>
--                <dd><a>MT4�������</a></dd>
--            </dl>
--            <div class="clearfix visible-xs-block"></div>
--            <dl class="col-xs-6 col-sm-2">
--                <dt><label>����</label></dt>
--                <dd><a>��������</a></dd>
--                <dd><a>��չ����</a></dd>
--                <dd><a>��������</a></dd>
--            </dl>
--            <dl class="col-xs-6 col-sm-2">
--                <dt><label>��˾</label>��Ϣ</dt>
--                <dd><a>����֧�֣�Support@udeafx.com</a></dd>
--                <dd><a>�̻�������Sales@udeafx.com</a></dd>
--                <dd><a>��ѯ���ߣ�+86 181 2887 8737</a></dd>
--                <dd><a>�绰���룺+00852 6032-7386</a></dd>
--                <dd><a>��˾��ַ���������·��˵�53-55��
--                    ������ҵ����15¥1501��</a></dd>
--            </dl>
--            <div class="clearfix visible-xs-block"></div>
--        </div>
--
--    </div>
--    <div class="companyinfo">
--        <p>Copyright ? 2016-2017 Udea Technology Limited. All rights reserved.</p>
--    </div>
--</footer>
--</body>
--
--<script type="text/javascript" src="./static/js/jquery.min.js"></script>
--<script type="text/javascript" src="./static/js/bootstrap.min.js"></script>
--<script type="text/javascript" src="./static/js/jquery.magnific-popup.js"></script>
--<script type="text/javascript" src="./static/js/common.js"></script>
--<script type="text/javascript" src="./static/js/hm.js"></script>
--<script type="text/javascript" src="./static/js/vds.js"></script>
--<script type="text/javascript" src="./static/js/jquery.lazyload.js"></script>
--<script type="text/javascript" src="./static/js/storage.js"></script>
--<script type="text/javascript" src="./static/js/index.js"></script>
--<script type='text/javascript'>
--    var _vds = _vds || [];
--    window._vds = _vds;
--    (function(){
--        _vds.push(['setAccountId', 'a6a54602e467dc5f']);
--        (function() {
--            var vds = document.createElement('script');
--            vds.type='text/javascript';
--            vds.async = true;
--            vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
--            var s = document.getElementsByTagName('script')[0];
--            s.parentNode.insertBefore(vds, s);
--        })();
--    })();
--</script>
--<!--[if lt IE 9]>
--<script src="https://cdn.bootcss.com/html5shiv/r29/html5.js"></script>
--<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
--<![endif]-->
--<script type="text/javascript">
--    $('.carousel').carousel({
--        interval: 2000
--    })
--</script>
--<script>
--    var _hmt = _hmt || [];
--    (function() {
--        var hm = document.createElement("script");
--        hm.src = "https://hm.baidu.com/hm.js?98c5d9a3f65e4c47b0f05f72d0b6e999";
--        var s = document.getElementsByTagName("script")[0];
--        s.parentNode.insertBefore(hm, s);
--    })();
--</script>
--</html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>UDEA-全球领先的金融科技服务商|金融云服务商|金融投资云平台</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+        <meta name="description" itemprop="description"
+              content="UDEA 是一家专注为外汇经纪商，贵金属交易所，基金管理者，银行等金融机构提供一站式金融技术服务的科技公司，产品涉及金融领域的交易系统、风控系统、CRM系统、数字营销系统、行情数据接口、金融云计算等领域"/>
+        <meta name="keywords" itemprop="keywords" content="udea,金融科技，金融云，金融投资云平台，外汇经纪商，外汇交易商，券商，白标，风控"/>
+        <link href="./static/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" media="all">
+        <link rel="stylesheet" type="text/css" href="./static/css/bootstrap-3.3.6/css/bootstrap.min.css" media="all">
+        <link rel="stylesheet" type="text/css" href="./static/css/magnific-popup.css" media="all">
+        <link rel="stylesheet" type="text/css" href="./static/css/myStyle.css"/>
+        <link rel="stylesheet" type="text/css" href="./static/css/animate.min.css" media="all">
+        <link rel="stylesheet" type="text/css" href="./static/css/index.css">
+
+    </head>
+    <body class="home page-header page-template-page-index page-template-page-index-php page page-id-7">
+        <!--导航栏-->
+        <nav id="nav" class="navbar navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                            aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"></a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="index.html">首页</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                               role="button" aria-haspopup="true" aria-expanded="true">
+                                <i class="fa fa-angle-down fa-lg"></i>&nbsp;&nbsp;平台搭建</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="views/MT4.html">MT4简介</a></li>
+                                <li><a href="views/MT5.html">MT5简介</a></li>
+                                <li><a href="views/white.html">白标搭建</a></li>
+                                <li><a href="views/mainlabel.html">主标搭建</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                               role="button" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-angle-down fa-lg"></i>&nbsp;&nbsp;解决方案</a>
+                            <ul class="dropdown-menu mega-menu-2 ">
+                                <li><a href="views/register.html">离岸账户注册</a></li>
+                                <li><a href="views/company.html">离岸公司注册</a></li>
+                                <li><a href="views/paizhao.html">金融监管牌照</a></li>
+                                <li><a href="views/sanfang.html">三方支付申请</a></li>
+                                <li><a href="views/CRM.html">CRM管理系统</a></li>
+                                <li><a href="views/liudong.html">流动性提供商</a></li>
+                                <li><a href="views/site.html">金融官网搭建</a></li>
+                                <li><a href="views/design.html">Logo&nbsp;&nbsp;VI设计</a></li>
+                                <li><a href="views/jingxiang.html">镜像管理系统</a></li>
+                                <li><a href="views/chajian.html">MT4插件定制</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                               role="button" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-angle-down fa-lg">
+                                </i>&nbsp;&nbsp;关于我们</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="views/aboutus.html">关于我们</a></li>
+                                <li><a href="views/development.html">发展历程</a></li>
+                                <li><a href="views/joinus.html">加入我们</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="views/news.html" class="dropdown-toggle" data-toggle="dropdown"
+                               data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;新闻动态</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class=""><a class="dropdown-toggle language"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div id="myCarousel" class="carousel slide">
+                <!--轮播Carousel-->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!--轮播Carousel项目-->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="./static/img/nav-twice.jpg">
+                        <div class="carousel-caption">
+                            <div class="container carousel-text">
+                                <h2>MT4/5平台搭建运维服务</h2>
+                                <h4>Broker Agent 解决方案</h4>
+                                <div class="col-sm-2 col-xs-3 car-text">
+                                    <a>READ MORE</a>
+                                    <img src="./static/img/more-squre.png" alt="">
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./static/img/nav-mouse.jpg">
+                        <div class="carousel-caption">标题2</div>
+                    </div>
+                    <div class="item">
+                        <img src="./static/img/head_hand.jpg">
+                        <div class="carousel-caption">标题3</div>
+                    </div>
+                </div>
+                <!--轮播Carousel导航-->
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </header>
+        <section id="cooperation">
+            <div class="container">
+                <div class="row hidden-xs">
+                    <a class="cooperation1" href="javascript:"></a>
+                    <a class="cooperation2" href="javascript:"></a>
+                    <a class="cooperation3" href="javascript:"></a>
+                    <a class="cooperation4" href="javascript:"></a>
+                    <a class="cooperation5" href="javascript:"></a>
+                    <a class="cooperation6" href="javascript:"></a>
+                    <a class="cooperation7" href="javascript:"></a>
+                    <a class="cooperation8" href="javascript:"></a>
+                </div>
+                <div class="row visible-xs">
+                    <div class="col-xs-6 odd"><a class="cooperation1" href="javascript:"></a></div>
+                    <div class="col-xs-6 even"><a class="cooperation2" href="javascript:"></a></div>
+                    <div class="col-xs-6 odd"><a class="cooperation3" href="javascript:"></a></div>
+                    <div class="col-xs-6 even"><a class="cooperation4" href="javascript:"></a></div>
+                    <div class="col-xs-6 odd"><a class="cooperation5" href="javascript:"></a></div>
+                    <div class="col-xs-6 even"><a class="cooperation6" href="javascript:"></a></div>
+                    <div class="col-xs-6 odd"><a class="cooperation7" href="javascript:"></a></div>
+                    <div class="col-xs-6 even"><a class="cooperation8" href="javascript:"></a></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ideas">
+            <div class="idea-more">
+                <div class="idea-product">
+                    <div class="container">
+                        <div class="platform" data-delay="300">
+                            <h2>UNLIMITED IDEAS</h2>
+                            <p class="udea">有点科技 “岂”止于点</p>
+                            <h4 class="global-text">全球领先金融软件产业平台</h4>
+                            <div>有点科技一家专注领域科技公司，专业MT4平台解决方案提供者，公司注册在香港，2016年成立核心团队拥有5年以上专业经验。
+                                有点科技主要服务于金融机构客户，自身定位为机构客户的技术合作伙伴，并致力于为合作伙伴提供一系列的外汇及贵金属平台的整合、开发、咨询、交易服务器云端方案设计及管理、交易算法设计及咨询等。
+                            </div>
+                            <div class="row scrollanimate" data-delay="3000">
+                                <div class="col-sm-3 col-xs-3 idea-text MT4-solve">
+                                    <img src='./static/img/idea_buld.png'>
+                                    <h4>MT4/5外汇经济及解决方案</h4>
+                                    多种经济服务方式，为提供适合您交易的交易条件
+                                </div>
+                                <div class="col-sm-3 col-xs-3 idea-text VSFC">
+                                    <img src="./static/img/idea_comp.png">
+                                    <h4>金融监管牌照解决方案</h4>
+                                    <p style="font-size: 16px;">VSFC&nbsp;&nbsp;|&nbsp;&nbsp;FSP&nbsp;&nbsp;|&nbsp;&nbsp;ASIC&nbsp;&nbsp;|&nbsp;&nbsp;FCA</p>
+                                </div>
+                                <div class="col-sm-3 col-xs-3 idea-text paltform-sovle">
+                                    <img src="./static/img/idea_share.png">
+                                    <h4>平台搭建解决方案</h4>
+                                    我们提供一站式服务，从品牌确认到MT4运维托管，用丰富的经验为您完美实现
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="col-sm-2 col-xs-3 more-button"><a>READ MORE</a><img src="./static/img/more-squre.png"/>
+                    </div>
+                    <div class="col-sm-2 col-xs-3 more-button "><a> READ MORE</a><img
+                        src="./static/img/more-squre.png"/></div>
+                    <div class="col-sm-2 col-xs-3 more-button morebutton-3"><a> READ MORE</a><img
+                        src="./static/img/more-squre.png"/></div>
+
+                </div>
+            </div>
+        </section>
+        <section id="MT4-platform">
+            <div>
+                <h2>MT4 / 5平台搭建运维服务</h2>
+                <div class="backAgent">
+                    <div class="container">
+                        <div class="row MT4-left-top">
+                            <div class="col-lg-5 col-md-5 col-sm-5 scrollanimate animated fadeInUp"
+                                 data-animate="fadeInUp">
+                                <div class="">
+                                    <h4><span>Broker Agent解决方案</span></h4>
+                                    有点科技帮助客户得到更加专业的全方位服务，减少您系统管理和维护的90%的工作，以更专业的身份，更快捷
+                                    <ul>
+                                        <li>风控体系健全</li>
+                                        <li>7×24小时日常运维服务</li>
+                                        <li>风科策略培训</li>
+                                        <li>网络安全监控，服务器维护</li>
+                                        <li>专业服务支持</li>
+                                        <li>MT4System管理，技术支持</li>
+                                    </ul>
+                                    <button type="button" class="button-more">READ MORE</button>
+                                </div>
+                            </div>
+                            <div class="visible-xs col-lg-5 col-md-4 col-sm-4 imgbox scrollaimate"
+                                 data-animate="fadeInRight">
+                                <img src="./static/img/echart-mt4.png"/>
+                            </div>
+                            <div class="hidden-xs col-lg-5 col-md-4 col-sm-4 imgbox scrollanimate"
+                                 data-animate="fadeInLeft">
+                                <img src="./static/img/echart-mt4.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Broker Agent解决方案</h2>
+            </div>
+        </section>
+        <section id="work-LPS">
+            <div class="work-cell lps-bank">
+                <div class="container">
+                    <div class="row">
+                        <div class="visible-xs col-lg-5 col-md-4 col-sm-4 imgbox scrollanimate"
+                             data-animate="fadeInDown">
+                            <img src="./static/img/echart-LPS.png">
+                        </div>
+                        <div class="hidden-xs col-lg-6 col-md-4 col-sm-4 imgbox scrollanimate "
+                             data-animate="fadeInLeft">
+                            <img src="./static/img/echart-LPS.png">
+                        </div>
+                        <div class="col-lg-5 col-md-8 col-sm-8 scrollanimate" data-animate="fadeInRight">
+                            <h4><span>世界顶级投资银行LPS</span></h4>
+                            <div>
+                                <p>
+                                    我们与几十国际投资银行、ECN电子交易网络平台和其他流动性提供商合作。世界顶级投资银行LPS（流动性提供商）：报价源直接来自DB，CITI，BARX，MS，JPM，NOM>><br/>
+                                    国际主流交易品种：外汇 贵金属原油 股指等80多个品种</p>
+                            </div>
+                            <button type="button" class="button-more">READ MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="work-CRM">
+            <div>
+                <h2>CRM客户关系管理系统</h2>
+                <div class="work-crm">
+                    <div class="container">
+                        <div class="">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-8 col-sm-8 scrollanimate" data-animate="fadeInUp">
+                                    <div>
+                                        <h4><span>CRM系统机制</span></h4>
+                                        <p>
+                                            强大的报表结算功能，无论多复杂的佣金结算模式，都能轻松应对，CRM系统是一款专为外汇和贵金属经纪商量身定制的后台管理，用于支持公司渠道客户三大体系的一站式在线服务平台</p>
+                                    </div>
+                                    <button type="button" class="button-more">READ MORE</button>
+                                </div>
+                                <div class="visible-xs col-lg-5 col-sm-4 col-lg-offset-1 imgbox scrollanimate"
+                                     data-animate="fadeInDown">
+                                    <img src="./static/img/echart-CRM.png">
+                                </div>
+                                <div class="hidden-xs col-lg-5 col-md-4 col-lg-offset-1 col-sm-4 imgbox scrollanimate"
+                                     data-animate="fadeInDown">
+                                    <img src="./static/img/echart-CRM.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>金融监管牌照</h2>
+            </div>
+        </section>
+        <section id="work-ASIC">
+            <div class="work-cell workHot">
+                <div class="container">
+                    <div class="row">
+                        <div class="visible-xs col-lg-5 col-sm-4 imgbox scrollanimate" data-animate="fadeInleft">
+                            <img src="./static/img/echart-ASIC.png">
+                        </div>
+                        <div class="hidden-xs col-lg-6 col-md-4 col-sm-4 imgbox scrollanimate animated fadeInLeft">
+                            <img src="./static/img/echart-ASIC.png">
+                        </div>
+                        <div class="col-lg-5 col-md-8 col-sm-8 scrollanimate animated fadeInRight">
+                            <h4><span>热门金融监管牌照</span></h4>
+                            <div>
+                                <p>我们提供一站式的金融牌照注册服务，提供世界各国的金融注册服务，公司组建，运营计划等等，只要您提出，全世界任何地方的金融牌照我们都可以协助您注册和申请</p>
+                            </div>
+                            <button type="button" class="button-more">READ MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="work-platform">
+            <div>
+                <div class="workPlatform">
+                    <h2>平台搭建解决方案流程</h2>
+                    <div class="platform">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-offset-3 col-md-6 scrollanimate" data-animate="fadeInUp">
+                                    <p>我们专业提供一站式服务，从品质确认，主营方向的确认，到程序开发与检测，在到MT4运维托管服务，公司成立至今，
+                                        我们团队积累了丰富的大家经验和运维经验为服务顾客的项目完美实现</p>
+                                </div>
+                                <div class="col-md-offset-1 col-md-9 scrollanimate bulid-step">
+                                    <dl class="col-xs-6 col-sm-3">
+                                        <dt class="bulid-start">
+                                            <span></span>
+                                        </dt>
+                                        <dd>白标搭建</dd>
+                                        <dd>需求评估</dd>
+                                        <dd>签署协议</dd>
+                                    </dl>
+                                    <dl class="col-xs-6 col-sm-3">
+                                        <dt class="bulid-walk"><span></span></dt>
+                                        <dd>离岸公司申请</dd>
+                                        <dd>MT4白标搭建</dd>
+                                        <dd>官网网站搭建</dd>
+                                        <dd>企业邮箱设置</dd>
+                                        <dd>CRM系统部署</dd>
+                                        <dd>三方支付</dd>
+                                        <dd>接口开发</dd>
+                                        <dd>Logo设计</dd>
+                                    </dl>
+                                    <dl class="col-xs-6 col-sm-3">
+                                        <dt class="bulid-run"><span></span></dt>
+                                        <dd>MT4服务器搭建</dd>
+                                        <dd>Manager数据</dd>
+                                        <dd>初始化配置白标数据</dd>
+                                        <dd>桥部署</dd>
+                                        <dd>流动性报价接入</dd>
+                                        <dd>离岸公司开设个人，对公</dd>
+                                    </dl>
+                                    <dl class="col-xs-6 col-sm-3">
+                                        <dt class="bulid-flag"></dt>
+                                        <dd>测试、验收</dd>
+                                        <dd>调试、确认</dd>
+                                        <dd>平台上线</dd>
+                                        <dd>售后服务</dd>
+                                        <dd>24小时在线</dd>
+                                        <dd>技术支持</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>联系我们</h2>
+            <ul class="col-lg-offset-3">
+                <li class="col-lg-2 col-xs-3"><i></i></li>
+                <li class="col-lg-2 col-xs-3"><i></i></li>
+                <li class="col-lg-2 col-xs-3"><i></i></li>
+                <li class="col-lg-2 col-xs-3"><i></i></li>
+            </ul>
+            <form>
+                <input class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-1 col-xs-8">
+                <button>提交</button>
+            </form>
+        </section>
+        <div id="clickTop" style="width: 50px; height: 50px; color: red">
+            <a class="top-link" href="#"></a>
+        </div>
+        <footer id="footerMenu">
+            <div class="container">
+                <div class="row">
+                    <dl class="col-xs-6 col-sm-2">
+                        <dt><label>平台</label>搭建</dt>
+                        <dd><a href="views/MT4.html">MT4平台搭建</a></dd>
+                        <dd><a href="views/MT5.html">MT5平台搭建</a></dd>
+                        <dd><a href="views/white.html">白标搭建</a></dd>
+                        <dd><a href="views/mainlabel.html">主标搭建</a></dd>
+                    </dl>
+                    <dl class="col-xs-6 col-sm-2">
+                        <dt><label>解决</label>方案</dt>
+                        <dd><a href="views/company.html">离岸公司注册</a></dd>
+                        <dd><a href="views/register.html">离岸账户开设</a></dd>
+                        <dd><a href="views/paizhao.html">金融监管牌照</a></dd>
+                        <dd><a href="views/sanfang.html">三方支付申请</a></dd>
+                        <dd><a href="views/CRM.html">CRM管理系统</a></dd>
+                    </dl>
+                    <dl class="col-xs-6 col-sm-2">
+                        <dt style="visibility: hidden">解决方案</dt>
+                        <dd><a href="views/liudong.html">流动性提供商</a></dd>
+                        <dd><a href="views/site.html">金融网站搭建</a></dd>
+                        <dd><a href="views/development.html">Logo VI设计</a></dd>
+                        <dd><a href="views/jingxiang.html">镜像管理系统</a></dd>
+                        <dd><a href="views/chajian.html">MT4插件定制</a></dd>
+                    </dl>
+                    <div class="clearfix visible-xs-block"></div>
+                    <dl class="col-xs-6 col-sm-2">
+                        <dt><label>关于</label></dt>
+                        <dd><a href="views/aboutus.html">关于我们</a></dd>
+                        <dd><a href="views/development.html">发展历程</a></dd>
+                        <dd><a href="views/joinus.html">加入我们</a></dd>
+                    </dl>
+                    <dl class="col-xs-6 col-sm-2">
+                        <dt><label>公司</label>信息</dt>
+                        <dd>技术支持：Support@udeafx.com</dd>
+                        <dd>商户合作：Sales@udeafx.com</dd>
+                        <dd>咨询热线：+86 181 2887 8737</dd>
+                        <dd>电话号码：+00852 6032-7386</dd>
+                        <dd>公司地址：香港湾仔路骆克道53-55号
+                            恒泽商业大厦15楼1501室</dd>
+                    </dl>
+                    <div class="clearfix visible-xs-block"></div>
+                </div>
+
+            </div>
+            <div class="companyinfo">
+                <p>Copyright © 2016-2017 Udea Technology Limited. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+
+    <script type="text/javascript" src="./static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./static/js/jquery.magnific-popup.js"></script>
+    <script type="text/javascript" src="./static/js/common.js"></script>
+    <script type="text/javascript" src="./static/js/hm.js"></script>
+    <script type="text/javascript" src="./static/js/vds.js"></script>
+    <script type="text/javascript" src="./static/js/jquery.lazyload.js"></script>
+    <script type="text/javascript" src="./static/js/storage.js"></script>
+    <script type="text/javascript" src="./static/js/index.js"></script>
+    <script type='text/javascript'>
+        var _vds = _vds || [];
+        window._vds = _vds;
+        (function () {
+            _vds.push(['setAccountId', 'a6a54602e467dc5f']);
+            (function () {
+                var vds = document.createElement('script');
+                vds.type = 'text/javascript';
+                vds.async = true;
+                vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(vds, s);
+            })();
+        })();
+    </script>
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/r29/html5.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        $('.carousel').carousel({
+            interval: 2000
+        })
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?98c5d9a3f65e4c47b0f05f72d0b6e999";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</html>
