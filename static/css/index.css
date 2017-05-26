@@ -104,10 +104,6 @@ body{
 #ideas .row{
 	margin-top: 50px;
 }
-#ideas .more-button{
-	margin: 8px 91px 47px 0;
-	text-align: center;
-}
 #ideas .idea-text{
 	margin: 12px 97px 47px 0;
 	padding: 30px 20px;
@@ -126,25 +122,30 @@ body{
 	border-top: solid 2px #15e787;
 }
 #ideas .more-button{
+	width: 288px;
 	background:  #a9acb0;
 	color: #fff;
 	margin-top: 0;
 	margin-bottom: 50px;
 	height: 60px;
 	padding: 19px;
-	margin-left: 60px
+	margin-left: -15px;
+	margin-right: 115px;
 }
 #ideas .more-button a{
 	color: #fff;
+	margin-left: 80px;
 }
 #ideas .more-button img{
-	margin-top: -50px;
+	margin-top: -12px;
+	margin-left: -105px;
 }
 #ideas .morebutton-2{
 	margin-left: 90px;
 }
 #ideas .morebutton-3{
-	margin-left: 100px;
+	margin-left: -10px;
+	margin-right: 74px;
 }
 
 #MT4-platform,#work-CRM{
@@ -161,6 +162,7 @@ body{
 	margin: 0;
 	padding: 0;
     margin-top: 20px;
+	margin-left: -23px;
 }
 #MT4-platform h4,#work-CRM h4,#work-ASIC h4,#work-LPS h4,#work-ASIC h4{
     padding: 19px 0 10px;
@@ -193,6 +195,36 @@ body{
     border: 0;
     text-align: center;
     margin: 17px 101px;
+}
+.carousel-indicators .active{
+	height:5px;
+	width: 70px;
+}
+.carousel-indicators li{
+	height:5px;
+	width: 70px;
+}
+#myCarousel .carousel-caption{
+	background:rgba(0,0,0,.3);
+	/*background:rgba(244,12,45,.3);*/
+	filter:alpha(opacity=30) ;
+	left: 0;
+	right: 0;
+	height: 450px;
+	margin-bottom: 90px;
+}
+#myCarousel h2{
+	margin: 80px 0 50px;
+}
+#myCarousel h4{
+	margin: 0px 0 35px;
+}
+#myCarousel .car-text{
+	margin-left: 479px;
+	text-align: center;
+}
+#myCarousel .car-text img{
+	margin-top: -50px;
 }
 #MT4-platform h2,#work-platform h2,#work-CRM h2,#ideas h2{
 	text-align: center;
