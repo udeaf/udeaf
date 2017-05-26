@@ -71,7 +71,7 @@ $(function(){
     winEl.scroll(function () {
         /*nav*/
         var navEl = $('#nav');
-        var navPl = $("#platform-header");
+        var navPl = $(".sub-header");
 
         if (!navEl.data('noscroll')) {
             if (winEl.scrollTop() > 20) {
