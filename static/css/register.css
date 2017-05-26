@@ -1,11 +1,126 @@
-.engaland{
+.register-icon{
     height: 120px;
     width: 120px;
-    background: url(../img/england-icon.jpg) no-repeat;
+    border-radius: 100%;
+    border: solid 5px #65c6ff;
+}
+.register-p{
+    color: #666666;
+}
+.register-h3{
+    color: #2e95e8;
+    margin-bottom: 20px;
+}
+.Kingdom {
+    background: url(../img/reg-england.jpg) no-repeat;
     background-size: 255%;
     background-position-x: -84px;
     background-position-y: -68px;
-    border-radius: 100%;
-    border: solid 5px #65c6ff;
+    float: right;
+}
 
+#Kingdom h3,#BVI h3{
+    margin-left: 90px;
+}
+#BVI h3{
+    margin-left:230px;
+}
+#Vanuatu h3{
+    margin-left: 185px;
+}
+#Zealand h3{
+    margin-left: 135px;
+}
+#Samoa h3{
+    margin-left: 205px;
+}
+#Kingdom span,#BVI span,#Vanuatu span,#Zealand span,#Samoa span{
+    border-bottom: solid 5px #65c6ff;
+    display: inline-block;
+    width: 296px;
+    float: right;
+}
+#Kingdom p,#BVI p,#Vanuatu p,#Zealand p{
+    margin-top: 85px;
+    margin-left: 40px;
+}
+#Hongkong{
+    margin-top: 150px;
+}
+#Hongkong, #Kingdom, #Seychelles, #BVI, #Vanuatu, #Cayman, #Zealand ,#Australia{
+    margin-bottom: 50px;
+}
+#Samoa{
+    margin-bottom: 150px;
+}
+.Hongkong{
+    background: url(../img/reg-hongkong.png) no-repeat;
+    background-position-x: -51px;
+    background-position-y: -21px;
+
+}
+#Hongkong span,#Seychelles span,#Belize span,#Cayman span,#Australia span{
+    margin-top: -25px;
+    margin-left: 114px;
+    border-bottom: solid 5px #65c6ff;
+    display: inline-block;
+}
+
+#Hongkong h3,#Seychelles h3,#Belize h3,#Cayman h3,#Australia h3{
+    margin-top: 33px;
+    margin-bottom: 19px;
+    margin-left: 18px;
+    width: 230px;
+}
+#Hongkong p,#Belize p,#Cayman p,#Australia p{
+    margin-left: 132px;
+    margin-top: -41px;
+}
+.BVI{
+    background: url(../img/reg-BVI.png) no-repeat;
+    background-size: 180%;
+    background-position-x: -48px;
+    background-position-y: -1px;
+    float: right;
+}
+.Seychelles{
+    background: url(../img/reg-Seychelles.png) no-repeat;
+    background-size: 178%;
+
+
+
+}
+.Belize{
+    background: url(../img/reg-Belize.png) no-repeat;
+    background-size: 145%;
+    background-position-x: -24px;
+    background-position-y: -7px;
+}
+.Vanuatu{
+    background: url(../img/reg-Vanuatu.png) no-repeat;
+    background-size: 146%;
+    background-position-x: -29px;
+    float: right;
+}
+.Cayman{
+    background: url("../img/reg-Cayman.png") no-repeat;
+    background-size: 173%;
+    background-position-x: -42px;
+}
+.Zealand{
+    background: url(../img/reg-Zealand.png) no-repeat;
+    background-size: 174%;
+    background-position-x: -36px;
+    float: right;
+}
+.Australia{
+    background: url(../img/reg-Australia.png) no-repeat;
+    background-size: 179%;
+    background-position-x: -26px;
+}
+.Samoa{
+    background: url("../img/reg-Samoa.png") no-repeat;
+    background-size: 180%;
+    background-position-x: -33px;
+    float: right;
 }
