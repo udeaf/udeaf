@@ -1,3 +1,4 @@
+/*register start*/
 .register-icon{
     height: 120px;
     width: 120px;
@@ -124,3 +125,202 @@
     background-position-x: -33px;
     float: right;
 }
+/*register end*/
+
+/*company start*/
+
+#company{
+    background: #f4f5f7;
+    margin-top: 50px;
+}
+#company .company-head{
+    background: #191919;
+    height: 60px;
+    width: 100%;
+}
+#company span{
+    color: #8b8787;
+}
+#company .circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    content: '';
+    background: #cbd2dc;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+
+}
+
+#company .circle-right{
+    margin-top: 0;
+    margin-left: 300px;
+    height: 40px;
+    width: 40px;
+}
+#company .company-site{
+    width: 120px;
+    display: inline-block;
+    margin-top: 13px;
+    margin-bottom: -8px;
+    margin-left: 20px;
+    color: #aadcff;
+}
+#company .short-site{
+    width: 230px;
+}
+#company .company-croci{
+    background: #f4c682;
+    display: inline-block;
+    height: 18px;
+    width: 70px;
+    margin-bottom: -5px;
+    margin-left: 15px;
+
+}
+#company .green{
+    background: #59c2b6;
+}
+#company .red{
+    background: #cb4c5e;
+}
+#company .company-groud{
+    margin-left: -15px;;
+}
+#company .open-bank{
+    width: 275px;
+    display: inline-block;
+}
+#company .low-save{
+    width: 170px;
+    display: inline-block;
+}
+#company .fa-2x{
+    font-size: 2em;
+    margin-right: 2px;
+    margin-top: 22px;
+    float: right;
+    color: #c5c9d1;
+}
+#company .company-search{
+    background: url("../img/company-search.png") no-repeat;
+    background-size:100% ;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    margin-top: 10px;
+}
+#company input{
+    width: 725px;
+    color: #e1e1e1;
+    border: solid 0;
+}
+#company .comp-icon{
+    background: url(../img/compa-icon.png) no-repeat;
+    background-size: 100%;
+    width: 165px;
+    height: 153px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+#company .comp-right{
+    background: #fff;
+    color:#a6a6a6;
+}
+#company .comp-name{
+    text-align: center;
+}
+.span-exchange {
+    width: 66px;
+    height: 30px;
+    content: '';
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+}
+.comp-exchange{
+    margin-left: 60px;
+    margin-top: 42px;
+    margin-bottom: 40px;
+}
+#company .out-span{
+    background: #40c4bf;
+    font-weight: bolder;
+}
+#company .in-span{
+    background: #f75e62;
+    font-weight: bolder;
+}
+
+/*company end*/
+#licence{
+    color: #999999;
+}
+#licence ul{
+    list-style: none;
+}
+#licence-ul ul,#licence-ul-1 ul,#licence-ul-2 ul{
+    list-style: url(../img/ul-list-style.png);
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+.licence-capital ul{
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+.licence-fca label{
+    width: 75px;
+    text-align: center;
+}
+#licence .licence-icon{
+    background: url(../img/licence-asic.png) no-repeat;
+    background-size: 300%;
+    width: 140px;
+    background-position-x: -10px;
+    background-position-y: 23px;
+    height: 140px;
+    border-radius: 100%;
+    border: solid 5px #65c6ff;
+}
+#licence .ASIC-line{
+    border-bottom: solid 5px #65c6ff;
+    margin-top: 34px;
+    margin-left: -59px;
+    width: 274px;
+    color: #2e95e8;
+    font-weight: 700;
+    font-size: 19px;
+    text-align: center;
+
+}
+#licence .ASIC-line>label{
+    margin-left: -126px;
+}
+
+#licence .licence-text h4{
+    color: #666666;
+    margin-top: 57px;
+    margin-bottom: 25px;
+}
+#licence .licence-text p{
+    margin-bottom: 6px;
+    line-height: 32px;
+    margin-top: 16px;
+}
+/*paizhao start*/
+
+
+/*paizhao end*/
+
+/*liudong strat*/
+
+
+/*liudong end*/
