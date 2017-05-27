@@ -76,8 +76,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="news.html" class="dropdown-toggle" data-toggle="dropdown"
-                               data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;新闻动态</a>
+                            <a href="news.html">&nbsp;&nbsp;新闻动态</a>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-left">
@@ -86,7 +85,99 @@
                 </div>
             </div>
         </nav>
+        <div class="bgheader"></div>
+        <section id="header-bg"></section>
+        <section class="container news">
+            <section class="col-md-8">
+                <article class="well clearfix">
+                    <header class="entry-header">
+                        <h2 class="entry-title">
+                            <a href="" title="下一站，塞浦路斯——LEAN WORK打开欧洲市场大门">
+                                下一站，塞浦路斯——LEAN WORK打开欧洲市场大门
+                            </a>
+                        </h2>
+                        <div class="clearfix entry-meta">
+                            <span class="pull-left">
+                                <time class="entry-date fa fa-calendar" datetime="2017/05/24 15:20:49">&nbsp;3 天前</time>
+                                <span class="dot">|</span>
+                                <span class="categories-links fa fa-folder-o">
+                                    <a href="news.html" rel="category tag">公司新闻</a>
+                                </span>
+                                <span class="dot">|</span>
+                                <span class="fa fa-user">
+                                    <a title="由Ricky发布" rel="author">Ricky</a>
+                                </span>
+                            </span>
+                        </div>
 
+                    </header>
+
+                    <div class="entry-thumbnail">
+                        <a href="" class="entry-cover hidden-xs">
+                            <img width="1280" height="960" src="../static/img/news01.png"
+                                 class="attachment-full size-full wp-post-image ">
+                        </a>
+                    </div>
+
+                    <div class="entry-summary entry-content clearfix">
+                        <p>5月22日，由LEAN&nbsp;WORK创始人Darren、市场总监Mia和销售总监Sun组成的领导小分队落地塞浦路斯，此行旨在考察欧洲外汇市场、拓展商务合作机会。 &nbsp;被称为“爱神之岛”的塞浦路斯，是地中海地区的第三大岛，扼亚、非、欧三洲海上交通要冲，其独特的地缘优势使其一直致力于发展金融服务业为基础的开放自由型经济，力求成为架设于东西方之间的金融桥梁。塞浦路斯证券交易委员会（CySEC）主席……</p>
+                    </div>
+                    <footer class="entry-footer clearfix visible-lg visible-md visible-sm">
+                        <a class="pull-right more-link" href="https://www.lwork.com/lean/2364" title="阅读全文">阅读全文»</a>
+                    </footer>
+
+                    <script type="text/html" id="articleTemp">
+                        <header class="entry-header">
+                            <h2 class="entry-title">
+                                <a href="" title="{{ title }}">{{ title }}</a>
+                            </h2>
+                            <div class="clearfix entry-meta">
+                            <span class="pull-left">
+                                <time class="entry-date fa fa-calendar" datetime="{{ datetime }}">&nbsp;{{ date }}</time>
+                                <span class="dot">|</span>
+                                <span class="categories-links fa fa-folder-o">
+                                    <a href="news.html" rel="category tag">公司新闻</a>
+                                </span>
+                                <span class="dot">|</span>
+                                <span class="fa fa-user">
+                                    <a title="由Admin发布" rel="author">Admin</a>
+                                </span>
+                            </span>
+                            </div>
+
+                        </header>
+
+                        <div class="entry-thumbnail">
+                            <a href="" class="entry-cover hidden-xs">
+                                <img width="1280" height="960" src="{{ newimg }}"
+                                     class="attachment-full size-full wp-post-image ">
+                            </a>
+                        </div>
+
+                        <div class="entry-summary entry-content clearfix">
+                            <p>{{ news }}</p>
+                        </div>
+                        <footer class="entry-footer clearfix visible-lg visible-md visible-sm">
+                            <a class="pull-right more-link" href="{{ articlenum }}" title="阅读全文">阅读全文»</a>
+                        </footer>
+                    </script>
+
+                </article>
+            </section>
+            <aside id="side-bar" class="col-md-4">
+                <aside id="tiny_categories-6"
+                       class="widget widget_tiny_categories panel panel-specs visible-lg visible-md">
+                    <div class="panel-heading"><h4 class="textcolor3">新闻目录</h4></div>
+                    <ul>
+                        <li class="cat-item cat-item-17 current-cat"><a href="news.html">公司新闻</a></li>
+                        <li class="cat-item cat-item-17 current-cat"><a href="news.html">公司新闻</a></li>
+                        <li class="cat-item cat-item-17 current-cat"><a href="news.html">公司新闻</a></li>
+                        <li class="cat-item cat-item-17 current-cat"><a href="news.html">公司新闻</a></li>
+                        <li class="cat-item cat-item-17 current-cat"><a href="news.html">公司新闻</a></li>
+                    </ul>
+                </aside>
+            </aside>
+        </section>
 
         <section id="contact">
             <h2 class="textcolor3">联系我们</h2>
@@ -101,6 +192,9 @@
                 <button>提交</button>
             </form>
         </section>
+        <div id="clickTop" style="width: 50px; height: 50px; color: red">
+            <a class="top-link" href="#"></a>
+        </div>
         <footer id="footerMenu">
             <div class="container">
                 <div class="row">
