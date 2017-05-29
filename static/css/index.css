@@ -195,11 +195,13 @@ body{
 }
 .carousel-indicators .active{
 	height:5px;
-	width: 70px;
+    width: 9%;
+	/*width: 70px;*/
 }
 .carousel-indicators li{
 	height:5px;
-	width: 70px;
+    width: 9%;
+	/*width: 70px;*/
 }
 #myCarousel .carousel-caption{
 	background:rgba(0,0,0,.3);
@@ -223,6 +225,7 @@ body{
 #myCarousel .car-text img{
 	margin-top: -50px;
 }
+
 #MT4-platform h2,#work-platform h2,#work-CRM h2,#ideas h2{
 	text-align: center;
 	color: #fff;
