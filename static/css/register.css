@@ -42,7 +42,7 @@
     float: right;
 }
 #Kingdom p,#BVI p,#Vanuatu p,#Zealand p{
-    margin-top: 85px;
+    margin-top: 20px;
     margin-left: 40px;
 }
 #Hongkong{
@@ -274,6 +274,21 @@
     margin-bottom: 25px;
 }
 
+#crm-ul > ul {
+    margin-left: 10px;
+}
+
+#crm-ul > ul > li > i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 20px;
+}
+
+#crm-ul > ul > li > i > img {
+    width: 100%;
+}
+
 .licence-capital ul{
     line-height: 32px;
     margin-bottom: 25px;
@@ -408,10 +423,7 @@
 }
 
 #crm-echart .echaer-img{
-    width: 376px;
-    height: 251px;
-    background: url("../img/crm-metatrader-4.png") no-repeat;
-    background-size: 100%;
+    margin-bottom: 30px;
 }
 
 #crm-echart .crm-text{
@@ -422,9 +434,6 @@
 #crm-icon-list{
     background: #191919;
     margin-top: 60px;
-}
-#crm-icon-list .container{
-    padding: 45px 45px;
 }
 #crm-icon-list .aboutimg{
     width: 60px;
@@ -624,7 +633,9 @@
     #clearing-bank a{
         width: 100%;
     }
-
+    #crm-icon-list .col-xs-4 {
+        padding: 0;
+    }
 }
 
 @media(min-width:768px) {
