@@ -442,7 +442,397 @@
 /*paizhao start*/
 
 /*liudong strat*/
+.adv-img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 40px;
+}
+#clearing-adv .adv-img-contact{
+    background: url(../img/clear-contact.png) no-repeat;
+    background-size: 100%;
+}
+#clearing-adv h2{
+    margin: 55px;
+}
+#clearing-adv .adv-img-DB{
+    background: url("../img/clearl-DB.png") no-repeat;
+    background-size: 100%;
+}
+#clearing-adv .adv-img-LPS{
+    background: url("../img/claer-LPS.png") no-repeat;
+    background-size: 100%;
+}
+#clearing-adv .adv-img-product{
+    background: url("../img/clear-product.png") no-repeat;
+    background-size: 100%;
+}
+#clearing-adv .adv-text{
+    margin-left: 138px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.cfn-commont{
+    height: 90px;
+    width: 215px;
+    display: inline-block;
+}
+
+#clearing-adv .clearing-SYSTEMS{
+    background: url(../img/clearing-SYSTEMS.png) no-repeat;
+    background-size: 61%;
+}
+#clearing-adv .clearing-SYSTEMS:hover{
+    /*filter: Alpha(opacity=10);-moz-opacity:.1;opacity:0.1;*/
+    background: url(../img/clearing-SYSTEMS-color.png) no-repeat;
+    background-size: 61%;
+}
+#clearing-adv .clearing-CLEARINC{
+    background: url("../img/clearing-CLEARINC.png") no-repeat;
+    background-size: 61%;
+}
+#clearing-adv .clearing-CLEARINC:hover{
+    background: url("../img/clearing-CLEARINC-color.png") no-repeat;
+    background-size: 61%;
+
+}
+#clearing-fast{
+    background: #191919;
+    margin-top: 70px;
+}
+#clearing-fast{
+    margin: 0 0 20px;
+    line-height: 25px;
+}
+#clearing-fast .fast-img{
+    background: url(../img/clearing-shandain.png) no-repeat;
+    background-size: 100%;
+    height: 180px;
+    width: 138px;
+    margin-left: 493px;
+    margin-top: 55px;
+}
+.color-c8c8c8{
+    color: #c8c8c8;
+    padding-top: 58px;
+    margin-top: 58px;
+    padding-bottom: 35px;
+}
+#clearing-bank a{
+    height: 121px;
+    width: 250px;
+    display: inline-block;
+}
+#clearing-bank .bankPay1{
+    background: url(../img/clearing-JPM-gray.png) no-repeat;
+    background-size: 75%;
+    background-position-x: 34px;
+    background-position-y: 42px;
+}
+#clearing-bank .bankPay1:hover{
+    background: url("../img/clearing-JPM.png") no-repeat;
+    background-size: 75%;
+    background-position-x: 34px;
+    background-position-y: 42px;
+}
+#clearing-bank .bankPay2{
+    background: url(../img/clearing-BNP-gray.png) no-repeat;
+    background-size: 71%;
+    background-position-x: 36px;
+    background-position-y: 8px;
+}
+#clearing-bank .bankPay2:hover{
+    background: url("../img/clearing-BNP.png") no-repeat;
+    background-size: 71%;
+    background-position-x: 36px;
+    background-position-y: 8px;
+}
+#clearing-bank .bankPay3{
+    background: url(../img/clearing-BARCLAYS-gray.png) no-repeat;
+    background-size: 85%;
+    background-position-x: 20px;
+    background-position-y: 34px;
+}
+#clearing-bank .bankPay3:hover{
+    background: url("../img/clearing-BARCLAYS.png") no-repeat;
+    background-size: 85%;
+    background-position-x: 20px;
+    background-position-y: 34px;
+}
+#clearing-bank .bankPay4{
+    background: url(../img/clearing-UBS-gray.png) no-repeat;
+    background-size: 66%;
+    background-position-x: 31px;
+    background-position-y: 36px;
+}
+#clearing-bank .bankPay4:hover{
+    background: url("../img/clearing-UBS.png") no-repeat;
+    background-size: 66%;
+    background-position-x: 31px;
+    background-position-y: 36px;
+}
+#clearing-bank .bankPay5{
+    background: url(../img/clearing-Goldman-gray.png) no-repeat;
+    background-size: 57%;
+    background-position-x: 57px;
+    background-position-y: 37px;
+}
+#clearing-bank .bankPay5:hover{
+    background: url("../img/clearing-Goldman.png") no-repeat;
+    background-size: 57%;
+    background-position-x: 57px;
+    background-position-y: 37px;
+}
+#clearing-bank .bankPay6{
+    background: url(../img/clearing-CREDITS-gray.png) no-repeat;
+    background-size: 86%;
+    background-position-x: 16px;
+    background-position-y: -21px;
+}
+#clearing-bank .bankPay6:hover{
+    background: url("../img/clearing-CREDITS.png") no-repeat;
+    background-size: 86%;
+    background-position-x: 16px;
+    background-position-y: -21px;
+}
+#clearing-bank .bankPay7{
+    background: url(../img/clearing-Mor-gray.png) no-repeat;
+    background-size: 73%;
+    background-position-x: 31px;
+    background-position-y: -6px;
+}
+#clearing-bank .bankPay7:hover{
+    background: url("../img/clearing-Mor.png") no-repeat;
+    background-size: 73%;
+    background-position-x: 31px;
+    background-position-y: -6px;
+
+}
+#clearing-bank .bankPay8{
+    background: url(../img/clearing-America-gray.png) no-repeat;
+    background-size: 78%;
+    background-position-x: 40px;
+    background-position-y: 23px;
+}
+#clearing-bank .bankPay8:hover{
+    background: url("../img/clearing-America.png") no-repeat;
+    background-size: 78%;
+    background-position-x: 40px;
+    background-position-y: 23px;
+}
+@media (max-width: 767px) {
+    #clearing-bank a{
+        width: 100%;
+    }
+
+}
+
+@media(min-width:768px) {
+    #clearing-bank .row{
+        margin:0 auto ;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    #clearing-bank .row{
+        width: 662px;
+    }
 
 
+
+}
+@media(min-width: 992px)and (max-width: 1199px) {
+    #clearing-bank .row {
+        width: 883px;
+    }
+}
+@media(min-width: 1200px) {
+    #clearing-bank .row {
+        width: 1104px;
+    }
+    #clearing-bank .bankPay1,#clearing-bank .bankPay2,#clearing-bank .bankPay3,#clearing-bank .bankPay4{
+        border-bottom: dashed 1px #eaeaea;
+    }
+    #clearing-bank .bankPay1,#clearing-bank .bankPay2,#clearing-bank .bankPay3,
+    #clearing-bank .bankPay5,#clearing-bank .bankPay6,#clearing-bank .bankPay7{
+        border-right: dashed 1px #eaeaea;
+    }
+
+
+}
+#clearing-build{
+    background: #191919;
+}
+#clearing-build a{
+    height:80px;
+    width: 80px;
+    display: inline-block;
+}
+.bulid-mt4{
+    margin-left: 77px;
+    margin-top: -90px;
+}
+.margin-bulid-65{
+    margin-top: 65px;
+}
+.color-only-c8c8c8{
+    color: #c8c8c8;
+}
+#clearing-build .container{
+    padding: 35px 0 50px;
+}
+#clearing-build p{
+    color: #c8c8c8;
+    text-align: center;
+    margin: 15px 0 55px;
+}
+#clearing-build .rich-img{
+    background: url("../img/clear-multi.png") no-repeat;
+    background-size: 66%;
+}
+#clearing-build .Gold-img{
+    background: url("../img/clear-flash.png") no-repeat;
+    background-size: 66%;
+}
+#clearing-build .date-img{
+    background: url("../img/clear-time.png") no-repeat;
+    background-size: 66%;
+}
+#clearing-build .bridge-img{
+    background: url("../img/clear-brigde.png") no-repeat;
+    background-size: 66%;
+}
+#clearing-build .mt4-img{
+    background: url("../img/clear-Golid-i.png") no-repeat;
+    background-size: 66%;
+}
+#clearing-build .ddos-img{
+    background: url("../img/clear-DDOS.png") no-repeat;
+    background-size: 66%;
+}
+
+#clearing-fortex a{
+    display: inline-block;
+    width: 260px;
+    height:100px;
+}
+#clearing-fortex .fortex1{
+    background: url("../img/clearing-Gold-gary.png") no-repeat;
+    background-size: 100%;
+    background-position-x: 4px;
+    background-position-y: -45px;
+}
+#clearing-fortex .fortex1:hover{
+    background: url("../img/clearing-Gold.png") no-repeat;
+    background-size: 100%;
+    background-position-x: 4px;
+    background-position-y: -45px;
+}
+#clearing-fortex .fortex2{
+    background: url("../img/clearing-Fortex-gray.png") no-repeat;
+    background-size: 81%;
+    background-position-x: 4px;
+    background-position-y: 18px;
+
+}
+#clearing-fortex .fortex2:hover{
+    background: url("../img/clearing-Fortex.png") no-repeat;
+    background-size: 81%;
+    background-position-x: 4px;
+    background-position-y: 18px;
+
+}
+#clearing-fortex .fortex3{
+    background: url("../img/clearing-PXM-gray.png") no-repeat;
+    background-size: 100%;
+    background-position-x: -9px;
+    background-position-y: -20px;
+}
+#clearing-fortex .fortex3:hover{
+    background: url("../img/clearing-PXM.png") no-repeat;
+    background-size: 100%;
+    background-position-x: -9px;
+    background-position-y: -20px;
+}
+#clearing-fortex .fortex4{
+    background: url("../img/clearing-oneZero-gray.png") no-repeat;
+    background-size: 100%;
+    background-position-x: 5px;
+    background-position-y: -18px
+}
+#clearing-fortex .fortex4:hover{
+    background: url("../img/clearing-oneZero.png") no-repeat;
+    background-size: 100%;
+    background-position-x: 5px;
+    background-position-y: -18px
+}
 /*liudong end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
