@@ -257,13 +257,14 @@
 }
 
 /*company end*/
+/*paizhao start*/
 #licence{
     color: #999999;
 }
 #licence ul{
     list-style: none;
 }
-#licence-ul ul,#licence-ul-1 ul,#licence-ul-2 ul{
+#licence-ul ul,#licence-ul-1 ul,#licence-ul-2 ul,#crm-ul ul{
     list-style: url(../img/ul-list-style.png);
     margin: 0;
     padding: 0;
@@ -272,6 +273,7 @@
     line-height: 32px;
     margin-bottom: 25px;
 }
+
 .licence-capital ul{
     line-height: 32px;
     margin-bottom: 25px;
@@ -315,12 +317,132 @@
     line-height: 32px;
     margin-top: 16px;
 }
-/*paizhao start*/
-
 
 /*paizhao end*/
+
+/*sanfang start*/
+#threePay{
+    background: #fff;
+}
+#threePay a{
+    display: inline-block;
+    height: 100px;
+    width: 295px;
+    margin-top: 41px;
+    margin-left: 90px;
+}
+#threePay .pay1{
+    background-image: url("../img/pay-ips-gray.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay1:hover{
+    background-image: url("../img/pay-ips-color.png");
+
+}
+#threePay .pay2{
+    background-image: url('../img/pay-allIn-gray.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay2:hover{
+    background-image: url('../img/pay-allIn-color.png');
+}
+#threePay .pay3{
+    background-image: url("../img/pay-all-gray.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay3:hover{
+    background-image: url("../img/pay-all-color.png");
+}
+#threePay .pay4{
+    background-image: url("../img/pay-wechat-gray.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay4:hover{
+    background-image: url("../img/pay-wechat-color.png");
+}
+#threePay .pay5{
+    background-image: url("../img/pay-online-gray.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay5:hover{
+    background-image: url("../img/pay-online-color.png");
+}
+#threePay .pay6{
+    background-image: url("../img/pay-huichao-gray.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay6:hover{
+    background-image: url("../img/pay-huichao-color.png");
+}
+#threePay .pay7{
+     background-image: url("../img/pay-dinpay-gray.png");
+     background-repeat: no-repeat;
+     background-size: 100%;
+ }
+#threePay .pay7:hover{
+    background-image: url("../img/pay-dinpay-color.png");
+}
+#threePay .pay8{
+    background-image: url("../img/pay-baofoo-gray.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay8:hover{
+    background-image: url("../img/pay-baofoo-color.png");
+}
+/*sanfang end*/
+
+/*crm start*/
+
+#crm-echart{
+    color: #666666;
+}
+#crm-echart h3{
+    text-align: center;
+}
+
+#crm-echart .echaer-img{
+    width: 376px;
+    height: 251px;
+    background: url("../img/crm-metatrader-4.png") no-repeat;
+    background-size: 100%;
+}
+
+#crm-echart .crm-text{
+    margin-top: 45px;
+
+
+}
+#crm-icon-list{
+    background: #191919;
+    margin-top: 60px;
+}
+#crm-icon-list .container{
+    padding: 45px 45px;
+}
+#crm-icon-list .aboutimg{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+.aboutimg>img{
+    width: 100%;
+}
+#crm-icon-list .paddingtop30{
+    margin-top: 39px;
+    margin-bottom: 72px;
+}
+/*crm end*/
+/*paizhao start*/
 
 /*liudong strat*/
 
 
 /*liudong end*/
+
