@@ -217,11 +217,11 @@
     border: solid 0;
 }
 #company .comp-icon{
-    background: url(../img/compa-icon.png) no-repeat;
-    background-size: 100%;
-    width: 165px;
-    height: 153px;
-    margin-left: 50px;
+    /*background: url(../img/compa-icon.png) no-repeat;*/
+    /*background-size: 100%;*/
+    /*width: 165px;*/
+    /*height: 153px;*/
+    /*margin-left: 50px;*/
     margin-bottom: 25px;
 }
 #company .comp-right{
