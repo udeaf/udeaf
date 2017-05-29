@@ -767,10 +767,62 @@
     background-position-x: 5px;
     background-position-y: -18px
 }
-#clearing-solve{
-    background: #191919;
-    background: rgba(0,0,0,0.3);
-    filter: Alpha(opacity=70)
+.clearing-double{
+    background-image: url("../img/clearing-double.png");
+    background-repeat: no-repeat;
+}
+#clearing-solve .carousel-caption{
+    margin-bottom: -19px!important;
+}
+.clear-solve-number{
+    height: 62px;
+}
+#clearing-solve .bulid-start{
+    background: url("../img/clear-solve-one.png") no-repeat;
+
+}
+#clearing-solve .bulid-walk{
+    background: url("../img/clear-solve-two.png") no-repeat;
+}
+#clearing-solve .bulid-run{
+    background: url("../img/clear-solve-three.png") no-repeat;
+}
+#clearing-solve .bulid-flag{
+    background: url("../img/clear-solve-four.png") no-repeat;
+}
+#clearing-solve .bulid-end{
+    background: url("../img/clear-solve-five.png") no-repeat;
+}
+#clearing-solve dl:nth-child(2){
+    margin-left: 25px;
+}
+.solid-squre{
+    display: inline-block;
+    border-top: solid 2px #3da5ba;
+    margin-top: 62px;
+    margin-left: 32px;
+}
+.solid-squre:before{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    content: '';
+    background: #fff;
+    margin-top: -16px;
+    margin-left: -198px;
+    display: inline-block;
+
+}
+.solid-squre-after:after{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    content: '';
+    background: #fff;
+    display: inline-block;
+}
+.clear-top{
+    margin-top: 45px;
 }
 /*liudong end*/
 
