@@ -257,13 +257,14 @@
 }
 
 /*company end*/
+/*paizhao start*/
 #licence{
     color: #999999;
 }
 #licence ul{
     list-style: none;
 }
-#licence-ul ul,#licence-ul-1 ul,#licence-ul-2 ul{
+#licence-ul ul,#licence-ul-1 ul,#licence-ul-2 ul,#crm-ul ul{
     list-style: url(../img/ul-list-style.png);
     margin: 0;
     padding: 0;
@@ -272,6 +273,7 @@
     line-height: 32px;
     margin-bottom: 25px;
 }
+
 .licence-capital ul{
     line-height: 32px;
     margin-bottom: 25px;
@@ -315,12 +317,519 @@
     line-height: 32px;
     margin-top: 16px;
 }
-/*paizhao start*/
-
 
 /*paizhao end*/
 
+/*sanfang start*/
+#threePay{
+    background: #fff;
+}
+#threePay a{
+    display: inline-block;
+    height: 100px;
+    width: 295px;
+    margin-top: 41px;
+    margin-left: 90px;
+}
+#threePay .pay1{
+    background-image: url("../img/pay-ips-gray.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay1:hover{
+    background-image: url("../img/pay-ips-color.png");
+
+}
+#threePay .pay2{
+    background-image: url('../img/pay-allIn-gray.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay2:hover{
+    background-image: url('../img/pay-allIn-color.png');
+}
+#threePay .pay3{
+    background-image: url("../img/pay-all-gray.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay3:hover{
+    background-image: url("../img/pay-all-color.png");
+}
+#threePay .pay4{
+    background-image: url("../img/pay-wechat-gray.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay4:hover{
+    background-image: url("../img/pay-wechat-color.png");
+}
+#threePay .pay5{
+    background-image: url("../img/pay-online-gray.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay5:hover{
+    background-image: url("../img/pay-online-color.png");
+}
+#threePay .pay6{
+    background-image: url("../img/pay-huichao-gray.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay6:hover{
+    background-image: url("../img/pay-huichao-color.png");
+}
+#threePay .pay7{
+     background-image: url("../img/pay-dinpay-gray.png");
+     background-repeat: no-repeat;
+     background-size: 100%;
+ }
+#threePay .pay7:hover{
+    background-image: url("../img/pay-dinpay-color.png");
+}
+#threePay .pay8{
+    background-image: url("../img/pay-baofoo-gray.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#threePay .pay8:hover{
+    background-image: url("../img/pay-baofoo-color.png");
+}
+/*sanfang end*/
+
+/*crm start*/
+
+#crm-echart{
+    color: #666666;
+}
+#crm-echart h3{
+    text-align: center;
+}
+
+#crm-echart .echaer-img{
+    width: 376px;
+    height: 251px;
+    background: url("../img/crm-metatrader-4.png") no-repeat;
+    background-size: 100%;
+}
+
+#crm-echart .crm-text{
+    margin-top: 45px;
+
+
+}
+#crm-icon-list{
+    background: #191919;
+    margin-top: 60px;
+}
+#crm-icon-list .container{
+    padding: 45px 45px;
+}
+#crm-icon-list .aboutimg{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+.aboutimg>img{
+    width: 100%;
+}
+#crm-icon-list .paddingtop30{
+    margin-top: 39px;
+    margin-bottom: 72px;
+}
+/*crm end*/
+/*paizhao start*/
+
 /*liudong strat*/
+.adv-img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 40px;
+}
+#clearing-adv .adv-img-contact{
+    background: url(../img/clear-contact.png) no-repeat;
+    background-size: 100%;
+}
+#clearing-adv h2{
+    margin: 55px;
+}
+#clearing-adv .adv-img-DB{
+    background: url("../img/clearl-DB.png") no-repeat;
+    background-size: 100%;
+}
+#clearing-adv .adv-img-LPS{
+    background: url("../img/claer-LPS.png") no-repeat;
+    background-size: 100%;
+}
+#clearing-adv .adv-img-product{
+    background: url("../img/clear-product.png") no-repeat;
+    background-size: 100%;
+}
+#clearing-adv .adv-text{
+    margin-left: 138px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.cfn-commont{
+    height: 90px;
+    width: 215px;
+    display: inline-block;
+}
+
+#clearing-adv .clearing-SYSTEMS{
+    background: url(../img/clearing-SYSTEMS.png) no-repeat;
+    background-size: 61%;
+}
+#clearing-adv .clearing-SYSTEMS:hover{
+    /*filter: Alpha(opacity=10);-moz-opacity:.1;opacity:0.1;*/
+    background: url(../img/clearing-SYSTEMS-color.png) no-repeat;
+    background-size: 61%;
+}
+#clearing-adv .clearing-CLEARINC{
+    background: url("../img/clearing-CLEARINC.png") no-repeat;
+    background-size: 61%;
+}
+#clearing-adv .clearing-CLEARINC:hover{
+    background: url("../img/clearing-CLEARINC-color.png") no-repeat;
+    background-size: 61%;
+
+}
+#clearing-fast{
+    background: #191919;
+    margin-top: 70px;
+}
+#clearing-fast{
+    margin: 0 0 20px;
+    line-height: 25px;
+}
+#clearing-fast .fast-img{
+    background: url(../img/clearing-shandain.png) no-repeat;
+    background-size: 100%;
+    height: 180px;
+    width: 138px;
+    margin-left: 493px;
+    margin-top: 55px;
+}
+.color-c8c8c8{
+    color: #c8c8c8;
+    padding-top: 58px;
+    margin-top: 58px;
+    padding-bottom: 35px;
+}
+#clearing-bank a{
+    height: 121px;
+    width: 250px;
+    display: inline-block;
+}
+#clearing-bank .bankPay1{
+    background: url(../img/clearing-JPM-gray.png) no-repeat;
+    background-size: 75%;
+    background-position-x: 34px;
+    background-position-y: 42px;
+}
+#clearing-bank .bankPay1:hover{
+    background: url("../img/clearing-JPM.png") no-repeat;
+    background-size: 75%;
+    background-position-x: 34px;
+    background-position-y: 42px;
+}
+#clearing-bank .bankPay2{
+    background: url(../img/clearing-BNP-gray.png) no-repeat;
+    background-size: 71%;
+    background-position-x: 36px;
+    background-position-y: 8px;
+}
+#clearing-bank .bankPay2:hover{
+    background: url("../img/clearing-BNP.png") no-repeat;
+    background-size: 71%;
+    background-position-x: 36px;
+    background-position-y: 8px;
+}
+#clearing-bank .bankPay3{
+    background: url(../img/clearing-BARCLAYS-gray.png) no-repeat;
+    background-size: 85%;
+    background-position-x: 20px;
+    background-position-y: 34px;
+}
+#clearing-bank .bankPay3:hover{
+    background: url("../img/clearing-BARCLAYS.png") no-repeat;
+    background-size: 85%;
+    background-position-x: 20px;
+    background-position-y: 34px;
+}
+#clearing-bank .bankPay4{
+    background: url(../img/clearing-UBS-gray.png) no-repeat;
+    background-size: 66%;
+    background-position-x: 31px;
+    background-position-y: 36px;
+}
+#clearing-bank .bankPay4:hover{
+    background: url("../img/clearing-UBS.png") no-repeat;
+    background-size: 66%;
+    background-position-x: 31px;
+    background-position-y: 36px;
+}
+#clearing-bank .bankPay5{
+    background: url(../img/clearing-Goldman-gray.png) no-repeat;
+    background-size: 57%;
+    background-position-x: 57px;
+    background-position-y: 37px;
+}
+#clearing-bank .bankPay5:hover{
+    background: url("../img/clearing-Goldman.png") no-repeat;
+    background-size: 57%;
+    background-position-x: 57px;
+    background-position-y: 37px;
+}
+#clearing-bank .bankPay6{
+    background: url(../img/clearing-CREDITS-gray.png) no-repeat;
+    background-size: 86%;
+    background-position-x: 16px;
+    background-position-y: -21px;
+}
+#clearing-bank .bankPay6:hover{
+    background: url("../img/clearing-CREDITS.png") no-repeat;
+    background-size: 86%;
+    background-position-x: 16px;
+    background-position-y: -21px;
+}
+#clearing-bank .bankPay7{
+    background: url(../img/clearing-Mor-gray.png) no-repeat;
+    background-size: 73%;
+    background-position-x: 31px;
+    background-position-y: -6px;
+}
+#clearing-bank .bankPay7:hover{
+    background: url("../img/clearing-Mor.png") no-repeat;
+    background-size: 73%;
+    background-position-x: 31px;
+    background-position-y: -6px;
+
+}
+#clearing-bank .bankPay8{
+    background: url(../img/clearing-America-gray.png) no-repeat;
+    background-size: 78%;
+    background-position-x: 40px;
+    background-position-y: 23px;
+}
+#clearing-bank .bankPay8:hover{
+    background: url("../img/clearing-America.png") no-repeat;
+    background-size: 78%;
+    background-position-x: 40px;
+    background-position-y: 23px;
+}
+@media (max-width: 767px) {
+    #clearing-bank a{
+        width: 100%;
+    }
+
+}
+
+@media(min-width:768px) {
+    #clearing-bank .row{
+        margin:0 auto ;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    #clearing-bank .row{
+        width: 662px;
+    }
+
+
+
+}
+@media(min-width: 992px)and (max-width: 1199px) {
+    #clearing-bank .row {
+        width: 883px;
+    }
+}
+@media(min-width: 1200px) {
+    #clearing-bank .row {
+        width: 1104px;
+    }
+    #clearing-bank .bankPay1,#clearing-bank .bankPay2,#clearing-bank .bankPay3,#clearing-bank .bankPay4{
+        border-bottom: dashed 1px #eaeaea;
+    }
+    #clearing-bank .bankPay1,#clearing-bank .bankPay2,#clearing-bank .bankPay3,
+    #clearing-bank .bankPay5,#clearing-bank .bankPay6,#clearing-bank .bankPay7{
+        border-right: dashed 1px #eaeaea;
+    }
+
+
+}
+#clearing-build{
+    background: #191919;
+}
+#clearing-build a{
+    height:80px;
+    width: 80px;
+    display: inline-block;
+}
+.bulid-mt4{
+    margin-left: 77px;
+    margin-top: -90px;
+}
+.margin-bulid-65{
+    margin-top: 65px;
+}
+.color-only-c8c8c8{
+    color: #c8c8c8;
+}
+#clearing-build .container{
+    padding: 35px 0 50px;
+}
+#clearing-build p{
+    color: #c8c8c8;
+    text-align: center;
+    margin: 15px 0 55px;
+}
+#clearing-build .rich-img{
+    background: url("../img/clear-multi.png") no-repeat;
+    background-size: 66%;
+}
+#clearing-build .Gold-img{
+    background: url("../img/clear-flash.png") no-repeat;
+    background-size: 66%;
+}
+#clearing-build .date-img{
+    background: url("../img/clear-time.png") no-repeat;
+    background-size: 66%;
+}
+#clearing-build .bridge-img{
+    background: url("../img/clear-brigde.png") no-repeat;
+    background-size: 66%;
+}
+#clearing-build .mt4-img{
+    background: url("../img/clear-Golid-i.png") no-repeat;
+    background-size: 66%;
+}
+#clearing-build .ddos-img{
+    background: url("../img/clear-DDOS.png") no-repeat;
+    background-size: 66%;
+}
+
+#clearing-fortex a{
+    display: inline-block;
+    width: 260px;
+    height:100px;
+}
+#clearing-fortex .fortex1{
+    background: url("../img/clearing-Gold-gary.png") no-repeat;
+    background-size: 100%;
+    background-position-x: 4px;
+    background-position-y: -45px;
+}
+#clearing-fortex .fortex1:hover{
+    background: url("../img/clearing-Gold.png") no-repeat;
+    background-size: 100%;
+    background-position-x: 4px;
+    background-position-y: -45px;
+}
+#clearing-fortex .fortex2{
+    background: url("../img/clearing-Fortex-gray.png") no-repeat;
+    background-size: 81%;
+    background-position-x: 4px;
+    background-position-y: 18px;
+
+}
+#clearing-fortex .fortex2:hover{
+    background: url("../img/clearing-Fortex.png") no-repeat;
+    background-size: 81%;
+    background-position-x: 4px;
+    background-position-y: 18px;
+
+}
+#clearing-fortex .fortex3{
+    background: url("../img/clearing-PXM-gray.png") no-repeat;
+    background-size: 100%;
+    background-position-x: -9px;
+    background-position-y: -20px;
+}
+#clearing-fortex .fortex3:hover{
+    background: url("../img/clearing-PXM.png") no-repeat;
+    background-size: 100%;
+    background-position-x: -9px;
+    background-position-y: -20px;
+}
+#clearing-fortex .fortex4{
+    background: url("../img/clearing-oneZero-gray.png") no-repeat;
+    background-size: 100%;
+    background-position-x: 5px;
+    background-position-y: -18px
+}
+#clearing-fortex .fortex4:hover{
+    background: url("../img/clearing-oneZero.png") no-repeat;
+    background-size: 100%;
+    background-position-x: 5px;
+    background-position-y: -18px
+}
+/*liudong end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*liudong end*/
@@ -428,3 +937,4 @@
     margin-top: 30px;
 }
 /*MT4插件定制 end*/
+
