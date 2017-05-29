@@ -105,7 +105,7 @@ body{
 	margin-top: 50px;
 }
 #ideas .idea-text{
-	margin: 12px 97px 47px 0;
+	/*margin: 12px 97px 47px 0;*/
 	padding: 30px 20px;
 	text-align: center;
 }
@@ -122,30 +122,27 @@ body{
 	border-top: solid 2px #15e787;
 }
 #ideas .more-button{
-	width: 288px;
 	background:  #a9acb0;
 	color: #fff;
-	margin-top: 0;
-	margin-bottom: 50px;
 	height: 60px;
 	padding: 19px;
-	margin-left: -15px;
-	margin-right: 115px;
+    text-align: center;
 }
 #ideas .more-button a{
 	color: #fff;
-	margin-left: 80px;
+}
+#ideas .more-button .line {
+    display: block;
+    margin: auto;
+    width: 62%;
+    height: 6px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
 }
 #ideas .more-button img{
 	margin-top: -12px;
 	margin-left: -105px;
-}
-#ideas .morebutton-2{
-	margin-left: 90px;
-}
-#ideas .morebutton-3{
-	margin-left: -10px;
-	margin-right: 74px;
 }
 
 #MT4-platform,#work-CRM{
@@ -247,9 +244,8 @@ body{
     margin: 99px
 }
 #work-platform dt{
-    width: 60px;
+    /*width: 60px;*/
     height: 60px;
-
 }
 #work-platform p{
 	margin-top: 50px;
@@ -268,18 +264,25 @@ body{
     background: url('../img/bulid_flag.png') no-repeat;
 }
 #work-platform .bulid-step{
-	margin-left: 230px;
 	margin-top: 58px;
-	margin-right: 190px;
 	margin-bottom: 50px;
 
 }
 #work-platform span{
 	display: block;
 	border-bottom: dashed 2px #fff;
-	margin-left: 45px;
+	/*margin-left: 45px;*/
 	padding-top: 22px;
-	width: 155px;
+	/*width: 155px;*/
+}
+.platform-list {
+    text-align: center;
+}
+.idea-hide-read-more {
+    display: none;
+}
+.button-more.idea-hide-read-more {
+    margin: 30px auto 0;
 }
 @media (max-width: 767px) {
 	#nav .navbar-toggle .icon-bar{background:#40c4ff;}
@@ -304,6 +307,21 @@ body{
 	#footerMenu{
 		padding: 25px 0 20px;
 	}
+    .idea-read-more {
+        display: none;
+    }
+    .idea-hide-read-more {
+        display: block;
+    }
+    #MT4-platform h2 {
+        margin-top: 0;
+    }
+    #work-platform div.bulid-step {
+        display: none;
+    }
+    #work-platform div.build-step {
+        display: block;
+    }
 }
 
 @media(min-width:768px) {
@@ -322,6 +340,18 @@ body{
 	}
 	#footerMenu .follow-us dt{width: 190px;}
 	#footerMenu .contact{text-align: right}
+    #ideas .MT4-solve{
+        margin-left: 4%;
+    }
+    #work-platform div.build-step {
+         display: none;
+     }
+}
+@media (min-width: 540px) and (max-width: 767px){
+    .idea-text {
+        width: 50%;
+        margin-left: 25%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -345,8 +375,6 @@ body{
 	#cooperation .cooperation1,#cooperation .cooperation2, #cooperation .cooperation3,#cooperation .cooperation4{
 		border-bottom: dashed 1px #eaeaea;
 	}
-
-
 }
 @media(min-width: 992px)and (max-width: 1199px){
 	#cooperation .row{
@@ -397,7 +425,28 @@ body{
 	margin-left: 80px;
 }
 
+.build-step {
+    margin-top: 50px;
+}
 
+.build-step > div {
+    min-width: 240px;
+}
 
+.build-step > div > div {
+    float: left;
+    text-align: center;
+    margin: 20px 0;
+}
 
+.build-step > div > div:nth-child(1) {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    line-height: 28px;
+}
 
+#work-platform .build-step > div > div:nth-child(2) > p {
+    margin-top: 0;
+    line-height: 1.2;
+}

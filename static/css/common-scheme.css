@@ -118,10 +118,19 @@
 
 
 #pre,#nextRE{
-    margin-top: 20px;
-    margin-right: -72px;
+    /*margin-top: 20px;*/
+    /*margin-right: -72px;*/
     color: red;
 }
+
+#pre {
+    text-align: right;
+}
+
+#nextRE {
+    text-align: left;
+}
+
 .clickhide{
     display:none;
 }
