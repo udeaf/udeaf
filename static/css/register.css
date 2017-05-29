@@ -767,6 +767,11 @@
     background-position-x: 5px;
     background-position-y: -18px
 }
+#clearing-solve{
+    background: #191919;
+    background: rgba(0,0,0,0.3);
+    filter: Alpha(opacity=70)
+}
 /*liudong end*/
 
 
