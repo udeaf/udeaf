@@ -138,3 +138,9 @@
 .color-666{
    color:  #666666;
 }
+
+@media (max-width: 640px) {
+    #platform-header {
+        display: none;
+    }
+}
