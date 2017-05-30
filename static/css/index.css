@@ -226,10 +226,26 @@ body{
 	margin-top: -50px;
 }
 
-#MT4-platform h2,#work-platform h2,#work-CRM h2,#ideas h2{
+#work-platform h2,#work-CRM h2,#ideas h2{
 	text-align: center;
 	color: #fff;
 	padding: 26px 0 24px;
+}
+#MT4-platform h2:nth-child(1) {
+    text-align: center;
+    color: #fff;
+    padding: 26px 0 20px;
+}
+#MT4-platform h2:nth-child(3) {
+    text-align: center;
+    color: #fff;
+    padding: 6px 0 26px;
+}
+#work-CRM h2:nth-child(1) {
+    padding: 26px 0 18px;
+}
+#work-CRM h2:nth-child(3) {
+    padding: 10px 0 26px;
 }
 #MT4-platform .MT4-left-top{
 	padding: 30px;
@@ -324,6 +340,15 @@ body{
     }
     #work-platform div.build-step {
         display: block;
+    }
+    #work-CRM h2,#work-platform h2,#ideas h2,#MT4-platform h2{
+        font-size: 24px;
+    }
+    #MT4-platform h2:nth-child(3) {
+        padding-top: 20px;
+    }
+    .button-more {
+        margin: 17px auto;
     }
 }
 

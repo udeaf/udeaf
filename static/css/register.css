@@ -265,11 +265,9 @@
 #licence ul{
     list-style: none;
 }
-#licence-ul ul,#licence-ul-1 ul,#licence-ul-2 ul,#crm-ul ul{
+#licence-ul ul li,#licence-ul-1 ul li,#licence-ul-2 ul li,#crm-ul ul li{
     list-style: url(../img/ul-list-style.png);
-    margin: 0;
     padding: 0;
-    margin-top: 20px;
     margin-left: 30px;
     line-height: 32px;
     margin-bottom: 25px;
@@ -294,44 +292,28 @@
     line-height: 32px;
     margin-bottom: 25px;
 }
-.licence-fca label{
-    width: 75px;
-    text-align: center;
-}
-#licence .licence-icon{
-    background: url(../img/licence-asic.png) no-repeat;
-    background-size: 300%;
-    width: 140px;
-    background-position-x: -10px;
-    background-position-y: 23px;
-    height: 140px;
-    border-radius: 100%;
-    border: solid 5px #65c6ff;
-}
-#licence .ASIC-line{
-    border-bottom: solid 5px #65c6ff;
-    margin-top: 34px;
-    margin-left: -59px;
-    width: 274px;
-    color: #2e95e8;
-    font-weight: 700;
-    font-size: 19px;
-    text-align: center;
-
-}
-#licence .ASIC-line>label{
-    margin-left: -126px;
-}
 
 #licence .licence-text h4{
     color: #666666;
-    margin-top: 57px;
     margin-bottom: 25px;
+    margin-top: 40px;
+}
+#licence .licence-text > h4:nth-child(1) {
+    margin-top: -60px;
 }
 #licence .licence-text p{
     margin-bottom: 6px;
     line-height: 32px;
     margin-top: 16px;
+}
+
+.paizhaoimg {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.paizhaotext {
+    margin-left: 20%;
 }
 
 /*paizhao end*/
@@ -342,75 +324,91 @@
 }
 #threePay a{
     display: inline-block;
-    height: 100px;
-    width: 295px;
+    height: 150px;
+    width: 300px;
     margin-top: 41px;
     margin-left: 90px;
+    background-repeat: no-repeat;
 }
 #threePay .pay1{
     background-image: url("../img/pay-ips-gray.png");
-    background-repeat: no-repeat;
+    /*background-position-y: 35px;*/
     background-size: 100%;
 }
 #threePay .pay1:hover{
     background-image: url("../img/pay-ips-color.png");
-
+    /*background-position-y: 35px;*/
+    background-size: 100%;
 }
 #threePay .pay2{
     background-image: url('../img/pay-allIn-gray.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    /*background-position-y: 28px;*/
+    background-size: 84%;
 }
 #threePay .pay2:hover{
     background-image: url('../img/pay-allIn-color.png');
+    /*background-position-y: 28px;*/
+    background-size: 84%;
 }
 #threePay .pay3{
     background-image: url("../img/pay-all-gray.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    /*background-position-y: 3px;*/
+    background-size: 65%;
 }
 #threePay .pay3:hover{
     background-image: url("../img/pay-all-color.png");
+    /*background-position-y: 3px;*/
+    background-size: 65%;
 }
 #threePay .pay4{
     background-image: url("../img/pay-wechat-gray.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    /*background-position-y: 15px;*/
+    background-size: 90%;
 }
 #threePay .pay4:hover{
     background-image: url("../img/pay-wechat-color.png");
+    /*background-position-y: 15px;*/
+    background-size: 90%;
 }
 #threePay .pay5{
     background-image: url("../img/pay-online-gray.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    /*background-position-y: 18px;*/
+    background-size: 84%;
 }
 #threePay .pay5:hover{
     background-image: url("../img/pay-online-color.png");
+    /*background-position-y: 18px;*/
+    background-size: 84%;
 }
 #threePay .pay6{
     background-image: url("../img/pay-huichao-gray.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    /*background-position-y: 3px;*/
+    background-size: 60%;
 }
 #threePay .pay6:hover{
     background-image: url("../img/pay-huichao-color.png");
+    /*background-position-y: 3px;*/
+    background-size: 60%;
 }
 #threePay .pay7{
      background-image: url("../img/pay-dinpay-gray.png");
-     background-repeat: no-repeat;
-     background-size: 100%;
+    /*background-position-y: 3px;*/
+    background-size: 92%;
  }
 #threePay .pay7:hover{
     background-image: url("../img/pay-dinpay-color.png");
+    /*background-position-y: 3px;*/
+    background-size: 92%;
 }
 #threePay .pay8{
     background-image: url("../img/pay-baofoo-gray.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    /*background-position-y: 3px;*/
+    background-size: 76%;
 }
 #threePay .pay8:hover{
     background-image: url("../img/pay-baofoo-color.png");
+    /*background-position-y: 3px;*/
+    background-size: 76%;
 }
 /*sanfang end*/
 
@@ -633,6 +631,16 @@
     background-position-x: 40px;
     background-position-y: 23px;
 }
+@media (max-width: 320px) {
+    #threePay a {
+        margin-left: 28px;
+    }
+}
+@media (min-width: 321px) and (max-width: 767px){
+    #threePay a {
+        margin-left: 25%;
+    }
+}
 @media (max-width: 767px) {
     #clearing-bank a{
         width: 100%;
@@ -649,12 +657,9 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-
     #clearing-bank .row{
         width: 662px;
     }
-
-
 
 }
 @media(min-width: 992px)and (max-width: 1199px) {
@@ -844,70 +849,6 @@
 /*liudong end*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*liudong end*/
-
 /*金融官网搭建 start*/
 #platform-info > .container > div {
     margin-top: 0;
@@ -919,9 +860,6 @@
 }
 .bg-black {
     background-color: #000;
-}
-.fl {
-    float: left;
 }
 .textcolor6 {
     color: #666;
@@ -938,6 +876,11 @@
 }
 .sitetext > p {
     line-height: 28px;
+}
+@media (max-width: 768px) {
+    .sitetext {
+        padding: 0;
+    }
 }
 /*金融官网搭建 end*/
 
@@ -981,14 +924,16 @@
 .jingxiang01 > ul:nth-child(3) li i > img {
     width: 100%;
 }
-.jingxiang02 {
-    padding: 70px 0;
-}
+
 .jingxiang02 h4 {
     text-align: center;
 }
-.jingxiang02 > .container > div:nth-child(3) {
-    margin-top: 70px;
+
+.jingxiang02 > .container > div > div {
+    padding: 70px 0 0 0;
+}
+.jingxiang02 > .container > div:nth-child(3) > div:last-child {
+    padding-bottom: 70px;
 }
 .jingxiang02 > .container > div > div > div {
     width: 54px;
@@ -1009,6 +954,15 @@
 }
 .chajian img {
     margin-top: 30px;
+}
+@media (max-width: 768px) {
+    #platform-info .line3 {
+        float: right;
+        width: 255px;
+    }
+    #platform-info .line1 {
+        width: 220px;
+    }
 }
 /*MT4插件定制 end*/
 
