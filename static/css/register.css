@@ -259,13 +259,13 @@
 
 /*company end*/
 /*paizhao start*/
-#licence{
+#licence,#licence-FSP,#licence-VFCA,#licence-NFA,#licence-FMA,#licence-FCA{
     color: #999999;
 }
 #licence ul{
     list-style: none;
 }
-#licence-ul ul li,#licence-ul-1 ul li,#licence-ul-2 ul li,#crm-ul ul li{
+#licence-ul ul li,#licence-ul-1 ul li,#licence-ul-2 ul li,#crm-ul ul li,#licence-detail ul li{
     list-style: url(../img/ul-list-style.png);
     padding: 0;
     margin-left: 30px;
@@ -301,7 +301,7 @@
 #licence .licence-text > h4:nth-child(1) {
     margin-top: -60px;
 }
-#licence .licence-text p{
+#licence .licence-text p,#licence-FSP .paizhaotext p{
     margin-bottom: 6px;
     line-height: 32px;
     margin-top: 16px;
@@ -315,7 +315,46 @@
 .paizhaotext {
     margin-left: 20%;
 }
-
+#licence-detail .container,#licence-main .container{
+    padding: 55px;
+}
+#licence-detail h4{
+    margin-bottom: 43px;
+    margin-top: 25px;
+}
+#licence-detail ul li,#licence-main ul li{
+ margin-bottom: 8px;
+ }
+#licence-main ul li,#licence-VFCA ul li,#licence-NFA ul li,#licence-deal ul li,
+#licence-newland ul li,#licence-FCA ul li,#licence-FSA ul li{
+    list-style: url(../img/ul-list-style.png);
+    padding: 0;
+    line-height: 32px;
+}
+.clear-maginleft{
+    margin-left: 0;
+}
+#licence-FSP .paizhaotext{
+    margin-top: -79px;
+}
+#licence-FSP h4{
+    margin-top: 15px;
+    margin-bottom: 28px;
+}
+#licence-FSP .paizhaotext > h4:nth-child(2){
+    margin-top: 151px;
+}
+@media (min-width: 1200px) {
+    #licence-main .col-lg-7 {
+        width: 60.333333%;
+    }
+    #licence-main .col-lg-5 {
+        width: 39.666667%;
+    }
+}
+#licence-main h4{
+    margin-bottom: 25px;
+}
 /*paizhao end*/
 
 /*sanfang start*/
