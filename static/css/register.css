@@ -154,13 +154,12 @@
 }
 
 #company .circle-right{
-    margin-top: 0;
-    margin-left: 300px;
-    height: 40px;
+    margin-top: -30px;
+    margin-left: 89%;
     width: 40px;
+    height: 40px;
 }
 #company .company-site{
-    width: 120px;
     display: inline-block;
     margin-top: 13px;
     margin-bottom: -8px;
@@ -189,11 +188,11 @@
     margin-left: -15px;;
 }
 #company .open-bank{
-    width: 275px;
+    width: 32%;
     display: inline-block;
 }
 #company .low-save{
-    width: 170px;
+    width: 20%;
     display: inline-block;
 }
 #company .fa-2x{
@@ -212,9 +211,12 @@
     margin-top: 10px;
 }
 #company input{
-    width: 725px;
+    width: 70%;
     color: #e1e1e1;
     border: solid 0;
+}
+#search_list dl{
+    color:#8b8787;;
 }
 #company .comp-icon{
     /*background: url(../img/compa-icon.png) no-repeat;*/
@@ -225,7 +227,6 @@
     margin-bottom: 25px;
 }
 #company .comp-right{
-    background: #fff;
     color:#a6a6a6;
 }
 #company .comp-name{
@@ -779,8 +780,10 @@
     background-position-y: -18px
 }
 .clearing-double{
-    background-image: url("../img/clearing-double.png");
-    background-repeat: no-repeat;
+    background: url(../img/clearing-double.png) no-repeat;
+    background-size: 100%;
+    height: 25px;
+    display: inline-block;
 }
 #clearing-solve .carousel-caption{
     margin-bottom: -19px!important;
