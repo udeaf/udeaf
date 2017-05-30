@@ -436,6 +436,9 @@
     background: #191919;
     margin-top: 60px;
 }
+#crm-icon-list .container{
+    padding: 50px;
+}
 #crm-icon-list .aboutimg{
     width: 60px;
     height: 60px;
