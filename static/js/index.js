@@ -84,9 +84,13 @@ $(function(){
 		});
 	});
 
+
 	//缓存sourceid
 	var sourceid = parseURL(location.href).params.sourceid;
 	if(sourceid){
 		localStorage.setItem('sourceid',sourceid);
 	}
+
+
+
 });

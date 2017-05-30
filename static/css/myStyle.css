@@ -134,15 +134,24 @@ ul,li{
 .dropdown-menu>li>a{
     line-height: 30px;
 }
-
+*{
+    box-sizing: border-box;
+}
 #contact {
     margin-top: 100px;
+    -webkit-perspective:1000;
+    transform-style:preserve-3d;
 }
 
+#contact .filp{
+    position: relative;
+    transition:0.6s;
+    transform-style: preserve-3d;
+
+}
 #contact > h2 {
     color: #666;
     text-align: center;
-    color: #666666;
 }
 
 #contact > ul {
@@ -178,15 +187,19 @@ ul,li{
 }
 #contact > ul > li:nth-child(1) > i:hover {
     background: url("../img/touchsprite.png")0 -60px no-repeat;
+    transform: rotateY(180deg);
 }
 #contact > ul > li:nth-child(2) > i:hover {
     background: url("../img/touchsprite.png")-60px -60px no-repeat;
+    transform: rotateY(180deg);
 }
 #contact > ul > li:nth-child(3) > i:hover {
     background: url("../img/touchsprite.png")-120px -60px no-repeat;
+    transform: rotateY(180deg);
 }
 #contact > ul > li:nth-child(4) > i:hover {
     background: url("../img/touchsprite.png")-180px -60px no-repeat;
+    transform: rotateY(180deg);
 }
 
 #contact > form {

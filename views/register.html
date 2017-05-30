@@ -1,610 +1,558 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>UDEA-离岸账户开设</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico"/>
-        <meta name="description" itemprop="description"
-              content="UDEA 是一家专注为外汇经纪商，贵金属交易所，基金管理者，银行等金融机构提供一站式金融技术服务的科技公司，产品涉及金融领域的交易系统、风控系统、CRM系统、数字营销系统、行情数据接口、金融云计算等领域"/>
-        <meta name="keywords" itemprop="keywords" content="udea,金融科技，金融云，金融投资云平台，外汇经纪商，外汇交易商，券商，白标，风控"/>
-        <link href="../static/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" media="all">
-        <link rel="stylesheet" type="text/css" href="../static/css/bootstrap-3.3.6/css/bootstrap.min.css" media="all">
-        <link rel="stylesheet" type="text/css" href="../static/css/magnific-popup.css" media="all">
-        <link rel="stylesheet" type="text/css" href="../static/css/myStyle.css"/>
-        <link rel="stylesheet" type="text/css" href="../static/css/animate.min.css" media="all">
-        <link rel="stylesheet" type="text/css" href="../static/css/index.css">
-        <link rel="stylesheet" type="text/css" href="../static/css/common-scheme.css">
-        <link rel="stylesheet" type="text/css" href="../static/css/register.css">
-        <style type="text/css">
-            .matched {
-                font-weight: bolder;
-                background-color: lightpink;
-            }
-        </style>
+<head>
+    <meta charset="UTF-8">
+    <title>UDEA-离岸公司注册</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico"/>
+    <meta name="description" itemprop="description"
+          content="UDEA 是一家专注为外汇经纪商，贵金属交易所，基金管理者，银行等金融机构提供一站式金融技术服务的科技公司，产品涉及金融领域的交易系统、风控系统、CRM系统、数字营销系统、行情数据接口、金融云计算等领域"/>
+    <meta name="keywords" itemprop="keywords" content="udea,金融科技，金融云，金融投资云平台，外汇经纪商，外汇交易商，券商，白标，风控"/>
+    <link href="../static/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap-3.3.6/css/bootstrap.min.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../static/css/magnific-popup.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../static/css/myStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/animate.min.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/common-scheme.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/register.css">
+    <style type="text/css">
+        .matched {
+            font-weight: bolder;
+            background-color: lightpink;
+        }
+    </style>
 
-    </head>
-    <body class="home page-template-page-index page-template-page-index-php page page-id-7">
-        <!--导航栏-->
-        <nav id="nav" class="navbar navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                            aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="../index.html"></a>
-                </div>
-                <div id="navbar" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-left">
-                        <li><a href="../index.html">首页</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
-                               role="button" aria-haspopup="true" aria-expanded="true">
-                                <i class="fa fa-angle-down fa-lg"></i>&nbsp;&nbsp;平台搭建</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="MT4.html">MT4简介</a></li>
-                                <li><a href="MT5.html">MT5简介</a></li>
-                                <li><a href="white.html">白标搭建</a></li>
-                                <li><a href="mainlabel.html">主标搭建</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
-                               role="button" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-angle-down fa-lg"></i>&nbsp;&nbsp;解决方案</a>
-                            <ul class="dropdown-menu mega-menu-2 ">
-                                <li><a href="register.html">离岸账户开设</a></li>
-                                <li><a href="company.html">离岸公司注册</a></li>
-                                <li><a href="paizhao.html">金融监管牌照</a></li>
-                                <li><a href="sanfang.html">三方支付申请</a></li>
-                                <li><a href="CRM.html">CRM管理系统</a></li>
-                                <li><a href="liudong.html">流动性提供商</a></li>
-                                <li><a href="site.html">金融官网搭建</a></li>
-                                <li><a href="design.html">Logo&nbsp;&nbsp;VI设计</a></li>
-                                <li><a href="jingxiang.html">镜像管理系统</a></li>
-                                <li><a href="chajian.html">MT4插件定制</a></li>
-                            </ul>
-                        </li>
+</head>
+<body class="home page-template-page-index page-template-page-index-php page page-id-7">
+<!--导航栏-->
+<nav id="nav" class="navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="../index.html">首页</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="true">
+                        <i class="fa fa-angle-down fa-lg"></i>&nbsp;&nbsp;平台搭建</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="MT4.html">MT4简介</a></li>
+                        <li><a href="MT5.html">MT5简介</a></li>
+                        <li><a href="white.html">白标搭建</a></li>
+                        <li><a href="mainlabel.html">主标搭建</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-angle-down fa-lg"></i>&nbsp;&nbsp;解决方案</a>
+                    <ul class="dropdown-menu mega-menu-2 ">
+                        <li><a href="register.html">离岸账户开设</a></li>
+                        <li><a href="company.html">离岸公司注册</a></li>
+                        <li><a href="paizhao.html">金融监管牌照</a></li>
+                        <li><a href="sanfang.html">三方支付申请</a></li>
+                        <li><a href="CRM.html">CRM管理系统</a></li>
+                        <li><a href="liudong.html">流动性提供商</a></li>
+                        <li><a href="site.html">金融官网搭建</a></li>
+                        <li><a href="design.html">Logo&nbsp;&nbsp;VI设计</a></li>
+                        <li><a href="jingxiang.html">镜像管理系统</a></li>
+                        <li><a href="chajian.html">MT4插件定制</a></li>
+                    </ul>
+                </li>
 
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
-                               role="button" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-angle-down fa-lg">
-                                </i>&nbsp;&nbsp;关于我们</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="aboutus.html">关于我们</a></li>
-                                <li><a href="development.html">发展历程</a></li>
-                                <li><a href="joinus.html">加入我们</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="news.html" class="dropdown-toggle" data-toggle="dropdown"
-                               data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;新闻动态</a>
-                        </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-angle-down fa-lg">
+                        </i>&nbsp;&nbsp;关于我们</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="aboutus.html">关于我们</a></li>
+                        <li><a href="development.html">发展历程</a></li>
+                        <li><a href="joinus.html">加入我们</a></li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-left">
-                        <li class=""><a class="dropdown-toggle language"></a></li>
-                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="news.html" class="dropdown-toggle" data-toggle="dropdown"
+                       data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;新闻动态</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-left">
+                <li class=""><a class="dropdown-toggle language"></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="bgheader"></div>
+<section id="header-bg"></section>
+<section id="platform-header" class="sub-header">
+    <section class="container">
+        <ul class="one-show">
+            <li style="width: 4.5%;float: left"></li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="register.html" class="active">离岸账户开设</a></li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="company.html">离岸公司注册</a>
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="paizhao.html">金融监管牌照</a></li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="sanfang.html">三方支付申请</a></li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="CRM.html">CRM管理系统</a></li>
+            <li class="col-lg-1">
+                <div id="nextRE"><i class="fa fa-angle-double-right fa-lg"></i></div>
+            </li>
+        </ul>
+        <ul class="two-show clickhide">
+            <li style="float:left;width: 4.5%;margin-left: 4.5%">
+                <div id="pre" class="clickhide"><i class="fa fa-angle-double-left fa-lg"></i></div>
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="liudong.html">流动性提供商</a></li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="site.html">金融网站搭建</a></li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="design.html">Logo VI设计</a></li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="jingxiang.html">镜像管理系统</a></li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="chajian.html">MT4插件定制</a></li>
+        </ul>
+
+    </section>
+</section>
+
+<section id="platform-info">
+    <section class="container">
+        <div class="fl col-lg-3 col-xs-4">
+            <h2 style="padding-bottom: 10px">离岸账户开设</h2>
+            <div class="line1"></div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="fr col-lg-7 col-lg-offset-1 col-xs-7 col-xs-offset-1">
+            <p>
+                离岸账户也叫OSA账户，在境外（含港澳台地区）的自然人、法人（含在境外注册的中国境外投资企业
+                ）、政府机构、国际组织及其他经济组织，包括中资金融机构的海外支持机构，但不包括境内机构的境
+                外代表机构和办事机构[1] 按规定在依法取得离岸银行业务经营资格 的境内银行离岸业务部开立的账户
+                ，属于境外账户；离岸账户相对于NRA账户受外汇管制更少些，从资金的安全性角度来看，离岸账户要
+                安全些受国家外管局监管没那么严格。
+            </p>
+            <p>
+                离岸账户在金融学上指存款人在其居住国家以外开设账户的银行。相反，位于存款人所居住国内的银行
+                则称为在岸银行或境内银行。
+            </p>
+        </div>
+    </section>
+</section>
+<section id="company">
+    <div class="company-list">
+        <div class="company-head">
+            <div class="container ">
+                <div class="row">
+                    <span class="circle"></span>
+                    <span class="circle"></span>
+                    <span class="circle"></span>
                 </div>
             </div>
-        </nav>
-
-        <div class="bgheader"></div>
-        <section id="header-bg"></section>
-        <section id="platform-header" class="sub-header">
-            <section class="container">
-                <ul class="one-show">
-                    <li style="width: 4.5%;float: left"></li>
-                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="register.html" class="active">离岸账户开设</a></li>
-                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="company.html">离岸公司注册</a>
+        </div>
+        <div class="container list-group">
+            <div class="list-group-item">
+                <input id="search_input" placeholder="Search..." type="text"/>
+                <a class="company-search"></a>
+                <span class="circle circle-right"></span>
+            </div>
+            <div class="col-lg-9 col-sm-9 col-md-9 col-xs-9 company-groud">
+                <ul class="list-group" id="search_list">
+                    <li class="list-group-item">
+                        <span class="open-bank">开户银行</span>
+                        <span class="low-save">最低结存额</span>
+                        <span class="low-save">低额结存月费</span>
+                        <span class="">开户手续费（港币）</span>
                     </li>
-                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="paizhao.html">金融监管牌照</a></li>
-                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="sanfang.html">三方支付申请</a></li>
-                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="CRM.html">CRM管理系统</a></li>
-                    <li class="col-lg-1">
-                        <div id="nextRE"><i class="fa fa-angle-double-right fa-lg"></i></div>
-                    </li>
-                </ul>
-                <ul class="two-show clickhide">
-                    <li style="float:left;width: 4.5%;margin-left: 4.5%">
-                        <div id="pre" class="clickhide"><i class="fa fa-angle-double-left fa-lg"></i></div>
-                    </li>
-                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="liudong.html">流动性提供商</a></li>
-                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="site.html">金融网站搭建</a></li>
-                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="design.html">Logo VI设计</a></li>
-                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="jingxiang.html">镜像管理系统</a></li>
-                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="chajian.html">MT4插件定制</a></li>
-                </ul>
-
-            </section>
-        </section>
-
-        <section id="platform-info">
-            <section class="container">
-                <div class="fl col-sm-3">
-                    <h2 style="padding-bottom: 10px">离岸账户开设</h2>
-                    <div class="line1"></div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="fr col-sm-7 col-xs-offset-1">
-                    <p>
-                        离岸账户也叫OSA账户，在境外（含港澳台地区）的自然人、法人（含在境外注册的中国境外投资企业
-                        ）、政府机构、国际组织及其他经济组织，包括中资金融机构的海外支持机构，但不包括境内机构的境
-                        外代表机构和办事机构[1] 按规定在依法取得离岸银行业务经营资格 的境内银行离岸业务部开立的账户
-                        ，属于境外账户；离岸账户相对于NRA账户受外汇管制更少些，从资金的安全性角度来看，离岸账户要
-                        安全些受国家外管局监管没那么严格。
-                    </p>
-                    <p>
-                        离岸账户在金融学上指存款人在其居住国家以外开设账户的银行。相反，位于存款人所居住国内的银行
-                        则称为在岸银行或境内银行。
-                    </p>
-                </div>
-            </section>
-        </section>
-        <section id="company">
-            <div class="company-list">
-                <div class="company-head">
-                    <div class="container ">
-                        <div class="row">
-                            <span class="circle"></span>
-                            <span class="circle"></span>
-                            <span class="circle"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="container list-group">
-                    <div class="list-group-item">
-                        <input id="filterName"/>
-                        <a class="company-search" onclick=""></a>
-                        <span class="circle circle-right"></span>
-                    </div>
-                    <div class="col-lg-9 col-sm-9 col-md-9 col-xs-9 company-groud">
-                        <ul class="list-group">
-                            <li class="list-group-item" onclick="onClock()">
-                                <span class="open-bank">开户银行</span>
-                                <span class="low-save">最低结存额</span>
-                                <span class="low-save">低额结存月费</span>
-                                <span class="">开户手续费（港币）</span>
-                            </li>
-                            <li class="list-group-item">
+                    <li class="list-group-item" data-toggle="modal" data-target=".myModal">
                 <span class="open-bank"> 香港上海汇丰银行有限公司
                 <span class="company-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">50,000</span>
-                                <span class="low-save">200</span>
-                                <span class="">1350
+                        <span class="low-save">50,000</span>
+                        <span class="low-save">200</span>
+                        <span class="">1350
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item" data-toggle="modal" data-target=".myModal">
                 <span class="open-bank"> 星展银行（香港）有限公司
                     <span class="company-site">香港<span class="company-croci"></span></span>
                 </span>
-                                <span class="low-save">20,000</span>
-                                <span class="low-save">100</span>
-                                <span class="">1000/1000-3000
+                        <span class="low-save">20,000</span>
+                        <span class="low-save">100</span>
+                        <span class="">1000/1000-3000
                  <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item" data-toggle="modal" data-target=".myModal">
                 <span class="open-bank"> 恒生银行有限公司
                     <span class="company-site short-site">香港<span class="company-croci red"></span></span>
                 </span>
-                                <span class="low-save">50,000</span>
-                                <span class="low-save">180</span>
-                                <span class="">1350
+                        <span class="low-save">50,000</span>
+                        <span class="low-save">180</span>
+                        <span class="">1350
                  <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item" data-toggle="modal" data-target=".myModal">
                 <span class="open-bank"> 交通银行股份有限有限公司香港分行
                 <span class="company-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">10,000</span>
-                                <span class="low-save">60</span>
-                                <span class="">200
+                        <span class="low-save">10,000</span>
+                        <span class="low-save">60</span>
+                        <span class="">200
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item" data-toggle="modal" data-target=".myModal">
                 <span class="open-bank"> 中国银行{香港}有限公司
                 <span class="company-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">50,000</span>
-                                <span class="low-save">120</span>
-                                <span class="">150
+                        <span class="low-save">50,000</span>
+                        <span class="low-save">120</span>
+                        <span class="">150
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item" data-toggle="modal" data-target=".myModal">
                 <span class="open-bank"> 中信银行（国际）有限公司
                 <span class="company-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">50,000</span>
-                                <span class="low-save">100</span>
-                                <span class="">450
+                        <span class="low-save">50,000</span>
+                        <span class="low-save">100</span>
+                        <span class="">450
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item" data-toggle="modal" data-target=".myModal">
                 <span class="open-bank"> 中国工商银行（亚洲）有限公司
                 <span class="company-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">5000</span>
-                                <span class="low-save">50</span>
-                                <span class="">200
+                        <span class="low-save">5000</span>
+                        <span class="low-save">50</span>
+                        <span class="">200
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item" data-toggle="modal" data-target=".myModal">
                 <span class="open-bank"> 中国建设银行（亚洲）股份有限公司
                     <span class="company-site">香港<span class="company-croci red"></span></span>
                 </span>
-                                <span class="low-save">5000</span>
-                                <span class="low-save">50</span>
-                                <span class="">300
+                        <span class="low-save">5000</span>
+                        <span class="low-save">50</span>
+                        <span class="">300
                  <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item" data-toggle="modal" data-target=".myModal">
                 <span class="open-bank"> 永丰银行
                     <span class="company-site short-site">香港<span class="company-croci"></span></span>
                 </span>
-                                <span class="low-save">10,000</span>
-                                <span class="low-save">50</span>
-                                <span class="">0
+                        <span class="low-save">10,000</span>
+                        <span class="low-save">50</span>
+                        <span class="">0
                  <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item" data-toggle="modal" data-target=".myModal">
                 <span class="open-bank"> 中国信托商业银行股份有限公司
                 <span class="company-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">10,000</span>
-                                <span class="low-save">150</span>
-                                <span class="">2000
+                        <span class="low-save">10,000</span>
+                        <span class="low-save">150</span>
+                        <span class="">2000
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 永隆银行有限公司
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">5000</span>
-                                <span class="low-save">50</span>
-                                <span class="">1000
+                        <span class="low-save">5000</span>
+                        <span class="low-save">50</span>
+                        <span class="">1000
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 大新银行有限公司
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">5000</span>
-                                <span class="low-save">60</span>
-                                <span class="">11,000（单层架构）
+                        <span class="low-save">5000</span>
+                        <span class="low-save">60</span>
+                        <span class="">11,000（单层架构）
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 渣打银行（香港）有限公司
                     <span class="company-site">香港<span class="company-croci red"></span></span>
                 </span>
-                                <span class="low-save">200，000</span>
-                                <span class="low-save">300</span>
-                                <span class="">150
+                        <span class="low-save">200，000</span>
+                        <span class="low-save">300</span>
+                        <span class="">150
                  <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 南洋商业银行有限公司
                     <span class="company-site">香港<span class="company-croci"></span></span>
                 </span>
-                                <span class="low-save">500</span>
-                                <span class="low-save">60</span>
-                                <span class="">1000
+                        <span class="low-save">500</span>
+                        <span class="low-save">60</span>
+                        <span class="">1000
                  <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 台新国际商业银行
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">N/A</span>
-                                <span class="low-save">0</span>
-                                <span class="">0
+                        <span class="low-save">N/A</span>
+                        <span class="low-save">0</span>
+                        <span class="">0
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 东亚银行有限公司
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">10,000</span>
-                                <span class="low-save">100</span>
-                                <span class="">200
+                        <span class="low-save">10,000</span>
+                        <span class="low-save">100</span>
+                        <span class="">200
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 花旗银行
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">10,000</span>
-                                <span class="low-save">60</span>
-                                <span class="">100
+                        <span class="low-save">10,000</span>
+                        <span class="low-save">60</span>
+                        <span class="">100
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 华侨永亨银行有限公司
                     <span class="company-site">香港<span class="company-croci red"></span></span>
                 </span>
-                                <span class="low-save">50，000</span>
-                                <span class="low-save">80</span>
-                                <span class="">1350
+                        <span class="low-save">50，000</span>
+                        <span class="low-save">80</span>
+                        <span class="">1350
                  <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 创兴银行有限公司
                     <span class="company-site short-site">香港<span class="company-croci"></span></span>
                 </span>
-                                <span class="low-save">500</span>
-                                <span class="low-save">0</span>
-                                <span class="">150
+                        <span class="low-save">500</span>
+                        <span class="low-save">0</span>
+                        <span class="">150
                  <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 台北富帮商业银行股份有限公司香港分行
                 <span class="company-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">500,000</span>
-                                <span class="low-save">150</span>
-                                <span class="">2000
+                        <span class="low-save">500,000</span>
+                        <span class="low-save">150</span>
+                        <span class="">2000
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 大华银行
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">2000</span>
-                                <span class="low-save">25</span>
-                                <span class="">100
+                        <span class="low-save">2000</span>
+                        <span class="low-save">25</span>
+                        <span class="">100
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 马来亚银行
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">5000</span>
-                                <span class="low-save">0</span>
-                                <span class="">实际费用，根据银行收取
+                        <span class="low-save">5000</span>
+                        <span class="low-save">0</span>
+                        <span class="">实际费用，根据银行收取
                     <i class="fa fa-angle-right fa-2x"></i>
                 </span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 澳新银行
                     <span class="company-site short-site">香港<span class="company-croci red"></span></span>
                 </span>
-                                <span class="low-save">500，000</span>
-                                <span class="low-save">300</span>
-                                <span class="">100
+                        <span class="low-save">500，000</span>
+                        <span class="low-save">300</span>
+                        <span class="">100
                  <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 广发银行
                     <span class="company-site short-site">香港<span class="company-croci"></span></span>
                 </span>
-                                <span class="low-save">N/A</span>
-                                <span class="low-save">0</span>
-                                <span class="">0
+                        <span class="low-save">N/A</span>
+                        <span class="low-save">0</span>
+                        <span class="">0
                  <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                    </li>
+                    <li class="list-group-item">
                 <span class="open-bank"> 大众银行（香港）
                     <span class="company-site short-site">香港<span class="company-croci"></span></span>
                 </span>
-                                <span class="low-save">500,000</span>
-                                <span class="low-save">0</span>
-                                <span class="">0
+                        <span class="low-save">500,000</span>
+                        <span class="low-save">0</span>
+                        <span class="">0
                  <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-sm-3 col-md-3 col-xs-3 comp-right">
-                        <div class="comp-icon"><img src="../static/img/compa-icon.png" class="img-responsive"></div>
-                        <div class="comp-name">
-                            台北富帮商业银行股份有限公司香港分行
-                        </div>
-                        <div class="comp-exchange comp-out">
-                            <div class="span-exchange out-span">30</div>
-                            <div class="out-text">汇出手续费（港币）</div>
-                        </div>
-                        <div class="comp-exchange comp-in">
-                            <div class="span-exchange in-span">600</div>
-                            <div class="in-text">汇入手续费（港币）</div>
-                        </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
-        </section>
-
-
-        <section id="contact">
-            <h2>联系我们</h2>
-            <ul class="col-lg-offset-3">
-                <li class="col-lg-2 col-xs-3"><i></i></li>
-                <li class="col-lg-2 col-xs-3"><i></i></li>
-                <li class="col-lg-2 col-xs-3"><i></i></li>
-                <li class="col-lg-2 col-xs-3"><i></i></li>
-            </ul>
-            <form>
-                <input class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-1 col-xs-8">
-                <button>提交</button>
-            </form>
-        </section>
-        <div id="clickTop" style="width: 50px; height: 50px; color: red">
-            <a class="top-link" href="#"></a>
         </div>
-        <footer id="footerMenu">
-            <div class="container">
-                <div class="row">
-                    <dl class="col-xs-4 col-sm-2">
-                        <dt><label>平台</label>搭建</dt>
-                        <dd><a href="MT4.html">MT4平台搭建</a></dd>
-                        <dd><a href="MT5.html">MT5平台搭建</a></dd>
-                        <dd><a href="white.html">白标搭建</a></dd>
-                        <dd><a href="mainlabel.html">主标搭建</a></dd>
-                    </dl>
-                    <dl class="col-xs-4 col-sm-2">
-                        <dt><label>解决</label>方案</dt>
-                        <dd><a href="company.html">离岸公司注册</a></dd>
-                        <dd><a href="register.html">离岸账户开设</a></dd>
-                        <dd><a href="paizhao.html">金融监管牌照</a></dd>
-                        <dd><a href="sanfang.html">三方支付申请</a></dd>
-                        <dd><a href="CRM.html">CRM管理系统</a></dd>
-                    </dl>
-                    <dl class="col-xs-4 col-sm-2">
-                        <dt></dt>
-                        <dt style="visibility: hidden;padding-bottom: 16px">解决方案</dt>
-                        <dd><a href="liudong.html">流动性提供商</a></dd>
-                        <dd><a href="site.html">金融网站搭建</a></dd>
-                        <dd><a href="development.html">Logo VI设计</a></dd>
-                        <dd><a href="jingxiang.html">镜像管理系统</a></dd>
-                        <dd><a href="chajian.html">MT4插件定制</a></dd>
-                    </dl>
-                    <div class="clearfix visible-xs-block"></div>
-                    <dl class="col-xs-4 col-sm-2">
-                        <dt><label>关于</label></dt>
-                        <dd><a href="aboutus.html">关于我们</a></dd>
-                        <dd><a href="development.html">发展历程</a></dd>
-                        <dd><a href="joinus.html">加入我们</a></dd>
-                    </dl>
-                    <dl class="col-xs-8 col-sm-2">
-                        <dt><label>公司</label>信息</dt>
-                        <dd>技术支持：Support@udeafx.com</dd>
-                        <dd>商户合作：Sales@udeafx.com</dd>
-                        <dd>咨询热线：+86 181 2887 8737</dd>
-                        <dd>电话号码：+00852 6032-7386</dd>
-                        <dd>公司地址：香港湾仔路骆克道53-55号
-                            恒泽商业大厦15楼1501室
-                        </dd>
-                    </dl>
-                    <div class="clearfix visible-xs-block"></div>
+        <div class="col-lg-offset-7 col-lg-3 comp-right modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog comp-icon"></div>
+            <div class="modal-content">
+                <div class="comp-name">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <img src="../static/img/compa-icon.png" class="img-responsive">
+                    台北富帮商业银行股份有限公司香港分行
                 </div>
-
+                <div class="comp-exchange comp-out">
+                    <div class="span-exchange out-span">30</div>
+                    <div class="out-text">汇出手续费（港币）</div>
+                </div>
+                <div class="comp-exchange comp-in">
+                    <div class="span-exchange in-span">600</div>
+                    <div class="in-text">汇入手续费（港币）</div>
+                </div>
             </div>
-            <div class="companyinfo">
-                <p>Copyright © 2016-2017 Udea Technology Limited. All rights reserved.</p>
-            </div>
-        </footer>
-    </body>
+        </div>
+    </div>
+</section>
 
 
-    <script type="text/javascript" src="../static/js/jquery.min.js"></script>
-    <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../static/js/jquery.magnific-popup.js"></script>
-    <script type="text/javascript" src="../static/js/common.js"></script>
-    <script type="text/javascript" src="../static/js/hm.js"></script>
-    <script type="text/javascript" src="../static/js/vds.js"></script>
-    <script type="text/javascript" src="../static/js/jquery.lazyload.js"></script>
-    <script type="text/javascript" src="../static/js/storage.js"></script>
-    <script type="text/javascript" src="../static/js/index.js"></script>
-    <script type="text/javascript" src="../static/js/filter.js"></script>
-    <script type="text/javascript">
-        /**
-         * Created by Udea-Manager on 2017/5/27.
-         */
-        $(function () {
-            $("#filterName").keyup(function () {
-                var keyValue = $(this).val().trim();
-                console.log("keyValue:" + keyValue);
-                var $input = $(this);
-                console.log("$input:" + keyValue);
-                clearTable();
-                if (!keyValue.length) {
-                    $("table tbody tr").show();
-                    return false;
-                }
-                ;
-                $("table tbody tr").hide()
-                .filter(function (index) {
-                    var _ = $(this);
-                    console.log("_:" + _);
-                    var f = false;
-                    f = (function () {
-                        try {
-                            $.each(_.children(), function () {
-                                var __ = $(this);
-                                var v = __.html();
-                                var flag = false;
-                                flag = (function () {
-                                    try {
-                                        $.each(keyValue, function (index, value) {
-                                            if (v.indexOf(value) > -1) {//存在
-                                                var reg = new RegExp(value, "gi");
-                                                v = v.replace(reg, function (word) {
-                                                    return "<span class='matched'>" + word + "</span>";
-                                                });
-                                                __.html(v);
-                                                throw (e);
-                                            }
-                                        });
-                                    } catch (e) {
-                                        return true;
-                                    }
-                                })();
-                                if (flag) throw (e);
-                            });
-                        } catch (e) {
-                            return true;
-                        }
-                    })();
-                    return f;
-                }).show();
-            });
-            function clearTable() {
-                $("table tbody tr").each(function () {
-                    $(this).children().each(function () {
-                        if ($(this).children("span").length > 0) {
-                            var target = $(this).children("span");
-                            target.replaceWith(target.html());
-                        }
-                    });
-                });
-            }
-        });
-    </script>
+<section id="contact">
+    <h2>联系我们</h2>
+    <ul class="col-lg-offset-3">
+        <li class="col-lg-2 col-xs-3"><i></i></li>
+        <li class="col-lg-2 col-xs-3"><i></i></li>
+        <li class="col-lg-2 col-xs-3"><i></i></li>
+        <li class="col-lg-2 col-xs-3"><i></i></li>
+    </ul>
+    <form>
+        <input class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-1 col-xs-8">
+        <button>提交</button>
+    </form>
+</section>
+<div id="clickTop" style="width: 50px; height: 50px; color: red">
+    <a class="top-link" href="#"></a>
+</div>
+<footer id="footerMenu">
+    <div class="container">
+        <div class="row">
+            <dl class="col-xs-4 col-sm-2">
+                <dt><label>平台</label>搭建</dt>
+                <dd><a href="MT4.html">MT4平台搭建</a></dd>
+                <dd><a href="MT5.html">MT5平台搭建</a></dd>
+                <dd><a href="white.html">白标搭建</a></dd>
+                <dd><a href="mainlabel.html">主标搭建</a></dd>
+            </dl>
+            <dl class="col-xs-4 col-sm-2">
+                <dt><label>解决</label>方案</dt>
+                <dd><a href="company.html">离岸公司注册</a></dd>
+                <dd><a href="register.html">离岸账户开设</a></dd>
+                <dd><a href="paizhao.html">金融监管牌照</a></dd>
+                <dd><a href="sanfang.html">三方支付申请</a></dd>
+                <dd><a href="CRM.html">CRM管理系统</a></dd>
+            </dl>
+            <dl class="col-xs-4 col-sm-2">
+                <dt></dt>
+                <dt style="visibility: hidden;padding-bottom: 16px">解决方案</dt>
+                <dd><a href="liudong.html">流动性提供商</a></dd>
+                <dd><a href="site.html">金融网站搭建</a></dd>
+                <dd><a href="development.html">Logo VI设计</a></dd>
+                <dd><a href="jingxiang.html">镜像管理系统</a></dd>
+                <dd><a href="chajian.html">MT4插件定制</a></dd>
+            </dl>
+            <div class="clearfix visible-xs-block"></div>
+            <dl class="col-xs-4 col-sm-2">
+                <dt><label>关于</label></dt>
+                <dd><a href="aboutus.html">关于我们</a></dd>
+                <dd><a href="development.html">发展历程</a></dd>
+                <dd><a href="joinus.html">加入我们</a></dd>
+            </dl>
+            <dl class="col-xs-8 col-sm-2">
+                <dt><label>公司</label>信息</dt>
+                <dd>技术支持：Support@udeafx.com</dd>
+                <dd>商户合作：Sales@udeafx.com</dd>
+                <dd>咨询热线：+86 181 2887 8737</dd>
+                <dd>电话号码：+00852 6032-7386</dd>
+                <dd>公司地址：香港湾仔路骆克道53-55号
+                    恒泽商业大厦15楼1501室
+                </dd>
+            </dl>
+            <div class="clearfix visible-xs-block"></div>
+        </div>
+
+    </div>
+    <div class="companyinfo">
+        <p>Copyright © 2016-2017 Udea Technology Limited. All rights reserved.</p>
+    </div>
+</footer>
+</body>
 
 
-    <script type='text/javascript'>
-        var _vds = _vds || [];
-        window._vds = _vds;
+<script type="text/javascript" src="../static/js/jquery.min.js"></script>
+<script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../static/js/jquery.magnific-popup.js"></script>
+<script type="text/javascript" src="../static/js/common.js"></script>
+<script type="text/javascript" src="../static/js/hm.js"></script>
+<script type="text/javascript" src="../static/js/vds.js"></script>
+<script type="text/javascript" src="../static/js/jquery.lazyload.js"></script>
+<script type="text/javascript" src="../static/js/storage.js"></script>
+<script type="text/javascript" src="../static/js/index.js"></script>
+<script src="../static/js/jquery.js"></script>
+<script src="../static/js/jquery.fastLiveFilter.js"></script>
+
+<script>
+    $(function() {
+        $('#search_input').fastLiveFilter('#search_list');
+    });
+</script>
+
+<script type='text/javascript'>
+    var _vds = _vds || [];
+    window._vds = _vds;
+    (function () {
+        _vds.push(['setAccountId', 'a6a54602e467dc5f']);
         (function () {
-            _vds.push(['setAccountId', 'a6a54602e467dc5f']);
-            (function () {
-                var vds = document.createElement('script');
-                vds.type = 'text/javascript';
-                vds.async = true;
-                vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(vds, s);
-            })();
+            var vds = document.createElement('script');
+            vds.type = 'text/javascript';
+            vds.async = true;
+            vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(vds, s);
         })();
-    </script>
-    <!--[if lt IE 9]>
-    <script src="https://cdn.bootcss.com/html5shiv/r29/html5.js"></script>
-    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    })();
+</script>
+<!--[if lt IE 9]>
+<script src="https://cdn.bootcss.com/html5shiv/r29/html5.js"></script>
+<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 
-    <script>
-        var _hmt = _hmt || [];
-        (function () {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?98c5d9a3f65e4c47b0f05f72d0b6e999";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?98c5d9a3f65e4c47b0f05f72d0b6e999";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 </html>

@@ -135,4 +135,7 @@ $('#pre').click(function () {
     $('#nextRE').removeClass('clickhide');
     $('.two-show').addClass('clickhide');
     $('.one-show').removeClass('clickhide');
-})
+});
+
+
+
