@@ -1,17 +1,20 @@
 /*register start*/
-.register-icon{
+.register-icon {
     height: 120px;
     width: 120px;
     border-radius: 100%;
     border: solid 5px #65c6ff;
 }
-.register-p{
+
+.register-p {
     color: #666666;
 }
-.register-h3{
+
+.register-h3 {
     color: #2e95e8;
     margin-bottom: 20px;
 }
+
 .Kingdom {
     background: url(../img/reg-england.jpg) no-repeat;
     background-size: 255%;
@@ -20,114 +23,134 @@
     float: right;
 }
 
-#Kingdom h3,#BVI h3{
+#Kingdom h3, #BVI h3 {
     margin-left: 90px;
 }
-#BVI h3{
-    margin-left:230px;
+
+#BVI h3 {
+    margin-left: 230px;
 }
-#Vanuatu h3{
+
+#Vanuatu h3 {
     margin-left: 185px;
 }
-#Zealand h3{
+
+#Zealand h3 {
     margin-left: 135px;
 }
-#Samoa h3{
+
+#Samoa h3 {
     margin-left: 205px;
 }
-#Kingdom span,#BVI span,#Vanuatu span,#Zealand span,#Samoa span{
+
+#Kingdom span, #BVI span, #Vanuatu span, #Zealand span, #Samoa span {
     border-bottom: solid 5px #65c6ff;
     display: inline-block;
     width: 296px;
     float: right;
 }
-#Kingdom p,#BVI p,#Vanuatu p,#Zealand p{
+
+#Kingdom p, #BVI p, #Vanuatu p, #Zealand p {
     margin-top: 20px;
     margin-left: 40px;
 }
-#Hongkong{
+
+#Hongkong {
     margin-top: 150px;
 }
-#Hongkong, #Kingdom, #Seychelles, #BVI, #Vanuatu, #Cayman, #Zealand ,#Australia{
+
+#Hongkong, #Kingdom, #Seychelles, #BVI, #Vanuatu, #Cayman, #Zealand, #Australia {
     margin-bottom: 50px;
 }
-#Samoa{
+
+#Samoa {
     margin-bottom: 150px;
 }
-.Hongkong{
+
+.Hongkong {
     background: url(../img/reg-hongkong.png) no-repeat;
     background-position-x: -51px;
     background-position-y: -21px;
 
 }
-#Hongkong span,#Seychelles span,#Belize span,#Cayman span,#Australia span{
+
+#Hongkong span, #Seychelles span, #Belize span, #Cayman span, #Australia span {
     margin-top: -25px;
     margin-left: 114px;
     border-bottom: solid 5px #65c6ff;
     display: inline-block;
 }
 
-#Hongkong h3,#Seychelles h3,#Belize h3,#Cayman h3,#Australia h3{
+#Hongkong h3, #Seychelles h3, #Belize h3, #Cayman h3, #Australia h3 {
     margin-top: 33px;
     margin-bottom: 19px;
     margin-left: 18px;
     width: 230px;
 }
-#Hongkong p,#Belize p,#Cayman p,#Australia p{
+
+#Hongkong p, #Belize p, #Cayman p, #Australia p {
     margin-left: 132px;
     margin-top: -41px;
 }
-.BVI{
+
+.BVI {
     background: url(../img/reg-BVI.png) no-repeat;
     background-size: 180%;
     background-position-x: -48px;
     background-position-y: -1px;
     float: right;
 }
-.Seychelles{
+
+.Seychelles {
     background: url(../img/reg-Seychelles.png) no-repeat;
     background-size: 178%;
 
-
-
 }
-.Belize{
+
+.Belize {
     background: url(../img/reg-Belize.png) no-repeat;
     background-size: 145%;
     background-position-x: -24px;
     background-position-y: -7px;
 }
-.Vanuatu{
+
+.Vanuatu {
     background: url(../img/reg-Vanuatu.png) no-repeat;
     background-size: 146%;
     background-position-x: -29px;
     float: right;
 }
-.Cayman{
+
+.Cayman {
     background: url("../img/reg-Cayman.png") no-repeat;
     background-size: 173%;
     background-position-x: -42px;
 }
-.Zealand{
+
+.Zealand {
     background: url(../img/reg-Zealand.png) no-repeat;
     background-size: 174%;
     background-position-x: -36px;
     float: right;
 }
-.Australia{
+
+.Australia {
     background: url(../img/reg-Australia.png) no-repeat;
     background-size: 179%;
     background-position-x: -26px;
 }
-.Samoa{
+
+.Samoa {
     background: url("../img/reg-Samoa.png") no-repeat;
     background-size: 180%;
     background-position-x: -33px;
     float: right;
 }
+
 /*register end*/
 
 /*company start*/
+
 .color-fff{
     background: #fff;
     color: #666;
@@ -139,15 +162,21 @@
 #list-group .list-group{
     background: #fff;
 }
-#company .company-head{
+
+
+
+
+#company .company-head {
     background: #191919;
     height: 60px;
     width: 100%;
 }
-#company span{
+
+#company span {
     color: #8b8787;
 }
-#company .circle{
+
+#company .circle {
     height: 25px;
     width: 25px;
     border-radius: 100%;
@@ -159,23 +188,26 @@
 
 }
 
-#company .circle-right{
+#company .circle-right {
     margin-top: -30px;
     margin-left: 89%;
     width: 40px;
     height: 40px;
 }
-#company .company-site{
+
+#company .company-site {
     display: inline-block;
     margin-top: 13px;
     margin-bottom: -8px;
     margin-left: 20px;
     color: #aadcff;
 }
-#company .short-site{
+
+#company .short-site {
     width: 230px;
 }
-#company .company-croci{
+
+#company .company-croci {
     background: #f4c682;
     display: inline-block;
     height: 18px;
@@ -184,48 +216,64 @@
     margin-left: 15px;
 
 }
-#company .green{
+
+#company .green {
     background: #59c2b6;
 }
-#company .red{
+
+#company .red {
     background: #cb4c5e;
 }
-#company .company-groud{
-    margin-left: -15px;
+
+
+
+#company .company-groud {
+    margin-left: -15px;;
 
 }
-#company .open-bank{
+
+#company .open-bank {
     width: 32%;
     display: inline-block;
 }
-#company .low-save{
+
+#company .low-save {
     width: 20%;
     display: inline-block;
 }
-#company .fa-2x{
+
+#company .fa-2x {
     font-size: 2em;
     margin-right: 2px;
     margin-top: 22px;
     float: right;
     color: #c5c9d1;
 }
-#company .company-search{
+
+#company .company-search {
     background: url("../img/company-search.png") no-repeat;
-    background-size:100% ;
+    background-size: 100%;
     display: inline-block;
     height: 22px;
     width: 22px;
     margin-top: 10px;
 }
-#company input{
+
+#company input {
     width: 70%;
     color: #e1e1e1;
     border: solid 0;
 }
-#search_list .list-group-item:hover{
-    background: rgba(0,0,0,0.3);
+
+#search_list .list-group-item:hover {
+    background: rgba(25, 25, 25, 0.5);
 }
-#company .comp-icon{
+#search_list dl {
+    color: #8b8787;;
+
+}
+
+#company .comp-icon {
     /*background: url(../img/compa-icon.png) no-repeat;*/
     /*background-size: 100%;*/
     /*width: 165px;*/
@@ -233,12 +281,15 @@
     /*margin-left: 50px;*/
     margin-bottom: 25px;
 }
-#company .comp-right{
-    color:#a6a6a6;
+
+#company .comp-right {
+    color: #a6a6a6;
 }
-#company .comp-name{
+
+#company .comp-name {
     text-align: center;
 }
+
 .span-exchange {
     width: 66px;
     height: 30px;
@@ -250,16 +301,19 @@
     font-size: 17px;
     text-align: center;
 }
-.comp-exchange{
+
+.comp-exchange {
     margin-left: 60px;
     margin-top: 42px;
     margin-bottom: 40px;
 }
-#company .out-span{
+
+#company .out-span {
     background: #40c4bf;
     font-weight: bolder;
 }
-#company .in-span{
+
+#company .in-span {
     background: #f75e62;
     font-weight: bolder;
 }
@@ -286,18 +340,42 @@
 }
 /*company end*/
 /*paizhao start*/
-#licence,#licence-FSP,#licence-VFCA,#licence-NFA,#licence-FMA,#licence-FCA{
+#licence, #licence-FSP, #licence-VFCA, #licence-NFA, #licence-FMA, #licence-FCA {
     color: #999999;
 }
-#licence ul{
+
+#licence .container .row,
+#licence-FSP .container .row,
+#licence-VFCA .container .row,
+#licence-NFA .container .row,
+#licence-FMA .container .row,
+#licence-FCA .container .row,
+#licence-FSA {
+    padding-bottom: 45px;
+}
+
+#licence-newland,
+#licence-FSA {
+    padding-top: 50px;
+}
+
+#licence ul {
     list-style: none;
 }
-#licence-ul ul li,#licence-ul-1 ul li,#licence-ul-2 ul li,#crm-ul ul li,#licence-detail ul li{
+
+#licence-ul ul li, #licence-ul-1 ul li, #licence-ul-2 ul li, #crm-ul ul li, #licence-detail ul li {
     list-style: url(../img/ul-list-style.png);
     padding: 0;
     margin-left: 30px;
     line-height: 20px;
     margin-bottom: 25px;
+
+
+}
+
+#licence-detail ul li {
+    margin-left: 18px;
+    font-size: 12px;
 }
 
 #crm-ul > ul {
@@ -315,23 +393,67 @@
     width: 100%;
 }
 
-.licence-capital ul{
+.licence-fca > label {
+    padding: 0 35px;
+    font-weight: normal;
+}
+
+.licence-fca > label:nth-child(1) {
+    margin-left: -35px;
+}
+
+.licence-capital ul {
     line-height: 32px;
     margin-bottom: 25px;
 }
 
-#licence .licence-text h4{
-    color: #666666;
-    margin-bottom: 25px;
-    margin-top: 40px;
+.licence-text p {
+    font-size: 12px;
 }
-#licence .licence-text > h4:nth-child(1) {
+
+.licence-text h5 {
+    color: #666666;
+    margin-bottom: 18px;
+    margin-top: 30px;
+}
+
+#licence .licence-text > h5:nth-child(1) {
+    margin-top: -66px;
+}
+
+#licence-FSP .licence-text > h5:nth-child(1) {
+    margin-top: 10px;
+}
+
+#licence-FMA .licence-text > h5:nth-child(1) {
     margin-top: -60px;
 }
-#licence .licence-text p,#licence-FSP .paizhaotext p{
+
+#licence-FSA h5 {
+    margin-bottom: 20px;
+}
+
+#licence .licence-text p, #licence-FSP .paizhaotext p {
     margin-bottom: 6px;
-    line-height: 32px;
+    line-height: 24px;
     margin-top: 16px;
+}
+
+#licence-about, #licence-deal {
+    padding: 50px 0;
+}
+
+#licence-about h5 {
+    margin-bottom: 24px;
+}
+
+#licence-about p {
+    color: #c8c8c8;
+    line-height: 22px;
+}
+
+#licence-about .container div:nth-child(2) {
+    margin-top: 24px;
 }
 
 .paizhaoimg {
@@ -342,53 +464,102 @@
 .paizhaotext {
     margin-left: 20%;
 }
-#licence-detail .container,#licence-main .container{
+
+#licence-NFA h5:nth-child(1) {
+    margin-top: -50px;
+}
+
+#licence-NFA h5:nth-child(3) {
+    margin-bottom: 10px;
+}
+
+#licence-detail .container, #licence-main .container {
     padding: 55px;
 }
-#licence-detail h4{
+
+#licence-detail h4 {
     margin-bottom: 43px;
     margin-top: 25px;
 }
-#licence-detail ul li,#licence-main ul li{
- margin-bottom: 8px;
- }
-#licence-main ul li,#licence-VFCA ul li,#licence-NFA ul li,#licence-deal ul li,
-#licence-newland ul li,#licence-FCA ul li,#licence-FSA ul li{
+
+#licence-detail ul li, #licence-main ul li {
+    /*margin-bottom: 8px;*/
+}
+
+#licence-main ul li, #licence-VFCA ul li, #licence-NFA ul li, #licence-deal ul li,
+#licence-newland ul li, #licence-FCA ul li, #licence-FSA ul li {
     list-style: url(../img/ul-list-style.png);
     padding: 0;
-    line-height: 32px;
+    line-height: 24px;
+    font-size: 12px;
+    margin-left: 5px;
 }
-.clear-maginleft{
+
+#licence-VFCA ul li,
+#licence-FCA ul li {
+    margin-left: 18px;
+}
+
+#licence-NFA ul li {
+    margin-left: 27px;
+}
+
+#licence-deal ul li,
+#licence-newland ul li,
+#licence-FSA ul li {
+    margin-left: 15px;
+}
+
+#licence-newland p {
+    margin: 40px 0 20px 10%;
+}
+
+.clear-maginleft {
     margin-left: 0;
 }
-#licence-FSP .paizhaotext{
+
+#licence-FSP .paizhaotext {
     margin-top: -79px;
 }
-#licence-FSP h4{
-    margin-top: 15px;
-    margin-bottom: 28px;
-}
-#licence-FSP .paizhaotext > h4:nth-child(2){
+
+#licence-FSP .paizhaotext > h5:nth-child(2) {
     margin-top: 151px;
 }
+
+#licence-VFCA .licence-text > h5:nth-child(1) {
+    margin-top: -70px;
+}
+
+#licence-FCA .licence-text > h5:nth-child(1) {
+    margin-top: -70px;
+}
+
 @media (min-width: 1200px) {
     #licence-main .col-lg-7 {
         width: 60.333333%;
     }
+
     #licence-main .col-lg-5 {
         width: 39.666667%;
     }
 }
-#licence-main h4{
-    margin-bottom: 25px;
+
+#licence-main h5 {
+    margin-bottom: 20px;
 }
+
+#licence-main p {
+    margin-top: 20px;
+}
+
 /*paizhao end*/
 
 /*sanfang start*/
-#threePay{
+#threePay {
     background: #fff;
 }
-#threePay a{
+
+#threePay a {
     display: inline-block;
     height: 150px;
     width: 300px;
@@ -396,512 +567,628 @@
     margin-left: 90px;
     background-repeat: no-repeat;
 }
-#threePay .pay1{
+
+#threePay .pay1 {
     background-image: url("../img/pay-ips-gray.png");
     /*background-position-y: 35px;*/
     background-size: 100%;
 }
-#threePay .pay1:hover{
+
+#threePay .pay1:hover {
     background-image: url("../img/pay-ips-color.png");
     /*background-position-y: 35px;*/
     background-size: 100%;
 }
-#threePay .pay2{
+
+#threePay .pay2 {
     background-image: url('../img/pay-allIn-gray.png');
     /*background-position-y: 28px;*/
     background-size: 84%;
 }
-#threePay .pay2:hover{
+
+#threePay .pay2:hover {
     background-image: url('../img/pay-allIn-color.png');
     /*background-position-y: 28px;*/
     background-size: 84%;
 }
-#threePay .pay3{
+
+#threePay .pay3 {
     background-image: url("../img/pay-all-gray.png");
     /*background-position-y: 3px;*/
     background-size: 65%;
 }
-#threePay .pay3:hover{
+
+#threePay .pay3:hover {
     background-image: url("../img/pay-all-color.png");
     /*background-position-y: 3px;*/
     background-size: 65%;
 }
-#threePay .pay4{
+
+#threePay .pay4 {
     background-image: url("../img/pay-wechat-gray.png");
     /*background-position-y: 15px;*/
     background-size: 90%;
 }
-#threePay .pay4:hover{
+
+#threePay .pay4:hover {
     background-image: url("../img/pay-wechat-color.png");
     /*background-position-y: 15px;*/
     background-size: 90%;
 }
-#threePay .pay5{
+
+#threePay .pay5 {
     background-image: url("../img/pay-online-gray.png");
     /*background-position-y: 18px;*/
     background-size: 84%;
 }
-#threePay .pay5:hover{
+
+#threePay .pay5:hover {
     background-image: url("../img/pay-online-color.png");
     /*background-position-y: 18px;*/
     background-size: 84%;
 }
-#threePay .pay6{
+
+#threePay .pay6 {
     background-image: url("../img/pay-huichao-gray.png");
     /*background-position-y: 3px;*/
     background-size: 60%;
 }
-#threePay .pay6:hover{
+
+#threePay .pay6:hover {
     background-image: url("../img/pay-huichao-color.png");
     /*background-position-y: 3px;*/
     background-size: 60%;
 }
-#threePay .pay7{
-     background-image: url("../img/pay-dinpay-gray.png");
+
+#threePay .pay7 {
+    background-image: url("../img/pay-dinpay-gray.png");
     /*background-position-y: 3px;*/
     background-size: 92%;
- }
-#threePay .pay7:hover{
+}
+
+#threePay .pay7:hover {
     background-image: url("../img/pay-dinpay-color.png");
     /*background-position-y: 3px;*/
     background-size: 92%;
 }
-#threePay .pay8{
+
+#threePay .pay8 {
     background-image: url("../img/pay-baofoo-gray.png");
     /*background-position-y: 3px;*/
     background-size: 76%;
 }
-#threePay .pay8:hover{
+
+#threePay .pay8:hover {
     background-image: url("../img/pay-baofoo-color.png");
     /*background-position-y: 3px;*/
     background-size: 76%;
 }
+
 /*sanfang end*/
 
 /*crm start*/
 
-#crm-echart{
+#crm-echart {
     color: #666666;
 }
-#crm-echart h3{
+
+#crm-echart h3 {
     text-align: center;
 }
 
-#crm-echart .echaer-img{
+#crm-echart .echaer-img {
     margin-bottom: 30px;
 }
 
-#crm-echart .crm-text{
+#crm-echart .crm-text {
     margin-top: 45px;
 
-
 }
-#crm-icon-list{
+
+#crm-icon-list {
     background: #191919;
     margin-top: 60px;
 }
-#crm-icon-list .container{
+
+#crm-icon-list .container {
     padding: 50px;
 }
-#crm-icon-list .aboutimg{
+
+#crm-icon-list .aboutimg {
     width: 60px;
     height: 60px;
     margin: auto;
 }
-.aboutimg>img{
+
+.aboutimg > img {
     width: 100%;
 }
-#crm-icon-list .paddingtop30{
+
+#crm-icon-list .paddingtop30 {
     margin-top: 39px;
     margin-bottom: 72px;
 }
+
 /*crm end*/
 /*paizhao start*/
 
 /*liudong strat*/
-.adv-img{
+.adv-img {
     width: 50px;
     height: 50px;
     display: inline-block;
     margin-left: 40px;
 }
-#clearing-adv .adv-img-contact{
+
+#clearing-adv .adv-img-contact {
     background: url(../img/clear-contact.png) no-repeat;
     background-size: 100%;
 }
-#clearing-adv h2{
+
+#clearing-adv h2 {
     margin: 55px;
 }
-#clearing-adv .adv-img-DB{
+
+#clearing-adv .adv-img-DB {
     background: url("../img/clearl-DB.png") no-repeat;
     background-size: 100%;
 }
-#clearing-adv .adv-img-LPS{
+
+#clearing-adv .adv-img-LPS {
     background: url("../img/claer-LPS.png") no-repeat;
     background-size: 100%;
 }
-#clearing-adv .adv-img-product{
+
+#clearing-adv .adv-img-product {
     background: url("../img/clear-product.png") no-repeat;
     background-size: 100%;
 }
-#clearing-adv .adv-text{
+
+#clearing-adv .adv-text {
     margin-left: 138px;
     margin-top: -50px;
     margin-bottom: 50px;
 }
-.cfn-commont{
+
+.cfn-commont {
     height: 90px;
-    width: 215px;
     display: inline-block;
+    min-width: 300px;
 }
 
-#clearing-adv .clearing-SYSTEMS{
+#clearing-adv .clearing-SYSTEMS {
     background: url(../img/clearing-SYSTEMS.png) no-repeat;
-    background-size: 61%;
+    background-size: 34%;
+    background-position-x: 60%;
 }
-#clearing-adv .clearing-SYSTEMS:hover{
+
+#clearing-adv .clearing-SYSTEMS:hover {
     /*filter: Alpha(opacity=10);-moz-opacity:.1;opacity:0.1;*/
     background: url(../img/clearing-SYSTEMS-color.png) no-repeat;
-    background-size: 61%;
+    background-size: 34%;
+    background-position-x: 60%;
 }
-#clearing-adv .clearing-CLEARINC{
+
+#clearing-adv .clearing-CLEARINC {
     background: url("../img/clearing-CLEARINC.png") no-repeat;
-    background-size: 61%;
+    background-size: 34%;
+    background-position-x: 60%;
 }
-#clearing-adv .clearing-CLEARINC:hover{
+
+#clearing-adv .clearing-CLEARINC:hover {
     background: url("../img/clearing-CLEARINC-color.png") no-repeat;
-    background-size: 61%;
+    background-size: 34%;
+    background-position-x: 60%;
 
 }
-#clearing-fast{
+
+#clearing-fast {
     background: #191919;
     margin-top: 70px;
 }
-#clearing-fast{
+
+#clearing-fast {
     margin: 0 0 20px;
     line-height: 25px;
 }
-#clearing-fast .fast-img{
-    background: url(../img/clearing-shandain.png) no-repeat;
-    background-size: 100%;
-    height: 180px;
-    width: 138px;
-    margin-left: 493px;
+
+#clearing-fast .fast-img {
     margin-top: 55px;
+    margin-bottom: 40px;
 }
-.color-c8c8c8{
+
+.color-c8c8c8 {
     color: #c8c8c8;
     padding-top: 58px;
     margin-top: 58px;
     padding-bottom: 35px;
 }
-#clearing-bank a{
+
+#clearing-bank a {
     height: 121px;
     width: 250px;
     display: inline-block;
 }
-#clearing-bank .bankPay1{
+
+#clearing-bank .bankPay1 {
     background: url(../img/clearing-JPM-gray.png) no-repeat;
     background-size: 75%;
     background-position-x: 34px;
     background-position-y: 42px;
 }
-#clearing-bank .bankPay1:hover{
+
+#clearing-bank .bankPay1:hover {
     background: url("../img/clearing-JPM.png") no-repeat;
     background-size: 75%;
     background-position-x: 34px;
     background-position-y: 42px;
 }
-#clearing-bank .bankPay2{
+
+#clearing-bank .bankPay2 {
     background: url(../img/clearing-BNP-gray.png) no-repeat;
     background-size: 71%;
     background-position-x: 36px;
     background-position-y: 8px;
 }
-#clearing-bank .bankPay2:hover{
+
+#clearing-bank .bankPay2:hover {
     background: url("../img/clearing-BNP.png") no-repeat;
     background-size: 71%;
     background-position-x: 36px;
     background-position-y: 8px;
 }
-#clearing-bank .bankPay3{
+
+#clearing-bank .bankPay3 {
     background: url(../img/clearing-BARCLAYS-gray.png) no-repeat;
     background-size: 85%;
     background-position-x: 20px;
     background-position-y: 34px;
 }
-#clearing-bank .bankPay3:hover{
+
+#clearing-bank .bankPay3:hover {
     background: url("../img/clearing-BARCLAYS.png") no-repeat;
     background-size: 85%;
     background-position-x: 20px;
     background-position-y: 34px;
 }
-#clearing-bank .bankPay4{
+
+#clearing-bank .bankPay4 {
     background: url(../img/clearing-UBS-gray.png) no-repeat;
     background-size: 66%;
     background-position-x: 31px;
     background-position-y: 36px;
 }
-#clearing-bank .bankPay4:hover{
+
+#clearing-bank .bankPay4:hover {
     background: url("../img/clearing-UBS.png") no-repeat;
     background-size: 66%;
     background-position-x: 31px;
     background-position-y: 36px;
 }
-#clearing-bank .bankPay5{
+
+#clearing-bank .bankPay5 {
     background: url(../img/clearing-Goldman-gray.png) no-repeat;
     background-size: 57%;
     background-position-x: 57px;
     background-position-y: 37px;
 }
-#clearing-bank .bankPay5:hover{
+
+#clearing-bank .bankPay5:hover {
     background: url("../img/clearing-Goldman.png") no-repeat;
     background-size: 57%;
     background-position-x: 57px;
     background-position-y: 37px;
 }
-#clearing-bank .bankPay6{
+
+#clearing-bank .bankPay6 {
     background: url(../img/clearing-CREDITS-gray.png) no-repeat;
     background-size: 86%;
     background-position-x: 16px;
     background-position-y: -21px;
 }
-#clearing-bank .bankPay6:hover{
+
+#clearing-bank .bankPay6:hover {
     background: url("../img/clearing-CREDITS.png") no-repeat;
     background-size: 86%;
     background-position-x: 16px;
     background-position-y: -21px;
 }
-#clearing-bank .bankPay7{
+
+#clearing-bank .bankPay7 {
     background: url(../img/clearing-Mor-gray.png) no-repeat;
     background-size: 73%;
     background-position-x: 31px;
     background-position-y: -6px;
 }
-#clearing-bank .bankPay7:hover{
+
+#clearing-bank .bankPay7:hover {
     background: url("../img/clearing-Mor.png") no-repeat;
     background-size: 73%;
     background-position-x: 31px;
     background-position-y: -6px;
 
 }
-#clearing-bank .bankPay8{
+
+#clearing-bank .bankPay8 {
     background: url(../img/clearing-America-gray.png) no-repeat;
     background-size: 78%;
     background-position-x: 40px;
     background-position-y: 23px;
 }
-#clearing-bank .bankPay8:hover{
+
+#clearing-bank .bankPay8:hover {
     background: url("../img/clearing-America.png") no-repeat;
     background-size: 78%;
     background-position-x: 40px;
     background-position-y: 23px;
 }
+
 @media (max-width: 320px) {
     #threePay a {
         margin-left: 28px;
     }
+
+    .paizhaotext {
+        margin-left: 5%;
+    }
+
+    #licence .licence-text > h5:nth-child(1),
+    #licence-FMA .licence-text > h5:nth-child(1),
+    #licence-VFCA .licence-text > h5:nth-child(1),
+    #licence-NFA h5:nth-child(1),
+    #licence-FCA .licence-text > h5:nth-child(1) {
+        margin-top: -30px;
+    }
+
+    #licence-FSP .licence-text > h5:nth-child(1) {
+        margin-top: 90px;
+    }
+
 }
-@media (min-width: 321px) and (max-width: 767px){
+
+@media (min-width: 321px) and (max-width: 767px) {
     #threePay a {
         margin-left: 25%;
     }
+
+    .paizhaotext {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
+
 @media (max-width: 767px) {
-    #clearing-bank a{
+    #clearing-bank a {
         width: 100%;
     }
+
     #crm-icon-list .col-xs-4 {
         padding: 0;
     }
 }
 
-@media(min-width:768px) {
-    #clearing-bank .row{
-        margin:0 auto ;
+@media (min-width: 768px) {
+    #clearing-bank .row {
+        margin: 0 auto;
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
-    #clearing-bank .row{
+@media (min-width: 768px) and (max-width: 991px) {
+    #clearing-bank .row {
         width: 662px;
     }
-
 }
-@media(min-width: 992px)and (max-width: 1199px) {
+
+@media (min-width: 992px)and (max-width: 1199px) {
     #clearing-bank .row {
         width: 883px;
     }
 }
-@media(min-width: 1200px) {
+
+@media (min-width: 1200px) {
     #clearing-bank .row {
         width: 1104px;
     }
-    #clearing-bank .bankPay1,#clearing-bank .bankPay2,#clearing-bank .bankPay3,#clearing-bank .bankPay4{
+
+    #clearing-bank .bankPay1, #clearing-bank .bankPay2, #clearing-bank .bankPay3, #clearing-bank .bankPay4 {
         border-bottom: dashed 1px #eaeaea;
     }
-    #clearing-bank .bankPay1,#clearing-bank .bankPay2,#clearing-bank .bankPay3,
-    #clearing-bank .bankPay5,#clearing-bank .bankPay6,#clearing-bank .bankPay7{
+
+    #clearing-bank .bankPay1, #clearing-bank .bankPay2, #clearing-bank .bankPay3,
+    #clearing-bank .bankPay5, #clearing-bank .bankPay6, #clearing-bank .bankPay7 {
         border-right: dashed 1px #eaeaea;
     }
 
-
 }
-#clearing-build{
+
+#clearing-build {
     background: #191919;
 }
-#clearing-build a{
-    height:80px;
+
+#clearing-build a {
+    height: 80px;
     width: 80px;
     display: inline-block;
 }
-.bulid-mt4{
+
+.bulid-mt4 {
     margin-left: 77px;
     margin-top: -90px;
 }
-.margin-bulid-65{
+
+.margin-bulid-65 {
     margin-top: 65px;
 }
-.color-only-c8c8c8{
+
+.color-only-c8c8c8 {
     color: #c8c8c8;
 }
-#clearing-build .container{
+
+#clearing-build .container {
     padding: 35px 0 50px;
 }
-#clearing-build p{
+
+#clearing-build p {
     color: #c8c8c8;
     text-align: center;
-    margin: 15px 0 55px;
+    margin: 15px 0 0;
 }
-#clearing-build .rich-img{
+
+#clearing-build .rich-img {
     background: url("../img/clear-multi.png") no-repeat;
     background-size: 66%;
 }
-#clearing-build .Gold-img{
+
+#clearing-build .Gold-img {
     background: url("../img/clear-flash.png") no-repeat;
     background-size: 66%;
 }
-#clearing-build .date-img{
+
+#clearing-build .date-img {
     background: url("../img/clear-time.png") no-repeat;
     background-size: 66%;
 }
-#clearing-build .bridge-img{
+
+#clearing-build .bridge-img {
     background: url("../img/clear-brigde.png") no-repeat;
     background-size: 66%;
 }
-#clearing-build .mt4-img{
+
+#clearing-build .mt4-img {
     background: url("../img/clear-Golid-i.png") no-repeat;
     background-size: 66%;
 }
-#clearing-build .ddos-img{
+
+#clearing-build .ddos-img {
     background: url("../img/clear-DDOS.png") no-repeat;
     background-size: 66%;
 }
 
-#clearing-fortex a{
+#clearing-fortex a {
     display: inline-block;
     width: 260px;
-    height:100px;
+    height: 100px;
 }
-#clearing-fortex .fortex1{
+
+#clearing-fortex .fortex1 {
     background: url("../img/clearing-Gold-gary.png") no-repeat;
     background-size: 100%;
     background-position-x: 4px;
-    background-position-y: -45px;
+    background-position-y: -40px;
+    margin-right: 30px;
 }
-#clearing-fortex .fortex1:hover{
+
+#clearing-fortex .fortex1:hover {
     background: url("../img/clearing-Gold.png") no-repeat;
     background-size: 100%;
     background-position-x: 4px;
-    background-position-y: -45px;
+    background-position-y: -40px;
 }
-#clearing-fortex .fortex2{
+
+#clearing-fortex .fortex2 {
     background: url("../img/clearing-Fortex-gray.png") no-repeat;
     background-size: 81%;
     background-position-x: 4px;
-    background-position-y: 18px;
-
+    background-position-y: 25px;
+    margin-right: 30px;
 }
-#clearing-fortex .fortex2:hover{
+
+#clearing-fortex .fortex2:hover {
     background: url("../img/clearing-Fortex.png") no-repeat;
     background-size: 81%;
     background-position-x: 4px;
-    background-position-y: 18px;
+    background-position-y: 25px;
 
 }
-#clearing-fortex .fortex3{
+
+#clearing-fortex .fortex3 {
     background: url("../img/clearing-PXM-gray.png") no-repeat;
     background-size: 100%;
     background-position-x: -9px;
-    background-position-y: -20px;
+    background-position-y: -8px;
+    margin-right: 30px;
 }
-#clearing-fortex .fortex3:hover{
+
+#clearing-fortex .fortex3:hover {
     background: url("../img/clearing-PXM.png") no-repeat;
     background-size: 100%;
     background-position-x: -9px;
-    background-position-y: -20px;
+    background-position-y: -8px;
 }
-#clearing-fortex .fortex4{
+
+#clearing-fortex .fortex4 {
     background: url("../img/clearing-oneZero-gray.png") no-repeat;
     background-size: 100%;
     background-position-x: 5px;
-    background-position-y: -18px
+    background-position-y: -4px
 }
-#clearing-fortex .fortex4:hover{
+
+#clearing-fortex .fortex4:hover {
     background: url("../img/clearing-oneZero.png") no-repeat;
     background-size: 100%;
     background-position-x: 5px;
-    background-position-y: -18px
+    background-position-y: -4px
 }
-.clearing-double{
+
+.clearing-double {
     background: url(../img/clearing-double.png) no-repeat;
     background-size: 100%;
     height: 25px;
     display: inline-block;
 }
-#clearing-solve .carousel-caption{
-    margin-bottom: -19px!important;
+
+#clearing-solve .carousel-caption {
+    margin-bottom: -19px !important;
 }
-.clear-solve-number{
+
+.clear-solve-number {
     height: 62px;
 }
-#clearing-solve .bulid-start{
-    background: url("../img/clear-solve-one.png") no-repeat;
 
-}
-#clearing-solve .bulid-walk{
-    background: url("../img/clear-solve-two.png") no-repeat;
-}
-#clearing-solve .bulid-run{
-    background: url("../img/clear-solve-three.png") no-repeat;
-}
-#clearing-solve .bulid-flag{
-    background: url("../img/clear-solve-four.png") no-repeat;
-}
-#clearing-solve .bulid-end{
-    background: url("../img/clear-solve-five.png") no-repeat;
-}
-#clearing-solve dl:nth-child(2){
+/*#clearing-solve .bulid-start {*/
+    /*background: url("../img/clear-solve-one.png") no-repeat;*/
+
+/*}*/
+
+/*#clearing-solve .bulid-walk {*/
+    /*background: url("../img/clear-solve-two.png") no-repeat;*/
+/*}*/
+
+/*#clearing-solve .bulid-run {*/
+    /*background: url("../img/clear-solve-three.png") no-repeat;*/
+/*}*/
+
+/*#clearing-solve .bulid-flag {*/
+    /*background: url("../img/clear-solve-four.png") no-repeat;*/
+/*}*/
+
+/*#clearing-solve .bulid-end {*/
+    /*background: url("../img/clear-solve-five.png") no-repeat;*/
+/*}*/
+
+#clearing-solve dl:nth-child(2) {
     margin-left: 25px;
 }
-.solid-squre{
-    display: inline-block;
+
+.solid-line {
+    display: block;
     border-top: solid 2px #3da5ba;
-    margin-top: 62px;
-    margin-left: 32px;
+    margin-top: -18px;
+    margin-left: 0;
+    height: 2px;
 }
-.solid-squre:before{
+
+.solid-squre:before {
     height: 25px;
     width: 25px;
     border-radius: 100%;
     content: '';
     background: #fff;
     margin-top: -16px;
-    margin-left: -198px;
     display: inline-block;
-
 }
-.solid-squre-after:after{
+
+.solid-squre-after:after {
     height: 25px;
     width: 25px;
     border-radius: 100%;
@@ -909,84 +1196,138 @@
     background: #fff;
     display: inline-block;
 }
-.clear-top{
-    margin-top: 45px;
-}
-/*liudong end*/
 
+.bulid-step .two-way {
+    display: block;
+    width: 30px;
+    height: 20px;
+}
+
+.build-step .two-way > img {
+    width: 100%;
+}
+
+.clear-top > dd {
+    line-height: 26px;
+}
+
+.bulid-step dl.step04 {
+    padding: 0;
+}
+
+.bulid-step dl.step04 > dd > div {
+    float: left;
+    overflow: hidden;
+}
+
+.bulid-step dl.step04 > dd > div:nth-child(1) {
+    width: 45%;
+    text-align: right;
+}
+
+.bulid-step dl.step04 > dd > div:nth-child(2) {
+    width: 16%;
+}
+
+.bulid-step dl.step04 > dd > div:nth-child(3) {
+    width: 36%;
+}
+
+.bulid-step dl.step04 > dd > div:nth-child(2) > img {
+    width: 100%;
+}
+
+/*liudong end*/
 
 /*金融官网搭建 start*/
 #platform-info > .container > div {
     margin-top: 0;
 }
+
 #platform-info .line3 {
     width: 100%;
     border: 2px solid #65c6ff;
     margin-top: 40px;
 }
+
 .bg-black {
     background-color: #000;
 }
+
 .textcolor6 {
     color: #666;
 }
+
 .siteimg {
     margin: 50px auto;
 }
+
 .sitetext {
     padding: 0 90px;
     margin: 50px 0;
 }
+
 .sitetext > h3 {
     margin-bottom: 40px;
 }
+
 .sitetext > p {
     line-height: 28px;
 }
+
 @media (max-width: 768px) {
     .sitetext {
         padding: 0;
     }
 }
+
 /*金融官网搭建 end*/
 
 /*镜像管理系统 start*/
 .jingxiang01 {
     min-width: 670px;
 }
+
 .jingxiang01 > h3 {
     margin: 62px 0;
     text-align: center;
 }
+
 .jingxiang01 > ul {
     list-style: none;
 }
+
 .jingxiang01 > ul:nth-child(2) {
     overflow: hidden;
     margin: 0 5%;
     border-top: 1px solid #d8d8d8;
     border-bottom: 1px solid #d8d8d8;
 }
+
 .jingxiang01 > ul:nth-child(2) > li {
     float: left;
     width: 20%;
     line-height: 75px;
     text-align: center;
 }
+
 .jingxiang01 > ul:nth-child(3) {
     margin: 40px 0;
 }
+
 .jingxiang01 > ul:nth-child(3) li {
     display: block;
     line-height: 40px;
     width: 30%;
     margin-left: 42%;
 }
+
 .jingxiang01 > ul:nth-child(3) li i {
     display: inline-block;
     width: 10px;
     height: 10px;
 }
+
 .jingxiang01 > ul:nth-child(3) li i > img {
     width: 100%;
 }
@@ -998,16 +1339,20 @@
 .jingxiang02 > .container > div > div {
     padding: 70px 0 0 0;
 }
+
 .jingxiang02 > .container > div:nth-child(3) > div:last-child {
     padding-bottom: 70px;
 }
+
 .jingxiang02 > .container > div > div > div {
     width: 54px;
     height: 54px;
 }
+
 .jingxiang02 > .container > div > div > div > img {
     width: 100%;
 }
+
 /*镜像管理系统 end*/
 
 /*MT4插件定制 start*/
@@ -1015,20 +1360,25 @@
     text-align: center;
     padding: 70px 0;
 }
+
 .chajian h4 {
     margin-bottom: 30px;
 }
+
 .chajian img {
     margin-top: 30px;
 }
+
 @media (max-width: 768px) {
     #platform-info .line3 {
         float: right;
         width: 255px;
     }
+
     #platform-info .line1 {
         width: 220px;
     }
 }
+
 /*MT4插件定制 end*/
 
