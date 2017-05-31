@@ -225,11 +225,8 @@
     background: #cb4c5e;
 }
 
-
-
 #company .company-groud {
-    margin-left: -15px;;
-
+    padding: 0;
 }
 
 #company .open-bank {
@@ -268,17 +265,29 @@
 #search_list .list-group-item:hover {
     background: rgba(25, 25, 25, 0.5);
 }
+#search_list .list-group-item:hover > span {
+    color: #fff;
+}
 #search_list dl {
-    color: #8b8787;;
-
+    color: #8b8787;
 }
 
+#getHeight {
+    position: relative;
+}
+
+#moveHeight {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /*margin-top: 41px;*/
+    display: none;
+}
+
+
 #company .comp-icon {
-    /*background: url(../img/compa-icon.png) no-repeat;*/
-    /*background-size: 100%;*/
-    /*width: 165px;*/
-    /*height: 153px;*/
-    /*margin-left: 50px;*/
     margin-bottom: 25px;
 }
 
@@ -287,7 +296,7 @@
 }
 
 #company .comp-name {
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .span-exchange {
@@ -295,17 +304,20 @@
     height: 30px;
     content: '';
     border-radius: 25px;
-    margin-left: 37%;
+    margin-left: 50%;
+    transform: translateX(-50%);
     margin-bottom: 10px;
+    margin-top: 10px;
     color: #fff;
     font-size: 17px;
     text-align: center;
+    line-height: 31px;
 }
 
 .comp-exchange {
-    margin-left: 60px;
+    /*margin-left: 60px;*/
     margin-top: 42px;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
 }
 
 #company .out-span {
