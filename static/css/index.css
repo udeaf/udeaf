@@ -26,7 +26,13 @@ body{
 #bgnav{position:absolute;z-index:3;width:100%;text-align:center;bottom:20px;}
 #bgnav span{cursor:pointer;display:inline-block;margin:0 3px;height:7px;width:7px;overflow:hidden;background:#b2e5e9;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;}
 
+#myCarousel .carousel-text{
+	margin-top: 84px;
 
+}
+#myCarousel .carousel-text a{
+	color: #fff;
+}
 #bgnav span.cur{width:40px}
 .intro-detail{
 	margin: 0 0!important;
@@ -191,7 +197,7 @@ body{
     color: #000;
     border: 0;
     text-align: center;
-    margin: 17px 101px;
+    margin: 17px 0px;
 }
 .carousel-indicators .active{
 	height:5px;
@@ -216,11 +222,13 @@ body{
 	margin: 80px 0 50px;
 }
 #myCarousel h4{
-	margin: 0px 0 35px;
+	margin: 45px 0 35px;
+	text-align: center;
 }
 #myCarousel .car-text{
 	margin-left: 479px;
 	text-align: center;
+	margin-top: 85px;
 }
 #myCarousel .car-text img{
 	margin-top: -50px;

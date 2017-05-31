@@ -42,6 +42,14 @@
 #platform-header li > a.active {
     border-bottom: 3px solid #65c6ff;
 }
+.sub-header li > a {
+    font-size: 14px;
+    display: block;
+    width: 76px;
+    margin: auto;
+    text-align: center;
+    color: #666;
+}
 #platform-info {
     padding: 100px 0;
     background: #000;
@@ -120,7 +128,7 @@
 #pre,#nextRE{
     /*margin-top: 20px;*/
     /*margin-right: -72px;*/
-    color: red;
+    color: #65c6ff;
 }
 
 #pre {

@@ -187,19 +187,19 @@ ul,li{
 }
 #contact > ul > li:nth-child(1) > i:hover {
     background: url("../img/touchsprite.png")0 -60px no-repeat;
-    transform: rotateY(180deg);
+    /*transform: rotateY(180deg);*/
 }
 #contact > ul > li:nth-child(2) > i:hover {
     background: url("../img/touchsprite.png")-60px -60px no-repeat;
-    transform: rotateY(180deg);
+    /*transform: rotateY(180deg);*/
 }
 #contact > ul > li:nth-child(3) > i:hover {
     background: url("../img/touchsprite.png")-120px -60px no-repeat;
-    transform: rotateY(180deg);
+    /*transform: rotateY(180deg);*/
 }
 #contact > ul > li:nth-child(4) > i:hover {
     background: url("../img/touchsprite.png")-180px -60px no-repeat;
-    transform: rotateY(180deg);
+    /*transform: rotateY(180deg);*/
 }
 
 #contact > form {

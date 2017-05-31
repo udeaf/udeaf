@@ -110,7 +110,13 @@ $(function(){
 	}).resize();
 });
 
+window.onload=  function () {
+    $('#moveHeight').css('display','none');
+    var companyH = $("#search_list").height();
+    var b = companyH+'px';
+    $('#getHeight').css("height",b)
 
+}
 //重新得到验证码
 function changeValidate(self){
 	self.src = "validateImg.php?time=" + new Date();
@@ -135,7 +141,38 @@ $('#pre').click(function () {
     $('#nextRE').removeClass('clickhide');
     $('.two-show').addClass('clickhide');
     $('.one-show').removeClass('clickhide');
+
 });
 
 
+// console.log($("#search_list .list-group-item"));
 
+$("#search_list .list-group-item").each(function () {
+    $(this).click(function () {
+        $('#moveHeight').css('display','block');
+        var com = ($(this).find(".name-com").text());
+        var namein = ($(this).find(".name-in").text());
+        var nameout = ($(this).find(".name-out").text());
+        $('.com').html(com);
+        $('.in-span').html(namein);
+        $('.out-span').html(nameout);
+        var b = ($(this).find(".name-com").offsetHeight);
+        var c = b+'px';
+        // var d = 500+'px';
+        // console.log(c);
+        // // var a = $("#search_list .list-group-item").offset().left;
+        // // console.log(a);
+        // $('#moveHeight').offset({top:b,left:d});
+
+        var event = event || window.event;
+        var h = event.clientX+'px';
+        console.log(event.clientX);
+        $('#moveHeight').css('margin-top',c);
+
+
+
+
+
+
+    })
+});

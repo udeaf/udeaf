@@ -128,10 +128,16 @@
 /*register end*/
 
 /*company start*/
-
+.color-fff{
+    background: #fff;
+    color: #666;
+}
 #company{
     background: #f4f5f7;
     margin-top: 50px;
+}
+#list-group .list-group{
+    background: #fff;
 }
 #company .company-head{
     background: #191919;
@@ -185,7 +191,8 @@
     background: #cb4c5e;
 }
 #company .company-groud{
-    margin-left: -15px;;
+    margin-left: -15px;
+
 }
 #company .open-bank{
     width: 32%;
@@ -215,8 +222,8 @@
     color: #e1e1e1;
     border: solid 0;
 }
-#search_list dl{
-    color:#8b8787;;
+#search_list .list-group-item:hover{
+    background: rgba(0,0,0,0.3);
 }
 #company .comp-icon{
     /*background: url(../img/compa-icon.png) no-repeat;*/
@@ -237,7 +244,7 @@
     height: 30px;
     content: '';
     border-radius: 25px;
-    margin-left: 25px;
+    margin-left: 37%;
     margin-bottom: 10px;
     color: #fff;
     font-size: 17px;
@@ -256,7 +263,27 @@
     background: #f75e62;
     font-weight: bolder;
 }
-
+#affect{
+    text-align: center;
+    padding: 60px;
+    margin-top: 50px;
+}
+#affect h4{
+    margin-bottom: 36px
+}
+#affect h4:nth-child(3){
+    margin-top: 50px;
+}
+.img-position img{
+    width: 15%;
+}
+.company-dashed-bottom{
+    border-bottom: dashed 2px #666;
+}
+.company-dashed-right{
+    border-right: dashed 2px #666;
+    margin-bottom: 10px;
+}
 /*company end*/
 /*paizhao start*/
 #licence,#licence-FSP,#licence-VFCA,#licence-NFA,#licence-FMA,#licence-FCA{
@@ -269,7 +296,7 @@
     list-style: url(../img/ul-list-style.png);
     padding: 0;
     margin-left: 30px;
-    line-height: 32px;
+    line-height: 20px;
     margin-bottom: 25px;
 }
 
