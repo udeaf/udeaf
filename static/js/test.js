@@ -22,7 +22,7 @@
                 $('.in-span').html(namein);
                 $('.out-span').html(nameout);
                 $('#moveHeight').css('top',top);
-                console.log(i);
+                // console.log(i);
             })
         }
     })

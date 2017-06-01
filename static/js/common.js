@@ -4,7 +4,7 @@
  * Url: http://www.tinyliu.com/
  */
 
-;(function($, window, undefined) {
+(function($, window, undefined) {
     var $allDropdowns = $();
    
     $.fn.dropdownHover = function(options) {

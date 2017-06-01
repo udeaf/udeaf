@@ -131,25 +131,35 @@ body{
 	background:  #a9acb0;
 	color: #fff;
 	height: 60px;
-	padding: 19px;
+	padding: 0;
     text-align: center;
 }
 #ideas .more-button a{
 	color: #fff;
+    display: block;
+}
+#ideas .more-button > a:nth-child(1) {
+    padding: 20px 0;
 }
 #ideas .more-button .line {
     display: block;
-    margin: auto;
+    margin: -20px auto 0;
     width: 62%;
     height: 6px;
     border-bottom: 2px solid #fff;
     border-right: 2px solid #fff;
     border-left: 2px solid #fff;
+    /*margin-top: -20px;*/
 }
 #ideas .more-button img{
 	margin-top: -12px;
 	margin-left: -105px;
 }
+
+.idea-read-more > a {
+    display: block;
+}
+
 
 #MT4-platform,#work-CRM{
 	background-color: #8d9196;
