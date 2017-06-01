@@ -157,14 +157,10 @@
 }
 #company{
     background: #f4f5f7;
-    margin-top: 50px;
 }
 #list-group .list-group{
     background: #fff;
 }
-
-
-
 
 #company .company-head {
     background: #191919;
@@ -176,31 +172,17 @@
     color: #8b8787;
 }
 
-#company .circle {
-    height: 25px;
-    width: 25px;
-    border-radius: 100%;
-    content: '';
-    background: #cbd2dc;
-    margin-top: 20px;
-    margin-left: 20px;
-    display: inline-block;
-
-}
-
-#company .circle-right {
-    margin-top: -30px;
-    margin-left: 89%;
-    width: 40px;
-    height: 40px;
-}
-
 #company .company-site {
     display: inline-block;
-    margin-top: 13px;
     margin-bottom: -8px;
-    margin-left: 20px;
     color: #aadcff;
+}
+
+#company .low-save,
+#company .open-fee,
+#company .fee-out,
+#company .fee-in {
+    text-align: center;
 }
 
 #company .short-site {
@@ -210,11 +192,10 @@
 #company .company-croci {
     background: #f4c682;
     display: inline-block;
-    height: 18px;
-    width: 70px;
-    margin-bottom: -5px;
+    height: 10px;
+    width: 35px;
     margin-left: 15px;
-
+    margin-top: 4px;
 }
 
 #company .green {
@@ -225,49 +206,55 @@
     background: #cb4c5e;
 }
 
-#company .company-groud {
-    padding: 0;
-}
-
 #company .open-bank {
-    width: 32%;
+    width: 30%;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+#company .open-fee {
+    width: 21%;
     display: inline-block;
 }
 
-#company .low-save {
-    width: 20%;
+#company .low-save,
+#company .fee-out,
+#company .fee-in {
+    width: 11%;
     display: inline-block;
 }
 
-#company .fa-2x {
-    font-size: 2em;
-    margin-right: 2px;
-    margin-top: 22px;
+#company #search_list > li {
+    display: block;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+#company #search_list > li:first-child {
+    height: 52px;
+}
+
+#company #search_list > li:nth-child(2) {
+    height: 52px;
+    line-height: 32px;
+}
+
+#company #search_list > li:first-child > .company-croci {
+    margin-top: 12px;
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+#company #search_list > li:first-child > span {
     float: right;
-    color: #c5c9d1;
 }
 
-#company .company-search {
-    background: url("../img/company-search.png") no-repeat;
-    background-size: 100%;
-    display: inline-block;
-    height: 22px;
-    width: 22px;
-    margin-top: 10px;
+#company .tag-text {
+    margin-right: 15px;
+    margin-top: 7px;
 }
 
-#company input {
-    width: 70%;
-    color: #e1e1e1;
-    border: solid 0;
-}
-
-#search_list .list-group-item:hover {
-    background: rgba(25, 25, 25, 0.5);
-}
-#search_list .list-group-item:hover > span {
-    color: #fff;
-}
 #search_list dl {
     color: #8b8787;
 }
@@ -332,7 +319,7 @@
 #affect{
     text-align: center;
     padding: 60px;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 #affect h4{
     margin-bottom: 36px

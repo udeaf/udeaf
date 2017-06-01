@@ -149,363 +149,303 @@
         </section>
         <section id="company">
             <div class="company-list">
-                <div class="company-head">
-                    <div class="container ">
-                        <div class="row">
-                            <span class="circle"></span>
-                            <span class="circle"></span>
-                            <span class="circle"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="container list-group">
-                    <div class="list-group-item" id="test">
-                        <input id="search_input" placeholder="Search..." type="text"/>
-                        <a class="company-search"></a>
-                        <span class="circle circle-right"></span>
-                    </div>
-                    <div class="col-lg-9 col-sm-9 col-md-9 col-xs-9 company-groud">
-                        <ul class="list-group" id="search_list">
-                            <li class="list-group-item" aria-disabled="true">
-                                <span class="open-bank">开户银行</span>
-                                <span class="low-save">最低结存额</span>
-                                <span class="low-save">低额结存月费</span>
-                                <span class="">开户手续费（港币）</span>
-                            </li>
-                            <li class="list-group-item" data-toggle="modal" data-target=".myModal">
+                <div class="container">
+                    <ul id="search_list">
+                        <li>
+                            <span class="tag-text">电话理财</span>
+                            <span class="company-croci red"></span><span class="tag-text">网上银行</span>
+                            <span class="company-croci green"></span>
+                        </li>
+                        <li>
+                            <span class="open-bank">开户银行</span>
+                            <span class="low-save">最低结存额</span>
+                            <span class="low-save">低额结存月费</span>
+                            <span class="open-fee">开户手续费（港币）</span>
+                            <span class="fee-out">汇出手续费</span>
+                            <span class="fee-in">汇入手续费</span>
+                        </li>
+                        <li>
                                 <span class="open-bank">
-                                    <label class="name-com">香港上海汇丰银行有限公司</label>
-                                    <label class="name-in" style="display: none">220</label>
-                                    <label class="name-out" style="display: none">65</label>
-                                    <span class="company-site">香港<span class="company-croci  green"></span>
-                                    </span>
+                                    <label class="name-com">香港上海汇丰银行有限公司</label><br/>
+                                    <span class="company-site">香港<span class="company-croci green"></span></span>
                                 </span>
-                                <span class="low-save">50,000</span>
-                                <span class="low-save">200</span>
-                                <span class="">1350
-                                    <i class="fa fa-angle-right fa-2x"></i>
-                                </span>
-                            </li>
-                            <li class="list-group-item" data-toggle="modal" data-target=".myModal">
+                            <span class="low-save">50,000</span>
+                            <span class="low-save">200</span>
+                            <span class="open-fee">1350</span>
+                            <span class="fee-out">220</span>
+                            <span class="fee-in">65</span>
+                        </li>
+                        <li>
                                 <span class="open-bank">
-                                    <label class="name-com">星展银行（香港）有限公司</label>
-                                    <label class="name-in" style="display: none">250</label>
-                                    <label class="name-out" style="display: none">65</label>
+                                    <label class="name-com">星展银行（香港）有限公司</label><br/>
                                     <span class="company-site">香港<span class="company-croci"></span></span>
                                 </span>
-                                <span class="low-save">20,000</span>
-                                <span class="low-save">100</span>
-                                <span class="">1000/1000-3000
-                                    <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item" data-toggle="modal" data-target=".myModal">
+                            <span class="low-save">20,000</span>
+                            <span class="low-save">100</span>
+                            <span class="open-fee">1000/1000-3000</span>
+                            <span class="fee-out">220</span>
+                            <span class="fee-in">65</span>
+                        </li>
+                        <li>
                                 <span class="open-bank">
-                                    <label class="name-com">恒生银行有限公司</label>
-                                    <label class="name-in" style="display: none">220</label>
-                                    <label class="name-out" style="display: none">65</label>
-                                    <span class="company-site short-site">香港<span class="company-croci red"></span></span>
+                                    <label class="name-com">恒生银行有限公司</label><br/>
+                                    <span class="company-site short-site">香港<span
+                                        class="company-croci red"></span></span>
                                 </span>
-                                <span class="low-save">50,000</span>
-                                <span class="low-save">180</span>
-                                <span class="">1350
-                                    <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item" data-toggle="modal" data-target=".myModal">
+                            <span class="low-save">50,000</span>
+                            <span class="low-save">180</span>
+                            <span class="open-fee">1350</span>
+                            <span class="fee-out">220</span>
+                            <span class="fee-in">65</span>
+                        </li>
+                        <li>
                                 <span class="open-bank">
-                                    <label class="name-com">交通银行股份有限有限公司香港分行</label>
-                                    <label class="name-in" style="display: none">200</label>
-                                    <label class="name-out" style="display: none">50</label>
+                                    <label class="name-com">交通银行股份有限有限公司香港分行</label><br/>
                                     <span class="company-site">香港<span class="company-croci  green"></span></span>
                                 </span>
-                                <span class="low-save">10,000</span>
-                                <span class="low-save">60</span>
-                                <span class="">200
-                                    <i class="fa fa-angle-right fa-2x"></i>
-                                </span>
-                            </li>
-                            <li class="list-group-item" data-toggle="modal" data-target=".myModal">
+                            <span class="low-save">10,000</span>
+                            <span class="low-save">60</span>
+                            <span class="open-fee">200</span>
+                            <span class="fee-out">200</span>
+                            <span class="fee-in">50</span>
+                        </li>
+                        <li>
                                 <span class="open-bank">
-                                    <label class="name-com">中国银行{香港}有限公司</label>
-                                    <label class="name-in" style="display: none">200</label>
-                                    <label class="name-out" style="display: none">60</label>
+                                    <label class="name-com">中国银行{香港}有限公司</label><br/>
                                     <span class="company-site">香港<span class="company-croci  green"></span></span>
                                 </span>
-                                <span class="low-save">50,000</span>
-                                <span class="low-save">120</span>
-                                <span class="">150
-                                    <i class="fa fa-angle-right fa-2x"></i>
-                                </span>
-                            </li>
-                            <li class="list-group-item" data-toggle="modal" data-target=".myModal">
+                            <span class="low-save">50,000</span>
+                            <span class="low-save">120</span>
+                            <span class="open-fee">150</span>
+                            <span class="fee-out">200</span>
+                            <span class="fee-in">60</span>
+                        </li>
+                        <li>
                                 <span class="open-bank">
-                    <label class="name-com">中信银行（国际）有限公司</label>
-                     <label class="name-in" style="display: none">200</label>
-                    <label class="name-out" style="display: none">60</label>
+                                    <label class="name-com">中信银行（国际）有限公司</label><br/>
+                                    <span class="company-site">香港<span class="company-croci  green"></span></span>
+                                </span>
+                            <span class="low-save">50,000</span>
+                            <span class="low-save">100</span>
+                            <span class="open-fee">450</span>
+                            <span class="fee-out">200</span>
+                            <span class="fee-in">60</span>
+                        </li>
+                        <li>
+                <span class="open-bank">
+                    <label class="name-com">中国工商银行（亚洲）有限公司</label><br/>
+
                 <span class="company-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">50,000</span>
-                                <span class="low-save">100</span>
-                                <span class="">450
-                    <i class="fa fa-angle-right fa-2x"></i>
-                </span>
-                            </li>
-                            <li class="list-group-item" data-toggle="modal" data-target=".myModal">
+                            <span class="low-save">5000</span>
+                            <span class="low-save">50</span>
+                            <span class="open-fee">200</span>
+                            <span class="fee-out">200</span>
+                            <span class="fee-in">60</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                    <label class="name-com">中国工商银行（亚洲）有限公司</label>
-                     <label class="name-in" style="display: none">200</label>
-                    <label class="name-out" style="display: none">60</label>
-                <span class="company-site">香港<span class="company-croci  green"></span></span>
-                </span>
-                                <span class="low-save">5000</span>
-                                <span class="low-save">50</span>
-                                <span class="">200
-                    <i class="fa fa-angle-right fa-2x"></i>
-                </span>
-                            </li>
-                            <li class="list-group-item" data-toggle="modal" data-target=".myModal">
-                <span class="open-bank">
-                    <label class="name-com"> 中国建设银行（亚洲）股份有限公司</label>
-                     <label class="name-in" style="display: none">220</label>
-                    <label class="name-out" style="display: none">60</label>
+                    <label class="name-com"> 中国建设银行（亚洲）股份有限公司</label><br/>
+
                     <span class="company-site">香港<span class="company-croci red"></span></span>
                 </span>
-                                <span class="low-save">5000</span>
-                                <span class="low-save">50</span>
-                                <span class="">300
-                 <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item" data-toggle="modal" data-target=".myModal">
+                            <span class="low-save">5000</span>
+                            <span class="low-save">50</span>
+                            <span class="open-fee">300</span>
+                            <span class="fee-out">200</span>
+                            <span class="fee-in">60</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                    <label class="name-com"> 永丰银行</label>
-                     <label class="name-in" style="display: none">250</label>
-                    <label class="name-out" style="display: none">100</label>
+                    <label class="name-com"> 永丰银行</label><br/>
+
                     <span class="company-site short-site">香港<span class="company-croci"></span></span>
                 </span>
-                                <span class="low-save">10,000</span>
-                                <span class="low-save">50</span>
-                                <span class="">0
-                 <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item" data-toggle="modal" data-target=".myModal">
+                            <span class="low-save">10,000</span>
+                            <span class="low-save">50</span>
+                            <span class="">0</span>
+                            <span class="fee-out">200</span>
+                            <span class="fee-in">100</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                    <label class="name-com">中国信托商业银行股份有限公司</label>
-                     <label class="name-in" style="display: none">150</label>
-                    <label class="name-out" style="display: none">60</label>
+                    <label class="name-com">中国信托商业银行股份有限公司</label><br/>
                 <span class="company-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">10,000</span>
-                                <span class="low-save">150</span>
-                                <span class="">2000
-                    <i class="fa fa-angle-right fa-2x"></i>
-                </span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">10,000</span>
+                            <span class="low-save">150</span>
+                            <span class="open-fee">2000</span>
+                            <span class="fee-out">150</span>
+                            <span class="fee-in">60</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                    <label class="name-com">永隆银行有限公司</label>
-                    <label class="name-in" style="display: none">150</label>
-                    <label class="name-out" style="display: none">60</label>
+                    <label class="name-com">永隆银行有限公司</label><br/>
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">5000</span>
-                                <span class="low-save">50</span>
-                                <span class="">1000
-                    <i class="fa fa-angle-right fa-2x"></i>
-                </span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">5000</span>
+                            <span class="low-save">50</span>
+                            <span class="">1000</span>
+                            <span class="fee-out">150</span>
+                            <span class="fee-in">60</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                    <label class="name-com">大新银行有限公司</label>
-                    <label class="name-in" style="display: none">250</label>
-                    <label class="name-out" style="display: none">70</label>
+                    <label class="name-com">大新银行有限公司</label><br/>
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">5000</span>
-                                <span class="low-save">60</span>
-                                <span class="">11,000（单层架构）
-                    <i class="fa fa-angle-right fa-2x"></i>
-                </span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">5000</span>
+                            <span class="low-save">60</span>
+                            <span class="open-fee">11,000（单层架构）</span>
+                            <span class="fee-out">250</span>
+                            <span class="fee-in">70</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                    <label class="name-com">渣打银行（香港）有限公司</label>
-                    <label class="name-in" style="display: none">200</label>
-                    <label class="name-out" style="display: none">55</label>
+                    <label class="name-com">渣打银行（香港）有限公司</label><br/>
                     <span class="company-site">香港<span class="company-croci red"></span></span>
                 </span>
-                                <span class="low-save">200，000</span>
-                                <span class="low-save">300</span>
-                                <span class="">150
-                 <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">200，000</span>
+                            <span class="low-save">300</span>
+                            <span class="open-fee">150</span>
+                            <span class="fee-out">200</span>
+                            <span class="fee-in">55</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                    <label class="name-com">南洋商业银行有限公司</label>
-                    <label class="name-in" style="display: none">180</label>
-                    <label class="name-out" style="display: none">15</label>
+                    <label class="name-com">南洋商业银行有限公司</label><br/>
                     <span class="company-site">香港<span class="company-croci"></span></span>
                 </span>
-                                <span class="low-save">500</span>
-                                <span class="low-save">60</span>
-                                <span class="">1000
-                 <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">500</span>
+                            <span class="low-save">60</span>
+                            <span class="">1000</span>
+                            <span class="fee-out">180</span>
+                            <span class="fee-in">15</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                     <label class="name-com">台新国际商业银行</label>
+                     <label class="name-com">台新国际商业银行</label><br/>
                     <label class="name-in" style="display: none">250</label>
                     <label class="name-out" style="display: none">100</label>
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">N/A</span>
-                                <span class="low-save">0</span>
-                                <span class="">0
-                    <i class="fa fa-angle-right fa-2x"></i>
-                </span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">N/A</span>
+                            <span class="low-save">0</span>
+                            <span class="open-fee">0</span>
+                            <span class="fee-out">250</span>
+                            <span class="fee-in">100</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                     <label class="name-com">东亚银行有限公司</label>
-                    <label class="name-in" style="display: none">280</label>
-                    <label class="name-out" style="display: none">65</label>
+                     <label class="name-com">东亚银行有限公司</label><br/>
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">10,000</span>
-                                <span class="low-save">100</span>
-                                <span class="">200
-                    <i class="fa fa-angle-right fa-2x"></i>
-                </span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">10,000</span>
+                            <span class="low-save">100</span>
+                            <span class="open-fee">200</span>
+                            <span class="fee-out">280</span>
+                            <span class="fee-in">65</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                     <label class="name-com">花旗银行</label>
-                    <label class="name-in" style="display: none">220</label>
-                    <label class="name-out" style="display: none">0</label>
+                     <label class="name-com">花旗银行</label><br/>
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">10,000</span>
-                                <span class="low-save">60</span>
-                                <span class="">100
-                    <i class="fa fa-angle-right fa-2x"></i>
-                </span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">10,000</span>
+                            <span class="low-save">60</span>
+                            <span class="open-fee">100</span>
+                            <span class="fee-out">220</span>
+                            <span class="fee-in">0</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                    <label class="name-com">华侨永亨银行有限公司</label>
-                    <label class="name-in" style="display: none">200</label>
-                    <label class="name-out" style="display: none">40</label>
+                    <label class="name-com">华侨永亨银行有限公司</label><br/>
                     <span class="company-site">香港<span class="company-croci red"></span></span>
                 </span>
-                                <span class="low-save">50，000</span>
-                                <span class="low-save">80</span>
-                                <span class="">1350
-                 <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">50，000</span>
+                            <span class="low-save">80</span>
+                            <span class="open-fee">1350</span>
+                            <span class="fee-out">200</span>
+                            <span class="fee-in">40</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                    <label class="name-com">创兴银行有限公司</label>
-                    <label class="name-in" style="display: none">120</label>
-                    <label class="name-out" style="display: none">50</label>
+                    <label class="name-com">创兴银行有限公司</label><br/>
                     <span class="company-site short-site">香港<span class="company-croci"></span></span>
                 </span>
-                                <span class="low-save">500</span>
-                                <span class="low-save">0</span>
-                                <span class="">150
-                 <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">500</span>
+                            <span class="low-save">0</span>
+                            <span class="open-fee">150</span>
+                            <span class="fee-out">120</span>
+                            <span class="fee-in">50</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                    <label class="name-com">台北富帮商业银行股份有限公司香港分行</label>
-                    <label class="name-in" style="display: none">200</label>
-                    <label class="name-out" style="display: none">50</label>
+                    <label class="name-com">台北富帮商业银行股份有限公司香港分行</label><br/>
                 <span class="company-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">500,000</span>
-                                <span class="low-save">150</span>
-                                <span class="">2000
-                    <i class="fa fa-angle-right fa-2x"></i>
-                </span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">500,000</span>
+                            <span class="low-save">150</span>
+                            <span class="open-fee">2000</span>
+                            <span class="fee-out">200</span>
+                            <span class="fee-in">50</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                    <label class="name-com">大华银行</label>
-                    <label class="name-in" style="display: none">200</label>
-                    <label class="name-out" style="display: none">0</label>
+                    <label class="name-com">大华银行</label><br/>
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">2000</span>
-                                <span class="low-save">25</span>
-                                <span class="">100
-                    <i class="fa fa-angle-right fa-2x"></i>
-                </span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">2000</span>
+                            <span class="low-save">25</span>
+                            <span class="open-fee">100</span>
+                            <span class="fee-out">200</span>
+                            <span class="fee-in">0</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                    <label class="name-com">马来亚银行</label>
-                    <label class="name-in" style="display: none">200</label>
-                    <label class="name-out" style="display: none">120</label>
+                    <label class="name-com">马来亚银行</label><br/>
                 <span class="company-site short-site">香港<span class="company-croci  green"></span></span>
                 </span>
-                                <span class="low-save">5000</span>
-                                <span class="low-save">0</span>
-                                <span class="">实际费用，根据银行收取
-                    <i class="fa fa-angle-right fa-2x"></i>
-                </span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">5000</span>
+                            <span class="low-save">0</span>
+                            <span class="open-fee">实际费用，根据银行收取</span>
+                            <span class="fee-out">200</span>
+                            <span class="fee-in">120</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                     <label class="name-com">澳新银行</label>
-                    <label class="name-in" style="display: none">150</label>
-                    <label class="name-out" style="display: none">150</label>
+                     <label class="name-com">澳新银行</label><br/>
                     <span class="company-site short-site">香港<span class="company-croci red"></span></span>
                 </span>
-                                <span class="low-save">500，000</span>
-                                <span class="low-save">300</span>
-                                <span class="">100
-                 <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">500，000</span>
+                            <span class="low-save">300</span>
+                            <span class="open-fee">100</span>
+                            <span class="fee-out">150</span>
+                            <span class="fee-in">150</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                     <label class="name-com">广发银行</label>
-                    <label class="name-in" style="display: none">0</label>
-                    <label class="name-out" style="display: none">0</label>
+                     <label class="name-com">广发银行</label><br/>
                     <span class="company-site short-site">香港<span class="company-croci"></span></span>
                 </span>
-                                <span class="low-save">N/A</span>
-                                <span class="low-save">0</span>
-                                <span class="">0
-                 <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                            <li class="list-group-item">
+                            <span class="low-save">N/A</span>
+                            <span class="low-save">0</span>
+                            <span class="open-fee">0</span>
+                            <span class="fee-out">200</span>
+                            <span class="fee-in">60</span>
+                        </li>
+                        <li>
                 <span class="open-bank">
-                     <label class="name-com">大众银行（香港）</label>
-                    <label class="name-in" style="display: none">150</label>
-                    <label class="name-out" style="display: none">50</label>
+                     <label class="name-com">大众银行（香港）</label><br/>
                     <span class="company-site short-site">香港<span class="company-croci"></span></span>
                 </span>
-                                <span class="low-save">500,000</span>
-                                <span class="low-save">0</span>
-                                <span class="">0
-                 <i class="fa fa-angle-right fa-2x"></i></span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-offset-9 text-center" id="getHeight">
-                        <div id="moveHeight" class="color-fff col-lg-12">
-                            <div class="comp-name">
-                                <img src="../static/img/compa-icon.png" class="img-responsive center-block">
-                                <div class="com"></div>
-                            </div>
-                            <div class="comp-exchange comp-out">
-                                <div class="span-exchange out-span"></div>
-                                <div class="out-text">汇出手续费（港币）</div>
-                            </div>
-                            <div class="comp-exchange comp-in">
-                                <div class="span-exchange in-span"></div>
-                                <div class="in-text">汇入手续费（港币）</div>
-                            </div>
-                        </div>
-                    </div>
-
+                            <span class="low-save">500,000</span>
+                            <span class="low-save">0</span>
+                            <span class="open-fee">0</span>
+                            <span class="fee-out">150</span>
+                            <span class="fee-in">50</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -639,7 +579,8 @@
                         <dd>商户合作：Sales@udeafx.com</dd>
                         <dd>电话号码：+00852 6032-7386</dd>
                         <dd>公司地址：香港湾仔路骆克道53-55号
-                            恒泽商业大厦15楼1501室</dd>
+                            恒泽商业大厦15楼1501室
+                        </dd>
                     </dl>
                     <div class="clearfix visible-xs-block"></div>
                 </div>
@@ -652,7 +593,7 @@
     </body>
 
 
-    <!--<script type="text/javascript" src="../static/js/jquery.min.js"></script>-->
+    <script type="text/javascript" src="../static/js/jquery.min.js"></script>
     <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../static/js/jquery.magnific-popup.js"></script>
     <script type="text/javascript" src="../static/js/common.js"></script>
@@ -661,14 +602,7 @@
     <script type="text/javascript" src="../static/js/jquery.lazyload.js"></script>
     <script type="text/javascript" src="../static/js/storage.js"></script>
     <script type="text/javascript" src="../static/js/index.js"></script>
-    <script src="../static/js/jquery.js"></script>
-    <script src="../static/js/jquery.fastLiveFilter.js"></script>
     <script src="../static/js/test.js"></script>
-    <script>
-        $(function () {
-            $('#search_input').fastLiveFilter('#search_list');
-        });
-    </script>
 
     <script type='text/javascript'>
         var _vds = _vds || [];
