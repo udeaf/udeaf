@@ -1,5 +1,6 @@
 body{
 	background: #fff;
+    font-size: 12px;
 }
 #header{
 	position: relative;
@@ -379,7 +380,7 @@ body{
 		width: 138px;
 	}
 	#footerMenu{
-		padding: 40px 0 15px;
+		padding: 40px 0 1px;
 	}
 	#footerMenu .companyinfo{
 		padding-top: 15px;

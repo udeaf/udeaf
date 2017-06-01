@@ -33,6 +33,7 @@ ul,li{
 #nav a{
     color: #cdcdcd;
     background:none;
+    font-size: 14px;
 }
 #nav a.free{
     color: #fff;
@@ -225,6 +226,9 @@ ul,li{
     color: #fff;
     background-color: #121212;
 }
+#footerMenu > div:nth-child(1) {
+    padding-bottom: 50px;
+}
 #footerMenu .row{
     position: relative;
 }
@@ -237,7 +241,7 @@ ul,li{
     color: #fff;
 }
 #footerMenu dd{
-    font-size: 14px;
+    font-size: 12px;
     padding: 4px 0;
 }
 #footerMenu dd,
@@ -258,7 +262,7 @@ ul,li{
 }
 
 #footerMenu {
-    padding: 40px 0 15px;
+    padding: 40px 0 1px;
 }
 #footerMenu .companyinfo{
     padding-top: 15px;
@@ -370,7 +374,7 @@ ul,li{
         border-right: solid 1px #2aabd2;
     }
     #footerMenu{
-        padding: 40px 0 15px;
+        padding: 40px 0 1px;
     }
     #footerMenu .companyinfo{
         padding-top: 15px;

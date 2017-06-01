@@ -352,44 +352,6 @@
 }
 /*company end*/
 /*paizhao start*/
-#licence, #licence-FSP, #licence-VFCA, #licence-NFA, #licence-FMA, #licence-FCA {
-    color: #999999;
-}
-
-#licence .container .row,
-#licence-FSP .container .row,
-#licence-VFCA .container .row,
-#licence-NFA .container .row,
-#licence-FMA .container .row,
-#licence-FCA .container .row,
-#licence-FSA {
-    padding-bottom: 45px;
-}
-
-#licence-newland,
-#licence-FSA {
-    padding-top: 50px;
-}
-
-#licence ul {
-    list-style: none;
-}
-
-#licence-ul ul li, #licence-ul-1 ul li, #licence-ul-2 ul li, #crm-ul ul li, #licence-detail ul li {
-    list-style: url(../img/ul-list-style.png);
-    padding: 0;
-    margin-left: 30px;
-    line-height: 20px;
-    margin-bottom: 25px;
-
-
-}
-
-#licence-detail ul li {
-    margin-left: 18px;
-    font-size: 12px;
-}
-
 #crm-ul > ul {
     margin-left: 10px;
 }
@@ -414,154 +376,31 @@
     margin-left: -35px;
 }
 
-.licence-capital ul {
-    line-height: 32px;
-    margin-bottom: 25px;
-}
-
-.licence-text p {
-    font-size: 12px;
-}
-
-.licence-text h5 {
-    color: #666666;
-    margin-bottom: 18px;
-    margin-top: 30px;
-}
-
-#licence .licence-text > h5:nth-child(1) {
-    margin-top: -66px;
-}
-
-#licence-FSP .licence-text > h5:nth-child(1) {
-    margin-top: 10px;
-}
-
-#licence-FMA .licence-text > h5:nth-child(1) {
-    margin-top: -60px;
-}
-
-#licence-FSA h5 {
-    margin-bottom: 20px;
-}
-
-#licence .licence-text p, #licence-FSP .paizhaotext p {
-    margin-bottom: 6px;
-    line-height: 24px;
-    margin-top: 16px;
-}
-
-#licence-about, #licence-deal {
-    padding: 50px 0;
-}
-
-#licence-about h5 {
-    margin-bottom: 24px;
-}
-
-#licence-about p {
-    color: #c8c8c8;
-    line-height: 22px;
-}
-
-#licence-about .container div:nth-child(2) {
-    margin-top: 24px;
-}
-
-.paizhaoimg {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.paizhaotext {
-    margin-left: 20%;
-}
-
-#licence-NFA h5:nth-child(1) {
-    margin-top: -50px;
-}
-
-#licence-NFA h5:nth-child(3) {
-    margin-bottom: 10px;
-}
-
-#licence-detail .container, #licence-main .container {
-    padding: 55px;
-}
-
-#licence-detail h4 {
-    margin-bottom: 43px;
-    margin-top: 25px;
-}
-
-#licence-detail ul li, #licence-main ul li {
-    /*margin-bottom: 8px;*/
-}
-
-#licence-main ul li, #licence-VFCA ul li, #licence-NFA ul li, #licence-deal ul li,
-#licence-newland ul li, #licence-FCA ul li, #licence-FSA ul li {
-    list-style: url(../img/ul-list-style.png);
-    padding: 0;
-    line-height: 24px;
-    font-size: 12px;
-    margin-left: 5px;
-}
-
-#licence-VFCA ul li,
-#licence-FCA ul li {
-    margin-left: 18px;
-}
-
-#licence-NFA ul li {
-    margin-left: 27px;
-}
-
-#licence-deal ul li,
-#licence-newland ul li,
-#licence-FSA ul li {
-    margin-left: 15px;
-}
-
-#licence-newland p {
-    margin: 40px 0 20px 10%;
-}
-
 .clear-maginleft {
     margin-left: 0;
 }
 
-#licence-FSP .paizhaotext {
-    margin-top: -79px;
+.license {
+    padding: 84px 0;
 }
 
-#licence-FSP .paizhaotext > h5:nth-child(2) {
-    margin-top: 151px;
+.license p {
+    color: #666;
 }
 
-#licence-VFCA .licence-text > h5:nth-child(1) {
-    margin-top: -70px;
+.license > div > p {
+    margin-top: -26px;
 }
 
-#licence-FCA .licence-text > h5:nth-child(1) {
-    margin-top: -70px;
+.license > div:nth-child(2n) {
+    text-align: right;
 }
 
-@media (min-width: 1200px) {
-    #licence-main .col-lg-7 {
-        width: 60.333333%;
-    }
-
-    #licence-main .col-lg-5 {
-        width: 39.666667%;
-    }
+.license > div:nth-child(2n+1) > p {
+    padding-left: 150px;
 }
-
-#licence-main h5 {
-    margin-bottom: 20px;
-}
-
-#licence-main p {
-    margin-top: 20px;
+.license > div:nth-child(2n) > p {
+    padding-right: 150px;
 }
 
 /*paizhao end*/
@@ -720,10 +559,9 @@
     margin-top: 39px;
     margin-bottom: 72px;
 }
-
 /*crm end*/
-/*paizhao start*/
 
+/*paizhao start*/
 /*liudong strat*/
 .adv-img {
     width: 50px;
@@ -942,18 +780,6 @@
 
     .paizhaotext {
         margin-left: 5%;
-    }
-
-    #licence .licence-text > h5:nth-child(1),
-    #licence-FMA .licence-text > h5:nth-child(1),
-    #licence-VFCA .licence-text > h5:nth-child(1),
-    #licence-NFA h5:nth-child(1),
-    #licence-FCA .licence-text > h5:nth-child(1) {
-        margin-top: -30px;
-    }
-
-    #licence-FSP .licence-text > h5:nth-child(1) {
-        margin-top: 90px;
     }
 
 }

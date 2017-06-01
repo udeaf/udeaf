@@ -601,6 +601,9 @@ section.bg-b h6 {
     background: url("../img/10.png") no-repeat;
 }
 
+#shuju {
+    padding-bottom: 40px;
+}
 #shuju h2 {
     margin: 50px 0 60px 0;
     text-align: center;
