@@ -223,7 +223,6 @@ body{
 }
 #myCarousel h4{
 	margin: 45px 0 35px;
-	text-align: center;
 }
 #myCarousel .car-text{
 	margin-left: 479px;
@@ -332,7 +331,7 @@ body{
 		border-bottom: dashed 1px #eaeaea;
 	}
 	#footerMenu{
-		padding: 25px 0 20px;
+		padding: 25px 0 0px;
 	}
     .idea-read-more {
         display: none;
@@ -369,10 +368,10 @@ body{
 		width: 138px;
 	}
 	#footerMenu{
-		padding: 40px 0 15px;
+		padding: 40px 0 0px;
 	}
 	#footerMenu .companyinfo{
-		padding-top: 15px;
+		padding-top: 5px;
 	}
 	#footerMenu .follow-us dt{width: 190px;}
 	#footerMenu .contact{text-align: right}
