@@ -31,79 +31,55 @@ body{
 	margin-top: 84px;
 
 }
+
 #myCarousel .carousel-text a{
 	color: #fff;
+}
+#myCarousel .carousel-caption{
+	background:rgba(0,0,0,.3);
+	/*background:rgba(244,12,45,.3);*/
+	filter:alpha(opacity=30) ;
+	left: 0;
+	right: 0;
+	height: 450px;
+	margin-bottom: 90px;
+}
+#myCarousel h2{
+	margin: 80px 0 50px;
+}
+#myCarousel h4{
+	margin: 45px 0 35px;
+}
+#myCarousel .car-text{
+	margin-left: 479px;
+	text-align: center;
+	margin-top: 85px;
+}
+#myCarousel .car-text img{
+	margin-top: -50px;
+}
+#myCarousel .carousel-inner .item{
+	width: 100%;
+	height: 574px;
+}
+#myCarousel .carousel-inner .active{
+	
+}
+#myCarousel img{
+	width: 100%;
+	height: 100%;
 }
 #bgnav span.cur{width:40px}
 .intro-detail{
 	margin: 0 0!important;
 }
-#cooperation{
-	padding: 70px 0 50px;
-}
 
-#cooperation a{
-	display: inline-block;
-	height: 100px;
-	background-position: center top;
-	background-repeat:no-repeat;
-}
-#cooperation .odd a,#cooperation .even a{
-	background-position: center;
-}
-#cooperation .cooperation1{
-	background-image: url("../img/bank_four_gray.png");
-}
-#cooperation .cooperation1:hover{
-	background-image: url("../img/bank_four_color.png");
-}
-#cooperation .cooperation2{
-	background-image: url("../img/bank_CFA_gray.png");
-}
-#cooperation .cooperation2:hover{
-	background-image: url("../img/bank_CFA_color.png");
-}
-#cooperation .cooperation3{
-	background-image: url("../img/bank_Gold_gray.png");
-}
-#cooperation .cooperation3:hover{
-	background-image: url("../img/bank_Gold_color.png");
-}
-#cooperation .cooperation4{
-	background-image: url("../img/bank_person_gray.png");
-}
-#cooperation .cooperation4:hover{
-	background-image: url("../img/bank-person-color.png");
-}
-#cooperation .cooperation5{
-	background-image: url("../img/bank_two_grey.png");
-	background-size: 20%;
-}
-#cooperation .cooperation5:hover{
-	background-image: url("../img/bank_two_color.png");
-	background-size: 20%;
-}
-#cooperation .cooperation6{
-	background-image: url('../img/bank_hp_gray.png');
-}
-#cooperation .cooperation6:hover{
-	background-image: url('../img/bank_hp_red.png');
-}
-#cooperation .cooperation7{
-	background-image: url("../img/bank_china_gray.png");
-}
-#cooperation .cooperation7:hover{
-	background-image: url("../img/bank_china_color.png");
-}
-#cooperation .cooperation8{
-	background-image: url("../img/bank_pay_gray.png");
-}
-#cooperation .cooperation8:hover{
-	background-image: url("../img/bank_pay_color.png");
-}
+
+
 #ideas .idea-product{
 	background-color: #121212;
 	text-align: center;
+	margin-top: 50px;
 }
 #ideas .idea-more{
 	background-color: #fff;
@@ -164,6 +140,7 @@ body{
 
 #MT4-platform,#work-CRM{
 	background-color: #8d9196;
+	margin-top: 50px;
 }
 #MT4-platform .backAgent,#work-CRM .work-crm,#work-platform .platform{
 	background-color: #121212!important;
@@ -219,29 +196,6 @@ body{
 	height:5px;
     width: 9%;
 	/*width: 70px;*/
-}
-#myCarousel .carousel-caption{
-	background:rgba(0,0,0,.3);
-	/*background:rgba(244,12,45,.3);*/
-	filter:alpha(opacity=30) ;
-	left: 0;
-	right: 0;
-	height: 450px;
-	margin-bottom: 90px;
-}
-#myCarousel h2{
-	margin: 80px 0 50px;
-}
-#myCarousel h4{
-	margin: 45px 0 35px;
-}
-#myCarousel .car-text{
-	margin-left: 479px;
-	text-align: center;
-	margin-top: 85px;
-}
-#myCarousel .car-text img{
-	margin-top: -50px;
 }
 
 #work-platform h2,#work-CRM h2,#ideas h2{
@@ -321,26 +275,30 @@ body{
 .button-more.idea-hide-read-more {
     margin: 30px auto 0;
 }
+#client{padding:30px 0 50px}
+#client h2{font-size:36px;font-weight:200;margin-bottom:30px;color:#202020;text-align:center}
+#client a{display:inline-block;height:100px;background-position:center top;background-repeat:no-repeat}
+#client a:hover{background-position:center bottom;}
+#client .client1{background-image:url(../img/bank-mate.png)}
+#client .client1:hover{background-position-y: -81px;}
+
+#client .client2{background-image:url(../img/bank-CLE.png);background-position-x: 33px;}
+#client .client2:hover{background-position-y: -86px;background-position-x: 33px;}
+#client .client3{background-image:url(../img/bank-glod.png);background-position-y: 17px;    background-position-x: 23px;}
+#client .client3:hover{background-position-y: -94px;    background-position-x: 23px;}
+#client .client4{background-image:url(../img/bank-brokers.png);background-position-x: 24px;}
+#client .client4:hover{background-position-y: -104px; background-position-x: 24px;}
+#client .client5{background-image:url(../img/bank-HSBS.png)}
+#client .client5:hover{background-position-y: -81px;}
+#client .client6{background-image:url(../img/bank-hengsh.png);background-position-y: 9px;}
+#client .client6:hover{background-position-y: -98px;}
+#client .client7{background-image:url(../img/bank-china.png);background-position-y: -3px;}
+#client .client7:hover{background-position-y: -96px;}
+#client .client8{background-image:url(../img/bank-contact.png);background-position-y: -7px;}
+#client .client8:hover{background-position-y: -85px;}
+
 @media (max-width: 767px) {
 	#nav .navbar-toggle .icon-bar{background:#40c4ff;}
-	#cooperation a{
-		width: 100%;
-	}
-	#cooperation .odd{
-		padding-right: 0;
-	}
-	#cooperation .even{
-		padding-left: 0;
-
-	}
-	#cooperation .cooperation1, #cooperation .cooperation3,
-	#cooperation .cooperation5,#cooperation .cooperation7{
-		border-right: dashed 1px #eaeaea;
-	}
-	#cooperation .cooperation1,#cooperation .cooperation2,#cooperation .cooperation3,#cooperation .cooperation4,
-	#cooperation .cooperation5,#cooperation .cooperation6{
-		border-bottom: dashed 1px #eaeaea;
-	}
 	#footerMenu{
 		padding: 25px 0 0px;
 	}
@@ -368,16 +326,19 @@ body{
     .button-more {
         margin: 17px auto;
     }
+	#client a{width:100%;}
+	#client .odd{padding-right:0;}
+	#client .even{padding-left:0;}
+	#client .client1,#client .client3,#client .client5,#client .client7,#client .client9{border-right:dashed 1px #eaeaea}
+	#client .client1,#client .client2,#client .client3,#client .client4,#client .client5,#client .client6{border-bottom:dashed 1px #eaeaea}
+	#client .client9{border-bottom:dashed 1px #fff}
+
+
 }
 
 @media(min-width:768px) {
-	#cooperation .row{
-		margin:0 auto ;
-	}
-	#cooperation a{
-		float:left;
-		width: 138px;
-	}
+	#client .row{margin:0 auto;}
+	#client a{float:left;width:256px;;}
 	#footerMenu{
 		padding: 40px 0 1px;
 
@@ -402,58 +363,26 @@ body{
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+	#client .row{width:662px;}
+	#client .client1,#client .client3,#client .client5,#client .client7{border-right:dashed 1px #eaeaea}
+	#client .client1,#client .client2,#client .client3,#client .client4,#client .client5,#client .client6{border-bottom:dashed 1px #eaeaea}
+	#client .client7,#client .client8,#client .client9{border-bottom:dashed 1px #fff}
 
-	#cooperation .row{
-		width: 662px;
-	}
-	#cooperation .cooperation5{
-		background-size: 45%;
-	}
-	#cooperation .cooperation5:hover{
-		background-size: 45%;
-	}
-	#cooperation a{
-		background-position: center;
-	}
-	#cooperation .cooperation1,#cooperation .cooperation2, #cooperation .cooperation3,
-	#cooperation .cooperation5,#cooperation .cooperation6,#cooperation .cooperation7{
-		border-right: dashed 1px #eaeaea;
-	}
-	#cooperation .cooperation1,#cooperation .cooperation2, #cooperation .cooperation3,#cooperation .cooperation4{
-		border-bottom: dashed 1px #eaeaea;
-	}
+
 }
 @media(min-width: 992px)and (max-width: 1199px){
-	#cooperation .row{
-		width: 883px;
-	}
-	#cooperation a{
-		background-position: center;
-	}
-	#cooperation .cooperation1,#cooperation .cooperation2, #cooperation .cooperation3,#cooperation .cooperation4,
-	#cooperation .cooperation5,#cooperation .cooperation7{
-		border-right: dashed 1px #eaeaea;
-	}
-	#cooperation .cooperation1,#cooperation .cooperation2, #cooperation .cooperation3,#cooperation .cooperation4,
-	#cooperation .cooperation5,#cooperation .cooperation6{
-		border-bottom: dashed 1px #eaeaea;
-	}
+	#client .row{width:883px;}
+	#client .client1,#client .client2,#client .client5,#client .client4,#client .client7,#client .client9{border-right:dashed 1px #eaeaea}
+	#client .client1,#client .client2,#client .client3,#client .client4,#client .client5,#client .client6{border-bottom:dashed 1px #eaeaea}
+	#client .client9{border-bottom:dashed 1px #fff}
 }
 
 @media(min-width: 1200px) {
-	#cooperation .row{
-		width: 1104px;
-	}
-	#cooperation .cooperation5{
-		background-size: 65px;
-	}
-	#cooperation .cooperation1,#cooperation .cooperation2,#cooperation .cooperation3,#cooperation .cooperation4,
-	#cooperation .cooperation5,#cooperation .cooperation6,#cooperation .cooperation7{
-		border-right: dashed 1px #eaeaea;
-	}
-	#cooperation a{
-		background-position: center;
-	}
+	#client .row{width:1104px;}
+	#client .client1,#client .client2,#client .client3,#client .client6,#client .client5,#client .client7,#client .client9{border-right:dashed 1px #eaeaea}
+	#client .client1,#client .client2,#client .client3,#client .client4{border-bottom:dashed 1px #eaeaea}
+	#client .client6,#client .client7,#client .client8,#client .client9{border-bottom:dashed 1px #fff}
+
 	#footerMenu dd{
 		white-space: nowrap;
 	}
