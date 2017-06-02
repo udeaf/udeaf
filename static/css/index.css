@@ -28,7 +28,7 @@ body{
 #bgnav span{cursor:pointer;display:inline-block;margin:0 3px;height:7px;width:7px;overflow:hidden;background:#b2e5e9;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;}
 
 #myCarousel .carousel-text{
-	margin-top: 84px;
+	margin-top: 148px;
 
 }
 
@@ -51,7 +51,6 @@ body{
 	margin: 45px 0 35px;
 }
 #myCarousel .car-text{
-	margin-left: 479px;
 	text-align: center;
 	margin-top: 85px;
 }
@@ -298,6 +297,9 @@ body{
 #client .client8:hover{background-position-y: -85px;}
 
 @media (max-width: 767px) {
+	#myCarousel .car-text{
+		margin-left: 35%;
+	}
 	#nav .navbar-toggle .icon-bar{background:#40c4ff;}
 	#footerMenu{
 		padding: 25px 0 0px;
@@ -337,6 +339,9 @@ body{
 }
 
 @media(min-width:768px) {
+	#myCarousel .car-text{
+		margin-left: 35%;
+	}
 	#client .row{margin:0 auto;}
 	#client a{float:left;width:256px;;}
 	#footerMenu{
@@ -363,6 +368,10 @@ body{
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+	#myCarousel .car-text{
+		margin-left: 35%;
+	}
+
 	#client .row{width:662px;}
 	#client .client1,#client .client3,#client .client5,#client .client7{border-right:dashed 1px #eaeaea}
 	#client .client1,#client .client2,#client .client3,#client .client4,#client .client5,#client .client6{border-bottom:dashed 1px #eaeaea}
@@ -371,6 +380,10 @@ body{
 
 }
 @media(min-width: 992px)and (max-width: 1199px){
+	#myCarousel .car-text{
+		margin-left: 41%;
+
+	}
 	#client .row{width:883px;}
 	#client .client1,#client .client2,#client .client5,#client .client4,#client .client7,#client .client9{border-right:dashed 1px #eaeaea}
 	#client .client1,#client .client2,#client .client3,#client .client4,#client .client5,#client .client6{border-bottom:dashed 1px #eaeaea}
@@ -378,6 +391,9 @@ body{
 }
 
 @media(min-width: 1200px) {
+	#myCarousel .car-text{
+		margin-left: 41%;
+	}
 	#client .row{width:1104px;}
 	#client .client1,#client .client2,#client .client3,#client .client6,#client .client5,#client .client7,#client .client9{border-right:dashed 1px #eaeaea}
 	#client .client1,#client .client2,#client .client3,#client .client4{border-bottom:dashed 1px #eaeaea}
