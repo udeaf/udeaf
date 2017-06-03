@@ -19,7 +19,7 @@
         <link rel="stylesheet" type="text/css" href="../static/css/register.css">
 
     </head>
-    <body class="home page-template-page-index page-template-page-index-php page page-id-7">
+    <body class="home page-template-page-index page-template-page-index-php page page-id-7" oncontextmenu=self.event.returnValue=false onselectstart="return false">
         <!--导航栏-->
         <nav id="nav" class="navbar navbar-fixed-top" role="navigation">
             <div class="container">
@@ -102,12 +102,12 @@
                     <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="sanfang.html">三方支付申请</a></li>
                     <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="CRM.html">CRM管理系统</a></li>
                     <li class="col-lg-1">
-                        <div id="nextRE"><i class="fa fa-angle-double-right fa-lg"></i></div>
+                        <div id="nextRE"><i class="fa fa-angle-right fa-lg"></i></div>
                     </li>
                 </ul>
                 <ul class="two-show clickhide">
                     <li style="float:left;width: 4.5%;margin-left: 4.5%">
-                        <div id="pre" class="clickhide"><i class="fa fa-angle-double-left fa-lg"></i></div>
+                        <div id="pre" class="clickhide"><i class="fa fa-angle-left fa-lg"></i></div>
                     </li>
                     <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="liudong.html">流动性提供商</a></li>
                     <li class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a href="site.html">金融网站搭建</a></li>
@@ -280,4 +280,17 @@
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
+    <!--<script type="text/javascript" src="//publicdn.cdn.duapp.com/js/wqnmlgb.min.js"></script>-->
+
+    <!--<script>-->
+        <!--document.onkeydown=function (e){-->
+            <!--var currKey = 0;-->
+            <!--var evt = e ||window.event;-->
+            <!--currKey = evt.keyCode||evt.which||evt.charCode;-->
+            <!--if (currKey == 123) {-->
+                <!--window.event.cancelBubble = true;-->
+                <!--window.event.returnValue = false;-->
+            <!--}-->
+        <!--};-->
+    <!--</script>-->
 </html>
