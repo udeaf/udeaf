@@ -27,58 +27,70 @@ body{
 #bgnav{position:absolute;z-index:3;width:100%;text-align:center;bottom:20px;}
 #bgnav span{cursor:pointer;display:inline-block;margin:0 3px;height:7px;width:7px;overflow:hidden;background:#b2e5e9;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-ms-transition:all 0.3s ease;}
 
-#myCarousel .carousel-text{
-	margin-top: 148px;
-
+/*轮播图start*/
+#myCarousel {
+    margin-top: 72px;
 }
-
 #myCarousel .carousel-text a{
 	color: #fff;
 }
 #myCarousel .carousel-caption{
 	background:rgba(0,0,0,.3);
-	/*background:rgba(244,12,45,.3);*/
 	filter:alpha(opacity=30) ;
 	left: 0;
 	right: 0;
-	height: 450px;
-	margin-bottom: 90px;
+    top: 10%;
+    bottom: 10%;
+}
+#myCarousel .carousel-caption {
+    padding: 0 !important;
+}
+#myCarousel .carousel-caption .carousel-text {
+    width: 100%;
+    height: 100%;
 }
 #myCarousel h2{
-	margin: 80px 0 50px;
+    margin-top: 15.5%;
 }
 #myCarousel h4{
-	margin: 45px 0 35px;
+    margin-top: 2%;
 }
-#myCarousel .car-text{
-	text-align: center;
-	margin-top: 85px;
+#myCarousel .car-text {
+    margin-top: 2%;
+}
+#myCarousel .car-text .line {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    height: 6px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
 }
 #myCarousel .car-text img{
 	margin-top: -50px;
 }
 #myCarousel .carousel-inner .item{
 	width: 100%;
-	height: 574px;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 40%;
 }
-#myCarousel .carousel-inner .active{
 
+#myCarousel .carousel-inner .item > img {
+    width: 100%;
 }
-#myCarousel img{
-	width: 100%;
-	height: 100%;
-}
+/*轮播图end*/
+
+
 #bgnav span.cur{width:40px}
 .intro-detail{
 	margin: 0 0!important;
 }
 
-
-
 #ideas .idea-product{
 	background-color: #121212;
 	text-align: center;
-
 }
 #ideas .idea-more{
 	background-color: #fff;
@@ -297,9 +309,6 @@ body{
 #client .client8:hover{background-position-y: -85px;}
 
 @media (max-width: 767px) {
-	#myCarousel .car-text{
-		margin-left: 35%;
-	}
 	#nav .navbar-toggle .icon-bar{background:#40c4ff;}
 	#footerMenu{
 		padding: 25px 0 0px;
@@ -334,14 +343,12 @@ body{
 	#client .client1,#client .client3,#client .client5,#client .client7,#client .client9{border-right:dashed 1px #eaeaea}
 	#client .client1,#client .client2,#client .client3,#client .client4,#client .client5,#client .client6{border-bottom:dashed 1px #eaeaea}
 	#client .client9{border-bottom:dashed 1px #fff}
-
-
+    #ideas {
+        margin-top: 72px;
+    }
 }
 
 @media(min-width:768px) {
-	#myCarousel .car-text{
-		margin-left: 35%;
-	}
 	#client .row{margin:0 auto;}
 	#client a{float:left;width:256px;;}
 	#footerMenu{
@@ -368,10 +375,6 @@ body{
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-	#myCarousel .car-text{
-		margin-left: 35%;
-	}
-
 	#client .row{width:662px;}
 	#client .client1,#client .client3,#client .client5,#client .client7{border-right:dashed 1px #eaeaea}
 	#client .client1,#client .client2,#client .client3,#client .client4,#client .client5,#client .client6{border-bottom:dashed 1px #eaeaea}
@@ -380,10 +383,6 @@ body{
 
 }
 @media(min-width: 992px)and (max-width: 1199px){
-	#myCarousel .car-text{
-		margin-left: 41%;
-
-	}
 	#client .row{width:883px;}
 	#client .client1,#client .client2,#client .client5,#client .client4,#client .client7,#client .client9{border-right:dashed 1px #eaeaea}
 	#client .client1,#client .client2,#client .client3,#client .client4,#client .client5,#client .client6{border-bottom:dashed 1px #eaeaea}
@@ -391,9 +390,6 @@ body{
 }
 
 @media(min-width: 1200px) {
-	#myCarousel .car-text{
-		margin-left: 41%;
-	}
 	#client .row{width:1104px;}
 	#client .client1,#client .client2,#client .client3,#client .client6,#client .client5,#client .client7,#client .client9{border-right:dashed 1px #eaeaea}
 	#client .client1,#client .client2,#client .client3,#client .client4{border-bottom:dashed 1px #eaeaea}
