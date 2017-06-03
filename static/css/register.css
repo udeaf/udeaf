@@ -990,27 +990,6 @@
     height: 62px;
 }
 
-/*#clearing-solve .bulid-start {*/
-/*background: url("../img/clear-solve-one.png") no-repeat;*/
-
-/*}*/
-
-/*#clearing-solve .bulid-walk {*/
-/*background: url("../img/clear-solve-two.png") no-repeat;*/
-/*}*/
-
-/*#clearing-solve .bulid-run {*/
-/*background: url("../img/clear-solve-three.png") no-repeat;*/
-/*}*/
-
-/*#clearing-solve .bulid-flag {*/
-/*background: url("../img/clear-solve-four.png") no-repeat;*/
-/*}*/
-
-/*#clearing-solve .bulid-end {*/
-/*background: url("../img/clear-solve-five.png") no-repeat;*/
-/*}*/
-
 #clearing-solve dl:nth-child(2) {
     margin-left: 25px;
 }
@@ -1024,8 +1003,8 @@
 }
 
 .solid-squre:before {
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     border-radius: 100%;
     content: '';
     background: #fff;
@@ -1054,6 +1033,7 @@
 
 .clear-top > dd {
     line-height: 26px;
+    text-align: center;
 }
 
 .bulid-step dl.step04 {
@@ -1082,12 +1062,21 @@
     width: 100%;
 }
 
-#clearing-solve #myCarousel .carousel-text {
-    margin-top: 15px;
+#clearing-solve {
+    background: url("../img/clearing-pexels.png");
 }
 
-#clearing-solve #myCarousel .carousel-caption {
-    background: rgba(0,0,0,.75);
+#clearing-solve > div {
+    width: 100%;
+    background-color: rgba(0,0,0,0.75);
+}
+
+#clearing-solve h2 {
+    text-align: center;
+}
+
+#clearing-solve .solid-squre-wrap > dd {
+    text-align: center;
 }
 
 /*liudong end*/
