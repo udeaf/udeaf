@@ -53,7 +53,7 @@
 
 #Hongkong span, #Seychelles span, #Belize span, #Cayman span ,#Australia span{
     margin-top: -3px;
-    margin-left: 94%;
+    margin-left: 91%;
     border-bottom: solid 5px #65c6ff;
     display: inline-block;
 }
@@ -65,7 +65,7 @@
     width: 230px;
 }
 
-#Hongkong p, #Belize p, #Cayman p ,#Seychelles p,#Cayman p,#Australia p{
+#Hongkong p, #Belize p, #Cayman p ,#Seychelles p,#Australia p{
     margin-left: 8%;
     margin-top: -15px
 }
@@ -511,6 +511,7 @@
     height: 2px;
     background-color: #000;
     margin-top: 20px;
+    margin-bottom: 13px;
 }
 .crm li {
     line-height: 26px;
@@ -883,6 +884,9 @@
     background: url("../img/clear-DDOS.png") no-repeat;
     background-size: 66%;
 }
+#clearing-fortex {
+    margin: 50px;
+}
 
 #clearing-fortex a {
     display: inline-block;
@@ -1075,6 +1079,9 @@
     color: #666;
 }
 
+.textcolorb8{
+    color: #b8b8b8;
+}
 .siteimg {
     margin: 50px auto;
 }
@@ -1126,7 +1133,9 @@
 .jingxiang01 ul > li {
     line-height: 32px;
 }
-
+.jingxiang01 i{
+    padding-right:10px;
+}
 .jingxiang02 h4 {
     text-align: center;
 }

@@ -1,6 +1,6 @@
 body{
 	background: #fff;
-    font-size: 12px;
+    font-size: 14px;
 }
 #header{
 	position: relative;
@@ -153,6 +153,9 @@ body{
 	background-color: #8d9196;
 	margin-top: 50px;
 }
+#work-CRM img{
+    width: 113%;
+}
 #MT4-platform .backAgent,#work-CRM .work-crm,#work-platform .platform{
 	background-color: #121212!important;
 	background:rgba(0,0,0,.6);
@@ -297,12 +300,12 @@ body{
 #client .client2:hover{background-position-y: -86px;background-position-x: 33px;}
 #client .client3{background-image:url(../img/bank-glod.png);background-position-y: 17px;    background-position-x: 23px;}
 #client .client3:hover{background-position-y: -94px;    background-position-x: 23px;}
-#client .client4{background-image:url(../img/bank-brokers.png);background-position-x: 24px;}
-#client .client4:hover{background-position-y: -104px; background-position-x: 24px;}
+#client .client4{background-image:url(../img/bank-brokers-1.png);background-position-x: 59px;background-size: 73%}
+#client .client4:hover{background-position-y: -103px; background-position-x: 59px;background-size: 73%}
 #client .client5{background-image:url(../img/bank-HSBS.png)}
 #client .client5:hover{background-position-y: -81px;}
-#client .client6{background-image:url(../img/bank-hengsh.png);background-position-y: 9px;}
-#client .client6:hover{background-position-y: -98px;}
+#client .client6{background-image:url(../img/bank-hengsh-1.png);background-position-y: 1px;}
+#client .client6:hover{background-position-y: -95px;}
 #client .client7{background-image:url(../img/bank-china.png);background-position-y: -3px;}
 #client .client7:hover{background-position-y: -96px;}
 #client .client8{background-image:url(../img/bank-contact.png);background-position-y: -7px;}

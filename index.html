@@ -104,7 +104,7 @@
                                 <h2>MetaTrader 5 可以实现无需人工干预的自动交易</h2>
                                 <h4>EA交易全天候24小时为您分析行情，自动交易</h4>
                                 <div class="car-text">
-                                    <a>READ MORE</a>
+                                    <a href="./views/MT5.html">READ MORE</a>
                                     <a class="line"></a>
                                 </div>
                             </div>
@@ -155,7 +155,7 @@
                                     <img src="./static/img/idea_share.png">
                                     <h4>平台搭建解决方案</h4>
                                     <p>我们提供一站式服务，从品牌确认到MT4运维托管，用丰富的经验为您完美实现</p>
-                                    <button type="button" class="button-more idea-hide-read-more">READ MORE</button>
+                                    <button type="button" class="button-more idea-hide-read-more" >READ MORE</button>
                                 </div>
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                             <div class="col-lg-5 col-md-5 col-sm-5 scrollanimate animated fadeInUp"
                                  data-animate="fadeInUp">
                                 <div class="">
-                                    <h4><span>Broker Agent解决方案</span></h4>
+                                    <h4><span>Bank解决方案</span></h4>
                                     有点科技帮助客户得到更加专业的全方位服务，减少您系统管理和维护的90%的工作，以更专业的身份，更快捷
                                     <ul>
                                         <li>风控体系健全</li>
@@ -189,7 +189,7 @@
                                         <li>专业服务支持</li>
                                         <li>MT4System管理，技术支持</li>
                                     </ul>
-                                    <button type="button" class="button-more">READ MORE</button>
+                                    <button type="button" class="button-more" onclick="javascript:window.location.href = './views/register.html'">READ MORE</button>
                                 </div>
                             </div>
                             <div class="visible-xs col-lg-5 col-md-4 col-sm-4 imgbox scrollaimate"
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                 </div>
-                <h2>Broker Agent解决方案</h2>
+                <h2>bank解决方案</h2>
             </div>
         </section>
         <section id="work-LPS">
@@ -225,7 +225,7 @@
                                     我们与几十国际投资银行、ECN电子交易网络平台和其他流动性提供商合作。世界顶级投资银行LPS（流动性提供商）：报价源直接来自DB，CITI，BARX，MS，JPM，NOM>><br/>
                                     国际主流交易品种：外汇 贵金属原油 股指等80多个品种</p>
                             </div>
-                            <button type="button" class="button-more">READ MORE</button>
+                            <button type="button" class="button-more" onclick="javascript:window.location.href = './views/liudong.html'">READ MORE</button>
                         </div>
                     </div>
                 </div>
@@ -238,19 +238,19 @@
                     <div class="container">
                         <div class="">
                             <div class="row">
-                                <div class="col-lg-4 col-md-8 col-sm-8 scrollanimate" data-animate="fadeInUp">
+                                <div class="col-lg-4 col-md-7 col-sm-8 scrollanimate" data-animate="fadeInUp">
                                     <div>
                                         <h4><span>CRM系统机制</span></h4>
                                         <p>
                                             强大的报表结算功能，无论多复杂的佣金结算模式，都能轻松应对，CRM系统是一款专为外汇和贵金属经纪商量身定制的后台管理，用于支持公司渠道客户三大体系的一站式在线服务平台</p>
                                     </div>
-                                    <button type="button" class="button-more">READ MORE</button>
+                                    <button type="button" class="button-more" onclick="javascript:window.location.href = './views/CRM.html'">READ MORE</button>
                                 </div>
                                 <div class="visible-xs col-lg-5 col-sm-4 col-lg-offset-1 imgbox scrollanimate"
                                      data-animate="fadeInDown">
                                     <img src="./static/img/echart-CRM.png" class="img-responsive">
                                 </div>
-                                <div class="hidden-xs col-lg-5 col-md-4 col-lg-offset-1 col-sm-4 imgbox scrollanimate"
+                                <div class="hidden-xs col-lg-6 col-md-4 col-sm-4  imgbox scrollanimate"
                                      data-animate="fadeInDown">
                                     <img src="./static/img/echart-CRM.png">
                                 </div>
@@ -276,7 +276,7 @@
                             <div>
                                 <p>我们提供一站式的金融牌照注册服务，提供世界各国的金融注册服务，公司组建，运营计划等等，只要您提出，全世界任何地方的金融牌照我们都可以协助您注册和申请</p>
                             </div>
-                            <button type="button" class="button-more">READ MORE</button>
+                            <button type="button" class="button-more" onclick="javascript:window.location.href = './views/paizhao.html'">READ MORE</button>
                         </div>
                     </div>
                 </div>
@@ -459,7 +459,7 @@
                         <dt><label>公司</label>信息</dt>
                         <dd>技术支持：Support@udeafx.com</dd>
                         <dd>商户合作：Sales@udeafx.com</dd>
-                        <dd>咨询热线：+86 181 2887 8737</dd>
+                        <!--<dd>咨询热线：+86 181 2887 8737</dd>-->
                         <dd>电话号码：+00852 6032-7386</dd>
                         <dd>公司地址：香港湾仔路骆克道53-55号
                             恒泽商业大厦15楼1501室
@@ -505,14 +505,15 @@
     <![endif]-->
     <script type="text/javascript">
         $('.carousel').carousel({
-            interval: 200000000
+            interval: 2000
         })
     </script>
+
     <script>
         var _hmt = _hmt || [];
-        (function () {
+        (function() {
             var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?98c5d9a3f65e4c47b0f05f72d0b6e999";
+            hm.src = "https://hm.baidu.com/hm.js?d11936d53e2cc56c9cc082a33ab9c99d";
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
