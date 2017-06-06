@@ -229,7 +229,7 @@ ul,li{
 
 #footerMenu{
     color: #fff;
-    background-color: #121212;
+    background-color: #000;
 }
 #footerMenu > div:nth-child(1) {
     padding-bottom: 50px;
