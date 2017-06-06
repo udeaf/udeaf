@@ -13,6 +13,9 @@ a{
     -moz-transition: color .3s;
     transition: color .3s;
 }
+.container>.navbar-header{
+    margin-left: -3.8%;
+}
 #footerMenu p{
     margin: 0;
 }
