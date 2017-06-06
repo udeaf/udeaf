@@ -125,12 +125,13 @@ ul,li{
 #nav .language,#nav.scroll .language{
     background: url("../img/en_gray.png") no-repeat;
     margin-top: 14px;
+    margin-left: 191%;
 }
 #nav.scroll .language:hover,#nav.scroll .language:hover{
     background: url("../img/en_blue.png") no-repeat;
 }
 .mega-menu-2 a{white-space:nowrap}
-.mega-menu-2 { min-width: 372px !important; margin-left: -69%!important;}
+.mega-menu-2 { min-width: 400px !important; margin-left: -69%!important;}
 .mega-menu-2 ul { list-style: none;margin: 0px -16px 5px; float: left; width: 125px; }
 .mega-menu-2 ul.mega-wide { width: 270px; }
 .mega-menu-2 ul.two-column{width: 270px;}
@@ -433,10 +434,11 @@ ul,li{
     .navbar-left li{margin: 0 7px;  }
 }
 @media (min-width: 1200px) {
-    #nav a{margin: 0 30px;}
+    #nav a{margin: 0 37px;}
     #footerMenu dd{
         white-space: normal;
     }
+
 }
 
 
