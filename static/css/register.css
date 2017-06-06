@@ -399,100 +399,119 @@
 }
 
 #threePay .pay1 {
-    background-image: url("../img/pay-ips-gray.png");
-    /*background-position-y: 35px;*/
-    background-size: 100%;
+    background-image: url("../img/pay-dinpay-gray.png");
+    background-size: 92%;
 }
 
 #threePay .pay1:hover {
-    background-image: url("../img/pay-ips-color.png");
-    /*background-position-y: 35px;*/
-    background-size: 100%;
+    background-image: url("../img/pay-dinpay-color.png");
+    background-size: 92%;
 }
 
 #threePay .pay2 {
-    background-image: url('../img/pay-allIn-gray.png');
-    /*background-position-y: 28px;*/
-    background-size: 84%;
+    background-image: url("../img/pay-huichao-gray.png");
+    background-size: 60%;
 }
 
 #threePay .pay2:hover {
-    background-image: url('../img/pay-allIn-color.png');
-    /*background-position-y: 28px;*/
-    background-size: 84%;
+    background-image: url("../img/pay-huichao-color.png");
+    background-size: 60%;
 }
 
 #threePay .pay3 {
-    background-image: url("../img/pay-all-gray.png");
-    /*background-position-y: 3px;*/
-    background-size: 65%;
+    background-image: url("../img/pay-baofoo-gray.png");
+    background-size: 76%;
 }
 
 #threePay .pay3:hover {
-    background-image: url("../img/pay-all-color.png");
-    /*background-position-y: 3px;*/
-    background-size: 65%;
+    background-image: url("../img/pay-baofoo-color.png");
+    background-size: 76%;
 }
 
 #threePay .pay4 {
-    background-image: url("../img/pay-wechat-gray.png");
-    /*background-position-y: 15px;*/
-    background-size: 90%;
+    background-image: url('../img/pay-allIn-gray.png');
+    background-size: 84%;
 }
 
 #threePay .pay4:hover {
-    background-image: url("../img/pay-wechat-color.png");
-    /*background-position-y: 15px;*/
-    background-size: 90%;
+    background-image: url('../img/pay-allIn-color.png');
+    background-size: 84%;
 }
 
 #threePay .pay5 {
-    background-image: url("../img/pay-online-gray.png");
-    /*background-position-y: 18px;*/
-    background-size: 84%;
-}
+     background-image: url("../img/pay-ips-gray.png");
+     background-size: 100%;
+ }
 
 #threePay .pay5:hover {
-    background-image: url("../img/pay-online-color.png");
-    /*background-position-y: 18px;*/
-    background-size: 84%;
+    background-image: url("../img/pay-ips-color.png");
+    background-size: 100%;
 }
 
 #threePay .pay6 {
-    background-image: url("../img/pay-huichao-gray.png");
-    /*background-position-y: 3px;*/
-    background-size: 60%;
+    background-image: url("../img/pay-lianlian-gray.png");
+    background-size: 90%;
+    background-position-y: 12px;
 }
 
 #threePay .pay6:hover {
-    background-image: url("../img/pay-huichao-color.png");
-    /*background-position-y: 3px;*/
-    background-size: 60%;
+    background-image: url("../img/pay-lianlian-color.png");
+    background-size: 90%;
+    background-position-y: 12px;
 }
 
 #threePay .pay7 {
-    background-image: url("../img/pay-dinpay-gray.png");
-    /*background-position-y: 3px;*/
-    background-size: 92%;
+    background-image: url("../img/pay-wanjia-gray.png");
+    background-size: 90%;
 }
 
 #threePay .pay7:hover {
-    background-image: url("../img/pay-dinpay-color.png");
-    /*background-position-y: 3px;*/
-    background-size: 92%;
+    background-image: url("../img/pay-wanjia-color.png");
+    background-size: 90%;
 }
 
 #threePay .pay8 {
-    background-image: url("../img/pay-baofoo-gray.png");
-    /*background-position-y: 3px;*/
-    background-size: 76%;
+    background-image: url("../img/pay-lexin-gray.png");
+    background-size: 85%;
 }
 
 #threePay .pay8:hover {
-    background-image: url("../img/pay-baofoo-color.png");
-    /*background-position-y: 3px;*/
-    background-size: 76%;
+    background-image: url("../img/pay-lexin-color.png");
+    background-size: 85%;
 }
+
+#threePay .pay9 {
+    background-image: url("../img/pay-all-gray.png");
+    background-size: 65%;
+    background-position-y: 12px;
+}
+
+#threePay .pay9:hover {
+    background-image: url("../img/pay-all-color.png");
+    background-size: 65%;
+    background-position-y: 12px;
+}
+
+#threePay .pay10 {
+    background-image: url("../img/pay-wechat-gray.png");
+    background-size: 90%;
+}
+
+#threePay .pay10:hover {
+    background-image: url("../img/pay-wechat-color.png");
+    background-size: 90%;
+}
+
+#threePay .pay11 {
+    background-image: url("../img/pay-online-gray.png");
+    background-size: 84%;
+}
+
+#threePay .pay11:hover {
+    background-image: url("../img/pay-online-color.png");
+    background-size: 84%;
+}
+
 
 /*sanfang end*/
 
