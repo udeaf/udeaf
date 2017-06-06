@@ -233,6 +233,9 @@ body{
 #work-CRM h2:nth-child(3) {
     padding: 10px 0 26px;
 }
+ .work-crm{
+    padding: 35px;
+}
 #MT4-platform .MT4-left-top{
 	padding: 30px;
 }
@@ -393,6 +396,9 @@ body{
 }
 
 @media(min-width: 1200px) {
+    #work-CRM img {
+        width: 80%;
+    }
 	#client .row{width:1104px;}
 	#client .client1,#client .client2,#client .client3,#client .client6,#client .client5,#client .client7,#client .client9{border-right:dashed 1px #eaeaea}
 	#client .client1,#client .client2,#client .client3,#client .client4{border-bottom:dashed 1px #eaeaea}
