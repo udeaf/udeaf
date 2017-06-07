@@ -233,11 +233,14 @@ body{
 #work-CRM h2:nth-child(3) {
     padding: 10px 0 26px;
 }
- .work-crm{
-    padding: 35px;
+.work-crm{
+    padding: 60px 35px;
+}
+.work-crm > .container {
+    padding: 0 50px;
 }
 #MT4-platform .MT4-left-top{
-	padding: 30px;
+	padding: 60px 30px;
 }
 #work-platform .bulid-start:after{
     background: url('../img/bulid_start.png') no-repeat;
@@ -363,6 +366,7 @@ body{
 	}
 	#footerMenu .companyinfo{
 		padding-top: 5px;
+        padding-bottom: 5px;
 	}
 	#footerMenu .follow-us dt{width: 190px;}
 	#footerMenu .contact{text-align: right}
