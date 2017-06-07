@@ -14,7 +14,7 @@ a{
     transition: color .3s;
 }
 .container>.navbar-header{
-    margin-left: -3.8%;
+    margin-left: -4.5%;
 }
 #footerMenu p{
     margin: 0;
@@ -125,7 +125,7 @@ ul,li{
 #nav .language,#nav.scroll .language{
     background: url("../img/en_gray.png") no-repeat;
     margin-top: 14px;
-    margin-left: 191%;
+    margin-left: 100%;
 }
 #nav.scroll .language:hover,#nav.scroll .language:hover{
     background: url("../img/en_blue.png") no-repeat;
@@ -291,6 +291,16 @@ ul,li{
 #footerMenu .contact{
     text-align: right;
 }
+#footerMenu .container .row dl:nth-child(3){
+    padding-left: 40px;
+}
+#footerMenu .container .row dl:nth-child(5){
+    padding-left: 66px;
+}
+#footerMenu .container .row dl:nth-child(6) {
+    padding-left: 68px;
+}
+
 @media(max-width:320px ){
     #contact > form > input {
         margin-left: 3%;

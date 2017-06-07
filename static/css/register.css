@@ -1,3 +1,7 @@
+.bg-black {
+    background-color: black;
+}
+
 /*register start*/
 .register-icon {
     height: 120px;
@@ -305,6 +309,9 @@
     text-align: center;
     padding: 60px 0;
     /*margin-top: 50px;*/
+    color: #666;
+    background-color: #fff;
+    margin-top: 1px;
 }
 
 #affect h4 {
@@ -1090,8 +1097,12 @@
     margin-top: 40px;
 }
 
-.bg-black {
-    background-color: #000;
+.bg-f0f2f3 {
+    background-color: #f0f2f3;
+}
+
+.bg-fff {
+    background-color: #fff;
 }
 
 .textcolor6 {
@@ -1099,15 +1110,15 @@
 }
 
 .textcolorb8{
-    color: #b8b8b8;
+    color: #666;
 }
 .siteimg {
-    margin: 50px auto;
+    /*margin: 70px auto;*/
+    padding: 70px 0;
 }
 
 .sitetext {
-    padding: 0 90px;
-    margin: 50px 0;
+    padding: 90px 30px;
 }
 
 .sitetext > h3 {
@@ -1157,6 +1168,7 @@
 }
 .jingxiang02 h4 {
     text-align: center;
+    color: #000;
 }
 
 .jingxiang02 > .container > div > div {
