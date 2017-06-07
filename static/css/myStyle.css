@@ -125,9 +125,9 @@ ul,li{
 #nav .language,#nav.scroll .language{
     background: url("../img/en_gray.png") no-repeat;
     margin-top: 14px;
-    margin-left: 100%;
+    margin-left: 40%;
 }
-#nav.scroll .language:hover,#nav.scroll .language:hover{
+#nav.scroll .language:hover,#nav .language:hover{
     background: url("../img/en_blue.png") no-repeat;
 }
 .mega-menu-2 a{white-space:nowrap}
