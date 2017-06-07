@@ -28,7 +28,10 @@ ul,li{
     padding: 0;
     list-style: none;
 }
-
+.language-img img{
+    margin-top: 13px;
+    padding-left: 41px;
+}
 #nav{
     /*background: transparent;*/
     padding: 9px 0 1px;
