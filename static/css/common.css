@@ -439,6 +439,7 @@ section.bg-b h6 {
 #platform-info .fr > p {
     line-height: 32px;
     margin-top: 16px;
+    font-size: 16px;
 }
 
 #platform-info .mt5info {

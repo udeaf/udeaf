@@ -157,13 +157,13 @@
 #company #search_list > li > span:nth-child(2),
 #company #search_list > li > span:nth-child(4),
 #company #search_list > li > span:nth-child(6) {
-    color: #54c0b3
+    color: #04bba6;
 }
 
 #company .company-site {
     display: inline-block;
     margin-bottom: -8px;
-    color: #aadcff;
+    color: #0da0f9;
 }
 
 #company .low-save,
